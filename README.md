@@ -10,4 +10,5 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [Go](./algorithms/golang/add_two_numbers.go)|Medium|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| [Go](./algorithms/golang/two_sum.go)|Easy|
