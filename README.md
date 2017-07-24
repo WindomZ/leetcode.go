@@ -1,6 +1,6 @@
-# leetcode
+# leetcode.go
 
-> My LeetCode problem solutions.
+> My LeetCode problem solutions(Golang).
 
 [![Build Status](https://travis-ci.org/WindomZ/leetcode.svg?branch=master)](https://travis-ci.org/WindomZ/leetcode)
 [![Coverage Status](https://coveralls.io/repos/github/WindomZ/leetcode/badge.svg?branch=master)](https://coveralls.io/github/WindomZ/leetcode?branch=master)
