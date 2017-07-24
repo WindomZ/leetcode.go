@@ -1,6 +1,6 @@
 # leetcode.go
 
-> My LeetCode problem solutions(Golang).
+> My LeetCode Problem Solutions(Golang).
 
 [![Build Status](https://travis-ci.org/WindomZ/leetcode.svg?branch=master)](https://travis-ci.org/WindomZ/leetcode)
 [![Coverage Status](https://coveralls.io/repos/github/WindomZ/leetcode/badge.svg?branch=master)](https://coveralls.io/github/WindomZ/leetcode?branch=master)
@@ -11,8 +11,8 @@
 | # | Problem | Solution | Difficulty | Total Repetitions | Single Repetition Duration |
 |---| ----- | :--------: | :----------: | ----------: | ----------: |
 |3|[Longest Substring Without Repeating Characters][Algorithms-3]|[Go][Algorithms-3-Go]|Medium|50000000|36.3 ns/op|
-|2|[Add Two Numbers][Algorithms-2]|[Go][Algorithms-2-Go]|Medium|20000000|83.2 ns/op|
-|1|[Two Sum][Algorithms-1]|[Go][Algorithms-1-Go]|Easy|20000000|114 ns/op|
+|2|[Add Two Numbers][Algorithms-2]|[Go][Algorithms-2-Go]|Medium|20000000|79.4 ns/op|
+|1|[Two Sum][Algorithms-1]|[Go][Algorithms-1-Go]|Easy|20000000|113 ns/op|
 
 [Algorithms-3-Go]:algorithms/go/lengthOfLongestSubstring.go
 [Algorithms-3]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
