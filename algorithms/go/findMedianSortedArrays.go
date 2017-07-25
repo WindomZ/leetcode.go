@@ -9,61 +9,44 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		} else if f, ok := findMedian(nums2); ok {
 			return f
 		}
-		panic("Should be non-empty parameters")
+		panic("Arguments should be non-empty!")
 	}
 
 	size := len(nums1) + len(nums2)
-	if size%2 != 0 {
-		return sortedMin(nums1, nums2, size/2, true)
+	odd := size%2 != 0 // bool, if size is odd.
+	offset := size / 2 // middle index.
+	if !odd {
+		offset -= 1 // middle index if size is even.
 	}
-	return sortedMin(nums1, nums2, size/2-1, false)
+
+	var n1, n2 int
+	for step := 1; step <= offset; step++ { // step move to middle index
+		if nums1[n1] <= nums2[n2] {
+			n1++
+		} else {
+			n2++
+		}
+
+		if len(nums1) == n1 {
+			return findOffset(nums2, step-n2, odd)
+		} else if len(nums2) == n2 {
+			return findOffset(nums1, step-n1, odd)
+		}
+	}
+
+	// calc the median
+	if odd {
+		return math.Min(float64(nums1[n1]), float64(nums2[n2]))
+	} else if len(nums1) >= n1+2 && nums1[n1+1] <= nums2[n2] {
+		return 0.5 * float64(nums1[n1]+nums1[n1+1])
+	} else if len(nums2) >= n2+2 && nums2[n2+1] <= nums1[n1] {
+		return 0.5 * float64(nums2[n2]+nums2[n2+1])
+	}
+	return 0.5 * float64(nums1[n1]+nums2[n2])
 }
 
 func isEmptyIntSlice(arr []int) bool {
 	return arr == nil || len(arr) == 0
-}
-
-func sortedMin(nums1 []int, nums2 []int, offset int, odd bool) float64 {
-	//println(fmt.Sprintf("%v %v %v %v", nums1, nums2, offset, odd))
-	if offset == 0 {
-		if isEmptyIntSlice(nums1) {
-			if odd {
-				return float64(nums2[0])
-			}
-			return 0.5 * float64(nums2[0]+nums2[1])
-		} else if isEmptyIntSlice(nums2) {
-			if odd {
-				return float64(nums1[0])
-			}
-			return 0.5 * float64(nums1[0]+nums1[1])
-		}
-
-		if odd {
-			return math.Min(float64(nums1[0]), float64(nums2[0]))
-		} else if len(nums1) >= 2 && nums1[1] <= nums2[0] {
-			return 0.5 * float64(nums1[0]+nums1[1])
-		} else if len(nums2) >= 2 && nums2[1] <= nums1[0] {
-			return 0.5 * float64(nums2[0]+nums2[1])
-		}
-		return 0.5 * float64(nums1[0]+nums2[0])
-	}
-
-	if isEmptyIntSlice(nums1) {
-		return sortedMin(nil, nums2[1:], offset-1, odd)
-	} else if isEmptyIntSlice(nums2) {
-		return sortedMin(nums1[1:], nil, offset-1, odd)
-	}
-
-	if nums1[0] <= nums2[0] {
-		if len(nums1) >= 2 {
-			return sortedMin(nums1[1:], nums2, offset-1, odd)
-		}
-		return sortedMin(nil, nums2, offset-1, odd)
-	}
-	if len(nums2) >= 2 {
-		return sortedMin(nums1, nums2[1:], offset-1, odd)
-	}
-	return sortedMin(nums1, nil, offset-1, odd)
 }
 
 func findMedian(nums []int) (f float64, ok bool) {
@@ -78,4 +61,12 @@ func findMedian(nums []int) (f float64, ok bool) {
 		}
 	}
 	return
+}
+
+func findOffset(nums []int, offset int, odd bool) float64 {
+	idx := (len(nums) - offset) / 2
+	if odd {
+		return float64(nums[idx])
+	}
+	return 0.5 * float64(nums[idx-1]+nums[idx])
 }
