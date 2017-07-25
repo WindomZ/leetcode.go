@@ -10,6 +10,7 @@
 
 | # | Problem | Solution | Difficulty | Total Repetitions | Single Repetition Duration |
 |---| ----- | :--------: | :----------: | ----------: | ----------: |
+|5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Hard|50000000|28.7 ns/op|
 |4|[Median of Two Sorted Arrays][Algorithms-4]|[WindomZ][Algorithms-4-Go]|Hard|300000000|5.74 ns/op|
 |3|[Longest Substring Without Repeating Characters][Algorithms-3]|[WindomZ][Algorithms-3-Go]|Medium|50000000|36.3 ns/op|
 |2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|20000000|79.4 ns/op|
@@ -29,6 +30,8 @@ go test -test.bench=".*" ./algorithms/...
 
 If you like it then you can put a :star: on it.
 
+[Algorithms-5-Go]:algorithms/longest_palindromic_substring/longestPalindrome.go
+[Algorithms-5]:https://leetcode.com/problems/longest-palindromic-substring/
 [Algorithms-4-Go]:algorithms/median_of_two_sorted_arrays/findMedianSortedArrays.go
 [Algorithms-4]:https://leetcode.com/problems/median-of-two-sorted-arrays/
 [Algorithms-3-Go]:algorithms/longest_substring_without_repeating_characters/lengthOfLongestSubstring.go
