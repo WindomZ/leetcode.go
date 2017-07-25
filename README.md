@@ -10,10 +10,24 @@
 
 | # | Problem | Solution | Difficulty | Total Repetitions | Single Repetition Duration |
 |---| ----- | :--------: | :----------: | ----------: | ----------: |
-|4|[Median of Two Sorted Arrays][Algorithms-4]|[Go][Algorithms-4-Go]|Hard|300000000|5.74 ns/op|
-|3|[Longest Substring Without Repeating Characters][Algorithms-3]|[Go][Algorithms-3-Go]|Medium|50000000|36.3 ns/op|
-|2|[Add Two Numbers][Algorithms-2]|[Go][Algorithms-2-Go]|Medium|20000000|79.4 ns/op|
-|1|[Two Sum][Algorithms-1]|[Go][Algorithms-1-Go]|Easy|20000000|113 ns/op|
+|4|[Median of Two Sorted Arrays][Algorithms-4]|[WindomZ][Algorithms-4-Go]|Hard|300000000|5.74 ns/op|
+|3|[Longest Substring Without Repeating Characters][Algorithms-3]|[WindomZ][Algorithms-3-Go]|Medium|50000000|36.3 ns/op|
+|2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|20000000|79.4 ns/op|
+|1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|20000000|113 ns/op|
+
+## Contributing
+
+Welcome to pull requests, report bugs, suggest ideas and discuss on 
+[issues page](https://github.com/WindomZ/leetcode.go/issues).
+
+```bash
+git clone https://github.com/WindomZ/leetcode.go "$PROJECT_PATH"
+cd "$PROJECT_PATH"
+go test -v --run=".*" ./algorithms/go
+go test -test.bench=".*" ./algorithms/go
+```
+
+If you like it then you can put a :star: on it.
 
 [Algorithms-4-Go]:algorithms/go/findMedianSortedArrays.go
 [Algorithms-4]:https://leetcode.com/problems/median-of-two-sorted-arrays/
