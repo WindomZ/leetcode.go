@@ -1,4 +1,4 @@
-package leetcode
+package median_of_two_sorted_arrays
 
 import "math"
 

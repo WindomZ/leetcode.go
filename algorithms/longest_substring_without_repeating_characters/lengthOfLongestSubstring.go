@@ -1,4 +1,4 @@
-package leetcode
+package longest_substring_without_repeating_characters
 
 func lengthOfLongestSubstring(s string) int {
 	if n := len(s); n >= 1 {

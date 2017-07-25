@@ -1,4 +1,4 @@
-package leetcode
+package add_two_numbers
 
 import (
 	"testing"

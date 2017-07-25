@@ -23,17 +23,17 @@ Welcome to pull requests, report bugs, suggest ideas and discuss on
 ```bash
 git clone https://github.com/WindomZ/leetcode.go "$PROJECT_PATH"
 cd "$PROJECT_PATH"
-go test -v --run=".*" ./algorithms/go
-go test -test.bench=".*" ./algorithms/go
+go test -v --run=".*" ./algorithms/...
+go test -test.bench=".*" ./algorithms/...
 ```
 
 If you like it then you can put a :star: on it.
 
-[Algorithms-4-Go]:algorithms/go/findMedianSortedArrays.go
+[Algorithms-4-Go]:algorithms/median_of_two_sorted_arrays/findMedianSortedArrays.go
 [Algorithms-4]:https://leetcode.com/problems/median-of-two-sorted-arrays/
-[Algorithms-3-Go]:algorithms/go/lengthOfLongestSubstring.go
+[Algorithms-3-Go]:algorithms/longest_substring_without_repeating_characters/lengthOfLongestSubstring.go
 [Algorithms-3]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
-[Algorithms-2-Go]:algorithms/go/addTwoNumbers.go
+[Algorithms-2-Go]:algorithms/add_two_numbers/addTwoNumbers.go
 [Algorithms-2]:https://oj.leetcode.com/problems/add-two-numbers/
-[Algorithms-1-Go]:algorithms/go/twoSum.go
+[Algorithms-1-Go]:algorithms/two_sum/twoSum.go
 [Algorithms-1]:https://oj.leetcode.com/problems/two-sum/
