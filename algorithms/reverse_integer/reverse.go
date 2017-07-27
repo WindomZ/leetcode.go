@@ -8,16 +8,10 @@ func reverse(x int) int {
 	}
 
 	var r, t, n int
-	for neg := x < 0; x != 0; x = x / 10 {
+	for ; x != 0; x = x / 10 {
 		t = x % 10
 		n = r*10 + t
 		if n > math.MaxInt32 || n < -math.MaxInt32 {
-			return 0
-		} else if neg {
-			if n > 0 {
-				return 0
-			}
-		} else if n < 0 {
 			return 0
 		}
 		r = n

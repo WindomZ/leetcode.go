@@ -12,7 +12,7 @@ All tests run on my machine:
 
 | # | Problem | Solution | Difficulty | Total Repetitions | Single Repetition Duration | LeetCode Run Time |
 |---| ----- | :--------: | :----------: | ----------: | ----------: | ----------: |
-|7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Medium|100000000|[10.5 ns/op][Algorithms-7-Test]|3 ms|
+|7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Medium|200000000|[8.90 ns/op][Algorithms-7-Test]|3 ms|
 |6|[ZigZag Conversion][Algorithms-6]|[WindomZ][Algorithms-6-Go]|Medium|30000000|[51.5 ns/op][Algorithms-6-Test]|9 ms|
 |5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Medium|50000000|[28.7 ns/op][Algorithms-5-Test]|9 ms|
 |4|[Median of Two Sorted Arrays][Algorithms-4]|[WindomZ][Algorithms-4-Go]|Hard|300000000|[5.74 ns/op][Algorithms-4-Test]|32 ms|
