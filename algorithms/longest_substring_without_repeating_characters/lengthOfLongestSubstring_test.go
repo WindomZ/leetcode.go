@@ -7,14 +7,16 @@ import (
 )
 
 func Test_lengthOfLongestSubstring(t *testing.T) {
-	assert.Equal(t, lengthOfLongestSubstring(""), 0)
-	assert.Equal(t, lengthOfLongestSubstring("abcabcbb"), 3)
-	assert.Equal(t, lengthOfLongestSubstring("bbbbb"), 1)
-	assert.Equal(t, lengthOfLongestSubstring("pwwkew"), 3)
+	assert.Equal(t, 0, lengthOfLongestSubstring(""))
+	assert.Equal(t, 3, lengthOfLongestSubstring("abcabcbb"))
+	assert.Equal(t, 1, lengthOfLongestSubstring("bbbbb"))
+	assert.Equal(t, 3, lengthOfLongestSubstring("pwwkew"))
 }
 
 func Benchmark_lengthOfLongestSubstring(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		lengthOfLongestSubstring("abcabcbb")
+		lengthOfLongestSubstring("bbbbb")
+		lengthOfLongestSubstring("pwwkew")
 	}
 }

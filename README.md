@@ -12,13 +12,13 @@
 |---| ----- | :--------: | :----------: | ----------: | ----------: |
 |9|[Palindrome Number][Algorithms-9]|[WindomZ][Algorithms-9-Go]|Easy|[27.3 ns/op/7 test cases][Algorithms-9-Test]|55 ms|
 |8|[String to Integer (atoi)][Algorithms-8]|[WindomZ][Algorithms-8-Go]|Medium|[33.5 ns/op/5 test cases][Algorithms-8-Test]|3 ms|
-|7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Easy|[8.90 ns/op/3 test cases][Algorithms-7-Test]|3 ms|
-|6|[ZigZag Conversion][Algorithms-6]|[WindomZ][Algorithms-6-Go]|Medium|[51.5 ns/op/1 test cases][Algorithms-6-Test]|9 ms|
-|5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Medium|[28.7 ns/op/1 test cases][Algorithms-5-Test]|9 ms|
+|7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Easy|[39.3 ns/op/5 test cases][Algorithms-7-Test]|3 ms|
+|6|[ZigZag Conversion][Algorithms-6]|[WindomZ][Algorithms-6-Go]|Medium|[205 ns/op/5 test cases][Algorithms-6-Test]|9 ms|
+|5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Medium|[151 ns/op/6 test cases][Algorithms-5-Test]|9 ms|
 |4|[Median of Two Sorted Arrays][Algorithms-4]|[WindomZ][Algorithms-4-Go]|Hard|[74.3 ns/op/14 test cases][Algorithms-4-Test]|32 ms|
-|3|[Longest Substring Without Repeating Characters][Algorithms-3]|[WindomZ][Algorithms-3-Go]|Medium|[36.3 ns/op/1 test cases][Algorithms-3-Test]|6 ms|
+|3|[Longest Substring Without Repeating Characters][Algorithms-3]|[WindomZ][Algorithms-3-Go]|Medium|[103 ns/op/3 test cases][Algorithms-3-Test]|6 ms|
 |2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|[79.4 ns/op/1 test cases][Algorithms-2-Test]|29 ms|
-|1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[113 ns/op/1 test cases][Algorithms-1-Test]|6 ms|
+|1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[305 ns/op/3 test cases][Algorithms-1-Test]|6 ms|
 
 > NOTE: All tests should be run on the same machine. (include yours)
 

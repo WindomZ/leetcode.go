@@ -70,6 +70,19 @@ func Test_findMedianSortedArrays(t *testing.T) {
 
 func Benchmark_findMedianSortedArrays(b *testing.B) {
 	for i := 0; i < b.N; i++ {
+		findMedianSortedArrays([]int{1}, []int{2, 3, 4})
+		findMedianSortedArrays([]int{2}, []int{1, 3, 4})
+		findMedianSortedArrays([]int{3}, []int{1, 2, 4})
+		findMedianSortedArrays([]int{4}, []int{1, 2, 3})
 		findMedianSortedArrays([]int{1, 2}, []int{3, 4})
+		findMedianSortedArrays([]int{1, 3}, []int{2, 4})
+		findMedianSortedArrays([]int{1, 4}, []int{2, 3})
+		findMedianSortedArrays([]int{2, 3}, []int{1, 4})
+		findMedianSortedArrays([]int{2, 4}, []int{1, 3})
+		findMedianSortedArrays([]int{3, 4}, []int{1, 2})
+		findMedianSortedArrays([]int{1, 2, 3}, []int{4})
+		findMedianSortedArrays([]int{1, 2, 4}, []int{3})
+		findMedianSortedArrays([]int{1, 3, 4}, []int{2})
+		findMedianSortedArrays([]int{2, 3, 4}, []int{1})
 	}
 }

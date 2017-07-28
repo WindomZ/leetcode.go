@@ -34,5 +34,7 @@ func Benchmark_reverse(b *testing.B) {
 		reverse(1)
 		reverse(12)
 		reverse(123)
+		reverse(1000000003)
+		reverse(1534236469)
 	}
 }

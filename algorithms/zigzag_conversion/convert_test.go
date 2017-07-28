@@ -17,6 +17,10 @@ func Test_convert(t *testing.T) {
 
 func Benchmark_convert(b *testing.B) {
 	for i := 0; i < b.N; i++ {
+		convert("PAYPALISHIRING", 1)
+		convert("PAYPALISHIRING", 2)
 		convert("PAYPALISHIRING", 3)
+		convert("PAYPALISHIRING", 4)
+		convert("PAYPALISHIRING", 5)
 	}
 }
