@@ -21,10 +21,7 @@
 
 > NOTE: All tests should be run on the same machine. (include your code)
 
-## Contributing
-
-Welcome to pull requests, report bugs, suggest ideas and discuss on 
-[issues page](https://github.com/WindomZ/leetcode.go/issues).
+## Testing
 
 ```bash
 git clone https://github.com/WindomZ/leetcode.go "$PROJECT_PATH"
@@ -33,29 +30,42 @@ go test -v --run=".*" ./algorithms/...
 go test -test.bench=".*" ./algorithms/...
 ```
 
+## Contributing
+
+### Challenge
+Welcome to **pull requests** of the **better** solutions.
+
+1. Pass all LeetCode test cases.
+1. Pass all my test cases.
+1. Faster than my code.
+
+### Discuss
+Welcome to report bugs, suggest ideas and discuss on [issues page](https://github.com/WindomZ/leetcode.go/issues).
+
+### Support
 If you like it then you can put a :star: on it.
 
-[Algorithms-8-Test]:algorithms/string_to_integer_atoi/myAtoi_test.go
+[Algorithms-8-Test]:algorithms/string_to_integer_atoi/myAtoi_test.go#L34
 [Algorithms-8-Go]:algorithms/string_to_integer_atoi/myAtoi.go
 [Algorithms-8]:https://leetcode.com/problems/string-to-integer-atoi/
-[Algorithms-7-Test]:algorithms/reverse_integer/reverse_test.go
+[Algorithms-7-Test]:algorithms/reverse_integer/reverse_test.go#L32
 [Algorithms-7-Go]:algorithms/reverse_integer/reverse.go
 [Algorithms-7]:https://leetcode.com/problems/reverse-integer/
-[Algorithms-6-Test]:algorithms/zigzag_conversion/convert_test.go
+[Algorithms-6-Test]:algorithms/zigzag_conversion/convert_test.go#L18
 [Algorithms-6-Go]:algorithms/zigzag_conversion/convert.go
 [Algorithms-6]:https://leetcode.com/problems/zigzag-conversion/
-[Algorithms-5-Test]:algorithms/longest_palindromic_substring/longestPalindrome_test.go
+[Algorithms-5-Test]:algorithms/longest_palindromic_substring/longestPalindrome_test.go#L18
 [Algorithms-5-Go]:algorithms/longest_palindromic_substring/longestPalindrome.go
 [Algorithms-5]:https://leetcode.com/problems/longest-palindromic-substring/
-[Algorithms-4-Test]:algorithms/median_of_two_sorted_arrays/findMedianSortedArrays_test.go
+[Algorithms-4-Test]:algorithms/median_of_two_sorted_arrays/findMedianSortedArrays_test.go#L71
 [Algorithms-4-Go]:algorithms/median_of_two_sorted_arrays/findMedianSortedArrays.go
 [Algorithms-4]:https://leetcode.com/problems/median-of-two-sorted-arrays/
-[Algorithms-3-Test]:algorithms/longest_substring_without_repeating_characters/lengthOfLongestSubstring_test.go
+[Algorithms-3-Test]:algorithms/longest_substring_without_repeating_characters/lengthOfLongestSubstring_test.go#L16
 [Algorithms-3-Go]:algorithms/longest_substring_without_repeating_characters/lengthOfLongestSubstring.go
 [Algorithms-3]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
-[Algorithms-2-Test]:algorithms/add_two_numbers/addTwoNumbers_test.go
+[Algorithms-2-Test]:algorithms/add_two_numbers/addTwoNumbers_test.go#L118
 [Algorithms-2-Go]:algorithms/add_two_numbers/addTwoNumbers.go
 [Algorithms-2]:https://oj.leetcode.com/problems/add-two-numbers/
-[Algorithms-1-Test]:algorithms/two_sum/twoSum_test.go
+[Algorithms-1-Test]:algorithms/two_sum/twoSum_test.go#L16
 [Algorithms-1-Go]:algorithms/two_sum/twoSum.go
 [Algorithms-1]:https://oj.leetcode.com/problems/two-sum/
