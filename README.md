@@ -1,6 +1,6 @@
 # leetcode.go
 
-> My LeetCode Problem Solutions(Golang).
+> My solutions(Golang) of problems in LeetCode.
 
 [![Build Status](https://travis-ci.org/WindomZ/leetcode.go.svg?branch=master)](https://travis-ci.org/WindomZ/leetcode.go)
 [![Coverage Status](https://coveralls.io/repos/github/WindomZ/leetcode.go/badge.svg?branch=master)](https://coveralls.io/github/WindomZ/leetcode.go?branch=master)
@@ -9,9 +9,10 @@
 ## Algorithms
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
-|---| ----- | :--------: | :----------: | ----------: | ----------: |
+| ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|10|[Regular Expression Matching][Algorithms-10]|[WindomZ][Algorithms-10-Go]|Hard|[648 ns/op/6 test cases][Algorithms-10-Test]|3 ms|
 |9|[Palindrome Number][Algorithms-9]|[WindomZ][Algorithms-9-Go]|Easy|[27.3 ns/op/7 test cases][Algorithms-9-Test]|55 ms|
-|8|[String to Integer (atoi)][Algorithms-8]|[WindomZ][Algorithms-8-Go]|Medium|[33.5 ns/op/5 test cases][Algorithms-8-Test]|3 ms|
+|8|[String to Integer (atoi)][Algorithms-8]|[WindomZ][Algorithms-8-Go]|Medium|[33.4 ns/op/5 test cases][Algorithms-8-Test]|3 ms|
 |7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Easy|[39.3 ns/op/5 test cases][Algorithms-7-Test]|3 ms|
 |6|[ZigZag Conversion][Algorithms-6]|[WindomZ][Algorithms-6-Go]|Medium|[205 ns/op/5 test cases][Algorithms-6-Test]|9 ms|
 |5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Medium|[151 ns/op/6 test cases][Algorithms-5-Test]|9 ms|
@@ -20,13 +21,13 @@
 |2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|[79.4 ns/op/1 test cases][Algorithms-2-Test]|29 ms|
 |1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[305 ns/op/3 test cases][Algorithms-1-Test]|6 ms|
 
-> NOTE: All tests should be run on the same machine. (include yours)
+> NOTE: All tests should be run on the same machine.
 
 ## Testing
 
 ```bash
-git clone https://github.com/WindomZ/leetcode.go "$PROJECT_PATH"
-cd "$PROJECT_PATH"
+git clone https://github.com/WindomZ/leetcode.go "$YOUR_PROJECT_PATH"
+cd "$YOUR_PROJECT_PATH"
 go test -v --run=".*" ./algorithms/...
 go test -test.bench=".*" ./algorithms/...
 ```
@@ -38,7 +39,7 @@ Welcome to **pull requests** of the **better** solutions.
 
 1. Pass all LeetCode test cases.
 1. Pass all my test cases.
-1. Faster!(on the same machine)
+1. Faster than mine! (on the same machine)
 
 ### Discuss
 Welcome to report bugs, suggest ideas and discuss on [issues page](https://github.com/WindomZ/leetcode.go/issues).
@@ -46,6 +47,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-10-Test]:algorithms/regular_expression_matching/isMatch_test.go#L39
+[Algorithms-10-Go]:algorithms/regular_expression_matching/isMatch.go
+[Algorithms-10]:https://leetcode.com/problems/regular-expression-matching/
 [Algorithms-9-Test]:algorithms/palindrome_number/isPalindrome_test.go#L20
 [Algorithms-9-Go]:algorithms/palindrome_number/isPalindrome.go
 [Algorithms-9]:https://leetcode.com/problems/palindrome-number/
