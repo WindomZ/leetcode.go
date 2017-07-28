@@ -30,16 +30,17 @@ func isMatch(s string, p string) bool {
 			r[0][pi] = p[pi-1] == '*' && r[0][pi-2]
 		}
 
+		// calc matrix r
 		for si := 1; si <= sl; si++ {
 			for pi := 1; pi <= pl; pi++ {
 				if p[pi-1] == '*' { // p_byte == '*'
-					// r[si][pi-2] is true, if p['a*'] matches zero.
-					// r[si-1][pi] is true, if last s and p['?*'] matches.
-					// s[si-1] == p[pi-2] is true, if s['a'] and p['a*'] matches one/more.
-					// p[pi-2] == '.' is true, if s['a'] and p['.*'] matches one/more.
+					// r[si][pi-2] is true, p['a*'] matches zero.
+					// r[si-1][pi] is true, last s and p['?*'] matches.
+					// s[si-1] == p[pi-2] is true, s['a'] and p['a*'] matches one/more.
+					// p[pi-2] == '.' is true, s['a'] and p['.*'] matches one/more.
 					r[si][pi] = r[si][pi-2] || (r[si-1][pi] && (s[si-1] == p[pi-2] || p[pi-2] == '.'))
 				} else {
-					// r[si-1][pi-1] is true, if last s and last p matches.
+					// r[si-1][pi-1] is true, last s and last p matches.
 					// s[si-1] == p[pi-1] is true, s['a'] and p['a'] matches.
 					// p[pi-1] == '.' is true, s['a'] and p['.'] matches.
 					r[si][pi] = r[si-1][pi-1] && (s[si-1] == p[pi-1] || p[pi-1] == '.')
