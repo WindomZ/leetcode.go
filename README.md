@@ -8,17 +8,16 @@
 
 ## Algorithms
 
-All tests run on my machine: 
-
-| # | Problem | Solution | Difficulty | Total Repetitions | Single Repetition Duration | LeetCode Run Time |
-|---| ----- | :--------: | :----------: | ----------: | ----------: | ----------: |
-|7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Medium|200000000|[8.90 ns/op][Algorithms-7-Test]|3 ms|
-|6|[ZigZag Conversion][Algorithms-6]|[WindomZ][Algorithms-6-Go]|Medium|30000000|[51.5 ns/op][Algorithms-6-Test]|9 ms|
-|5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Medium|50000000|[28.7 ns/op][Algorithms-5-Test]|9 ms|
-|4|[Median of Two Sorted Arrays][Algorithms-4]|[WindomZ][Algorithms-4-Go]|Hard|300000000|[5.74 ns/op][Algorithms-4-Test]|32 ms|
-|3|[Longest Substring Without Repeating Characters][Algorithms-3]|[WindomZ][Algorithms-3-Go]|Medium|50000000|[36.3 ns/op][Algorithms-3-Test]|6 ms|
-|2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|20000000|[79.4 ns/op][Algorithms-2-Test]|29 ms|
-|1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|20000000|[113 ns/op][Algorithms-1-Test]|6 ms|
+| # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
+|---| ----- | :--------: | :----------: | ----------: | ----------: |
+|8|[String to Integer (atoi)][Algorithms-8]|[WindomZ][Algorithms-8-Go]|Medium|[33.5 ns/op/5 test cases][Algorithms-8-Test]|3 ms|
+|7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Easy|[8.90 ns/op/3 test cases][Algorithms-7-Test]|3 ms|
+|6|[ZigZag Conversion][Algorithms-6]|[WindomZ][Algorithms-6-Go]|Medium|[51.5 ns/op/1 test cases][Algorithms-6-Test]|9 ms|
+|5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Medium|[28.7 ns/op/1 test cases][Algorithms-5-Test]|9 ms|
+|4|[Median of Two Sorted Arrays][Algorithms-4]|[WindomZ][Algorithms-4-Go]|Hard|[5.74 ns/op/1 test cases][Algorithms-4-Test]|32 ms|
+|3|[Longest Substring Without Repeating Characters][Algorithms-3]|[WindomZ][Algorithms-3-Go]|Medium|[36.3 ns/op/1 test cases][Algorithms-3-Test]|6 ms|
+|2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|[79.4 ns/op/1 test cases][Algorithms-2-Test]|29 ms|
+|1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[113 ns/op/1 test cases][Algorithms-1-Test]|6 ms|
 
 > NOTE: All tests should be run on the same machine. (include your code)
 
@@ -36,6 +35,9 @@ go test -test.bench=".*" ./algorithms/...
 
 If you like it then you can put a :star: on it.
 
+[Algorithms-8-Test]:algorithms/string_to_integer_atoi/myAtoi_test.go
+[Algorithms-8-Go]:algorithms/string_to_integer_atoi/myAtoi.go
+[Algorithms-8]:https://leetcode.com/problems/string-to-integer-atoi/
 [Algorithms-7-Test]:algorithms/reverse_integer/reverse_test.go
 [Algorithms-7-Go]:algorithms/reverse_integer/reverse.go
 [Algorithms-7]:https://leetcode.com/problems/reverse-integer/
