@@ -9,14 +9,16 @@ func myAtoi(str string) int {
 	if idx == l {
 		return 0
 	}
-	var b byte
-	var sign int = 1
-	if b = str[idx]; b == '+' {
+
+	sign := 1
+	b := str[idx]
+	if b == '+' {
 		idx++
 	} else if b == '-' {
 		sign = -1
 		idx++
 	}
+
 	var n, max uint = 0, math.MaxInt32 / 10
 	for ; idx < l; idx++ {
 		if b = str[idx]; b < '0' || b > '9' {
