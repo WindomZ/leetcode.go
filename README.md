@@ -10,6 +10,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|14|[Longest Common Prefix][Algorithms-14]|[WindomZ][Algorithms-14-Go]|Easy|[45.8 ns/op/8 test cases][Algorithms-14-Test]|3 ms|
 |13|[Roman to Integer][Algorithms-13]|[WindomZ][Algorithms-13-Go]|Easy|[101 ns/op/8 test cases][Algorithms-13-Test]|19 ms|
 |12|[Integer to Roman][Algorithms-12]|[WindomZ][Algorithms-12-Go]|Medium|[96.6 ns/op/8 test cases][Algorithms-12-Test]|22 ms|
 |11|[Container With Most Water][Algorithms-11]|[WindomZ][Algorithms-11-Go]|Medium|[38.0 ns/op/5 test cases][Algorithms-11-Test]|25 ms|
@@ -50,6 +51,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-14-Test]:algorithms/longest_common_prefix/longestCommonPrefix_test.go#L19
+[Algorithms-14-Go]:algorithms/longest_common_prefix/longestCommonPrefix.go
+[Algorithms-14]:https://leetcode.com/problems/longest-common-prefix/
 [Algorithms-13-Test]:algorithms/roman_to_integer/romanToInt_test.go#L23
 [Algorithms-13-Go]:algorithms/roman_to_integer/romanToInt.go
 [Algorithms-13]:https://leetcode.com/problems/roman-to-integer/
