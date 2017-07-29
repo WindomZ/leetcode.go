@@ -14,7 +14,7 @@
 |13|[Roman to Integer][Algorithms-13]|[WindomZ][Algorithms-13-Go]|Easy|[101 ns/op/8 test cases][Algorithms-13-Test]|19 ms|
 |12|[Integer to Roman][Algorithms-12]|[WindomZ][Algorithms-12-Go]|Medium|[96.6 ns/op/8 test cases][Algorithms-12-Test]|22 ms|
 |11|[Container With Most Water][Algorithms-11]|[WindomZ][Algorithms-11-Go]|Medium|[38.0 ns/op/5 test cases][Algorithms-11-Test]|25 ms|
-|10|[Regular Expression Matching][Algorithms-10]|[WindomZ][Algorithms-10-Go]|Hard|[648 ns/op/6 test cases][Algorithms-10-Test]|3 ms|
+|10|[Regular Expression Matching][Algorithms-10]|[WindomZ][Algorithms-10-Go]|Hard|[630 ns/op/6 test cases][Algorithms-10-Test]|3 ms|
 |9|[Palindrome Number][Algorithms-9]|[WindomZ][Algorithms-9-Go]|Easy|[27.3 ns/op/7 test cases][Algorithms-9-Test]|55 ms|
 |8|[String to Integer (atoi)][Algorithms-8]|[WindomZ][Algorithms-8-Go]|Medium|[33.4 ns/op/5 test cases][Algorithms-8-Test]|3 ms|
 |7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Easy|[39.3 ns/op/5 test cases][Algorithms-7-Test]|3 ms|
@@ -43,7 +43,7 @@ Welcome to **pull requests** of the **better** solutions.
 
 1. Pass all LeetCode test cases.
 1. Pass all my test cases.
-1. Faster than mine! (on the same machine)
+1. Faster than mine! (on the same machine, and more than 1% repeatedly)
 
 ### Discuss
 Welcome to report bugs, suggest ideas and discuss on [issues page](https://github.com/WindomZ/leetcode.go/issues).
