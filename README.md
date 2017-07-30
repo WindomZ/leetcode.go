@@ -10,6 +10,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|15|[3Sum][Algorithms-15]|[WindomZ][Algorithms-15-Go]|Medium|[614 ns/op/4 test cases][Algorithms-15-Test]|1525 ms|
 |14|[Longest Common Prefix][Algorithms-14]|[WindomZ][Algorithms-14-Go]|Easy|[45.8 ns/op/8 test cases][Algorithms-14-Test]|3 ms|
 |13|[Roman to Integer][Algorithms-13]|[WindomZ][Algorithms-13-Go]|Easy|[101 ns/op/8 test cases][Algorithms-13-Test]|19 ms|
 |12|[Integer to Roman][Algorithms-12]|[WindomZ][Algorithms-12-Go]|Medium|[96.6 ns/op/8 test cases][Algorithms-12-Test]|22 ms|
@@ -41,9 +42,9 @@ go test -test.bench=".*" ./algorithms/...
 ### Challenge
 Welcome to **pull requests** of the **better** solutions.
 
-1. Pass all LeetCode test cases.
-1. Pass all my test cases.
-1. Faster than mine! (on the same machine, and more than 1% repeatedly)
+1. _Pass_ all LeetCode test cases.
+1. _Pass_ all my test cases.
+1. _Faster_ than mine! (on the same machine, and test repeatedly)
 
 ### Discuss
 Welcome to report bugs, suggest ideas and discuss on [issues page](https://github.com/WindomZ/leetcode.go/issues).
@@ -51,6 +52,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-15-Test]:algorithms/3sum/threeSum_test.go#L20
+[Algorithms-15-Go]:algorithms/3sum/threeSum.go
+[Algorithms-15]:https://leetcode.com/problems/3sum/
 [Algorithms-14-Test]:algorithms/longest_common_prefix/longestCommonPrefix_test.go#L19
 [Algorithms-14-Go]:algorithms/longest_common_prefix/longestCommonPrefix.go
 [Algorithms-14]:https://leetcode.com/problems/longest-common-prefix/
