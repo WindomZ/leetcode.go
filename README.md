@@ -10,6 +10,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|17|[Letter Combinations of a Phone Number][Algorithms-17]|[WindomZ][Algorithms-17-Go]|Medium|[1485 ns/op/4 test cases][Algorithms-17-Test]|0 ms|
 |16|[3Sum Closest][Algorithms-16]|[WindomZ][Algorithms-16-Go]|Medium|[1426 ns/op/8 test cases][Algorithms-16-Test]|9 ms|
 |15|[3Sum][Algorithms-15]|[WindomZ][Algorithms-15-Go]|Medium|[614 ns/op/4 test cases][Algorithms-15-Test]|1525 ms|
 |14|[Longest Common Prefix][Algorithms-14]|[WindomZ][Algorithms-14-Go]|Easy|[45.8 ns/op/8 test cases][Algorithms-14-Test]|3 ms|
@@ -53,6 +54,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-17-Test]:algorithms/letter_combinations_of_a_phone_number/letterCombinations_test.go#L27
+[Algorithms-17-Go]:algorithms/letter_combinations_of_a_phone_number/letterCombinations.go
+[Algorithms-17]:https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 [Algorithms-16-Test]:algorithms/3sum_closest/threeSumClosest_test.go#L20
 [Algorithms-16-Go]:algorithms/3sum_closest/threeSumClosest.go
 [Algorithms-16]:https://leetcode.com/problems/3sum-closest/
