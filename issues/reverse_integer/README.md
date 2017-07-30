@@ -2,7 +2,7 @@
 
 Run the script:
 ```bash
-./run.sh
+go test -test.bench=".*"
 ```
 
 ## Question
