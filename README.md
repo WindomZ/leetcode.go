@@ -1,6 +1,6 @@
 # leetcode.go
 
-> My solutions(Golang) of problems in LeetCode.
+> My solutions(Golang) of problems in https://leetcode.com/
 
 [![Build Status](https://travis-ci.org/WindomZ/leetcode.go.svg?branch=master)](https://travis-ci.org/WindomZ/leetcode.go)
 [![Coverage Status](https://coveralls.io/repos/github/WindomZ/leetcode.go/badge.svg?branch=master)](https://coveralls.io/github/WindomZ/leetcode.go?branch=master)
@@ -10,6 +10,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|16|[3Sum Closest][Algorithms-16]|[WindomZ][Algorithms-16-Go]|Medium|[1426 ns/op/8 test cases][Algorithms-16-Test]|9 ms|
 |15|[3Sum][Algorithms-15]|[WindomZ][Algorithms-15-Go]|Medium|[614 ns/op/4 test cases][Algorithms-15-Test]|1525 ms|
 |14|[Longest Common Prefix][Algorithms-14]|[WindomZ][Algorithms-14-Go]|Easy|[45.8 ns/op/8 test cases][Algorithms-14-Test]|3 ms|
 |13|[Roman to Integer][Algorithms-13]|[WindomZ][Algorithms-13-Go]|Easy|[101 ns/op/8 test cases][Algorithms-13-Test]|19 ms|
@@ -52,6 +53,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-16-Test]:algorithms/3sum_closest/threeSumClosest_test.go#L20
+[Algorithms-16-Go]:algorithms/3sum_closest/threeSumClosest.go
+[Algorithms-16]:https://leetcode.com/problems/3sum-closest/
 [Algorithms-15-Test]:algorithms/3sum/threeSum_test.go#L20
 [Algorithms-15-Go]:algorithms/3sum/threeSum.go
 [Algorithms-15]:https://leetcode.com/problems/3sum/
