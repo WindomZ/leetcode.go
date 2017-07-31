@@ -16,6 +16,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|22|[Generate Parentheses][Algorithms-22]|[WindomZ][Algorithms-22-Go]|Easy|[1207 ns/op/4 test cases][Algorithms-22-Test]|13 ms|
 |21|[Merge Two Sorted Lists][Algorithms-21]|[WindomZ][Algorithms-21-Go]|Easy|[270 ns/op/3 test cases][Algorithms-21-Test]|3 ms|
 |20|[Valid Parentheses][Algorithms-20]|[WindomZ][Algorithms-20-Go]|Easy|[127 ns/op/6 test cases][Algorithms-20-Test]|0 ms|
 |19|[Remove Nth Node From End of List][Algorithms-19]|[WindomZ][Algorithms-19-Go]|Medium|[0.00 ns/op/6 test cases][Algorithms-19-Test]|3 ms|
@@ -66,6 +67,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-22-Test]:algorithms/generate_parentheses/generateParenthesis_test.go#L19
+[Algorithms-22-Go]:algorithms/generate_parentheses/generateParenthesis.go
+[Algorithms-22]:https://leetcode.com/problems/generate-parentheses/
 [Algorithms-21-Test]:algorithms/merge_two_sorted_lists/mergeTwoLists_test.go#L75
 [Algorithms-21-Go]:algorithms/merge_two_sorted_lists/mergeTwoLists.go
 [Algorithms-21]:https://leetcode.com/problems/merge-two-sorted-lists/
