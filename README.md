@@ -113,7 +113,7 @@ If you like it then you can put a :star: on it.
 [Algorithms-3]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
 [Algorithms-2-Test]:algorithms/add_two_numbers/addTwoNumbers_test.go#L118
 [Algorithms-2-Go]:algorithms/add_two_numbers/addTwoNumbers.go
-[Algorithms-2]:https://oj.leetcode.com/problems/add-two-numbers/
+[Algorithms-2]:https://leetcode.com/problems/add-two-numbers/
 [Algorithms-1-Test]:algorithms/two_sum/twoSum_test.go#L16
 [Algorithms-1-Go]:algorithms/two_sum/twoSum.go
-[Algorithms-1]:https://oj.leetcode.com/problems/two-sum/
+[Algorithms-1]:https://leetcode.com/problems/two-sum/

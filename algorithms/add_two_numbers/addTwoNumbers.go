@@ -1,5 +1,6 @@
 package add_two_numbers
 
+// ListNode definition for singly-linked list.
 type ListNode struct {
 	Val  int
 	Next *ListNode
