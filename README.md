@@ -16,6 +16,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|21|[Merge Two Sorted Lists][Algorithms-21]|[WindomZ][Algorithms-21-Go]|Easy|[270 ns/op/3 test cases][Algorithms-21-Test]|3 ms|
 |20|[Valid Parentheses][Algorithms-20]|[WindomZ][Algorithms-20-Go]|Easy|[127 ns/op/6 test cases][Algorithms-20-Test]|0 ms|
 |19|[Remove Nth Node From End of List][Algorithms-19]|[WindomZ][Algorithms-19-Go]|Medium|[0.00 ns/op/6 test cases][Algorithms-19-Test]|3 ms|
 |18|[4Sum][Algorithms-18]|[WindomZ][Algorithms-18-Go]|Medium|[796 ns/op/3 test cases][Algorithms-18-Test]|16 ms|
@@ -65,6 +66,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-21-Test]:algorithms/merge_two_sorted_lists/mergeTwoLists_test.go#L75
+[Algorithms-21-Go]:algorithms/merge_two_sorted_lists/mergeTwoLists.go
+[Algorithms-21]:https://leetcode.com/problems/merge-two-sorted-lists/
 [Algorithms-20-Test]:algorithms/valid_parentheses/isValid_test.go#L25
 [Algorithms-20-Go]:algorithms/valid_parentheses/isValid.go
 [Algorithms-20]:https://leetcode.com/problems/valid-parentheses/
