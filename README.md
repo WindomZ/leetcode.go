@@ -6,10 +6,17 @@
 [![Coverage Status](https://coveralls.io/repos/github/WindomZ/leetcode.go/badge.svg?branch=master)](https://coveralls.io/github/WindomZ/leetcode.go?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/WindomZ/leetcode.go)](https://goreportcard.com/report/github.com/WindomZ/leetcode.go)
 
+## Pursue
+
+- **Faster** and **better** solutions.
+- **100%** coverage tests.
+- **Multiple** benchmark tests.
+
 ## Algorithms
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|18|[4Sum][Algorithms-18]|[WindomZ][Algorithms-18-Go]|Medium|[796 ns/op/3 test cases][Algorithms-18-Test]|16 ms|
 |17|[Letter Combinations of a Phone Number][Algorithms-17]|[WindomZ][Algorithms-17-Go]|Medium|[1466 ns/op/4 test cases][Algorithms-17-Test]|0 ms|
 |16|[3Sum Closest][Algorithms-16]|[WindomZ][Algorithms-16-Go]|Medium|[1426 ns/op/8 test cases][Algorithms-16-Test]|9 ms|
 |15|[3Sum][Algorithms-15]|[WindomZ][Algorithms-15-Go]|Medium|[614 ns/op/4 test cases][Algorithms-15-Test]|1525 ms|
@@ -28,7 +35,9 @@
 |2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|[79.4 ns/op/1 test cases][Algorithms-2-Test]|29 ms|
 |1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[305 ns/op/3 test cases][Algorithms-1-Test]|6 ms|
 
-> NOTE: All tests should be run on the same machine.
+> NOTE: 'LeetCode Run Time' is for reference only.
+
+> NOTE: All tests should be run on the same machine, and through multiple benchmarks.
 
 ## Testing
 
@@ -42,7 +51,7 @@ go test -test.bench=".*" ./algorithms/...
 ## Contributing
 
 ### Challenge
-Welcome to **pull requests** of the **better** solutions.
+Welcome to **pull requests(PRs)** of the **better** solutions.
 
 1. _Pass_ all LeetCode test cases.
 1. _Pass_ all my test cases.
@@ -54,6 +63,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-18-Test]:algorithms/4sum/fourSum_test.go#L28
+[Algorithms-18-Go]:algorithms/4sum/fourSum.go
+[Algorithms-18]:https://leetcode.com/problems/4sum/
 [Algorithms-17-Test]:algorithms/letter_combinations_of_a_phone_number/letterCombinations_test.go#L27
 [Algorithms-17-Go]:algorithms/letter_combinations_of_a_phone_number/letterCombinations.go
 [Algorithms-17]:https://leetcode.com/problems/letter-combinations-of-a-phone-number/
