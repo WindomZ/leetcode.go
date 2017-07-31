@@ -10,7 +10,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|17|[Letter Combinations of a Phone Number][Algorithms-17]|[WindomZ][Algorithms-17-Go]|Medium|[1485 ns/op/4 test cases][Algorithms-17-Test]|0 ms|
+|17|[Letter Combinations of a Phone Number][Algorithms-17]|[WindomZ][Algorithms-17-Go]|Medium|[1466 ns/op/4 test cases][Algorithms-17-Test]|0 ms|
 |16|[3Sum Closest][Algorithms-16]|[WindomZ][Algorithms-16-Go]|Medium|[1426 ns/op/8 test cases][Algorithms-16-Test]|9 ms|
 |15|[3Sum][Algorithms-15]|[WindomZ][Algorithms-15-Go]|Medium|[614 ns/op/4 test cases][Algorithms-15-Test]|1525 ms|
 |14|[Longest Common Prefix][Algorithms-14]|[WindomZ][Algorithms-14-Go]|Easy|[45.8 ns/op/8 test cases][Algorithms-14-Test]|3 ms|
