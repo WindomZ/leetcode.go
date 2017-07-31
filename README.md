@@ -16,6 +16,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|20|[Valid Parentheses][Algorithms-20]|[WindomZ][Algorithms-20-Go]|Easy|[127 ns/op/6 test cases][Algorithms-20-Test]|0 ms|
 |19|[Remove Nth Node From End of List][Algorithms-19]|[WindomZ][Algorithms-19-Go]|Medium|[0.00 ns/op/6 test cases][Algorithms-19-Test]|3 ms|
 |18|[4Sum][Algorithms-18]|[WindomZ][Algorithms-18-Go]|Medium|[796 ns/op/3 test cases][Algorithms-18-Test]|16 ms|
 |17|[Letter Combinations of a Phone Number][Algorithms-17]|[WindomZ][Algorithms-17-Go]|Medium|[1466 ns/op/4 test cases][Algorithms-17-Test]|0 ms|
@@ -36,9 +37,9 @@
 |2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|[79.4 ns/op/1 test cases][Algorithms-2-Test]|29 ms|
 |1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[305 ns/op/3 test cases][Algorithms-1-Test]|6 ms|
 
-> NOTE: 'Single Repetition Duration' and 'LeetCode Run Time' are for reference only.
+> NOTE: 'Single Repetition Duration' and 'LeetCode Run Time' are for _reference_ only.
 
-> NOTE: All tests should be run on a machine, and through multiple benchmark tests.
+> All tests should be run on a machine, and through multiple benchmark tests.
 
 ## Testing
 
@@ -64,6 +65,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-20-Test]:algorithms/valid_parentheses/isValid_test.go#L25
+[Algorithms-20-Go]:algorithms/valid_parentheses/isValid.go
+[Algorithms-20]:https://leetcode.com/problems/valid-parentheses/
 [Algorithms-19-Test]:algorithms/remove_nth_node_from_end_of_list/removeNthFromEnd_test.go#L72
 [Algorithms-19-Go]:algorithms/remove_nth_node_from_end_of_list/removeNthFromEnd.go
 [Algorithms-19]:https://leetcode.com/problems/remove-nth-node-from-end-of-list/
