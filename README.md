@@ -16,6 +16,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|23|[Merge k Sorted Lists][Algorithms-23]|[WindomZ][Algorithms-23-Go]|Hard|[354 ns/op/4 test cases][Algorithms-23-Test]|19 ms|
 |22|[Generate Parentheses][Algorithms-22]|[WindomZ][Algorithms-22-Go]|Medium|[1207 ns/op/4 test cases][Algorithms-22-Test]|13 ms|
 |21|[Merge Two Sorted Lists][Algorithms-21]|[WindomZ][Algorithms-21-Go]|Easy|[270 ns/op/3 test cases][Algorithms-21-Test]|3 ms|
 |20|[Valid Parentheses][Algorithms-20]|[WindomZ][Algorithms-20-Go]|Easy|[127 ns/op/6 test cases][Algorithms-20-Test]|0 ms|
@@ -67,6 +68,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-23-Test]:algorithms/merge_k_sorted_lists/mergeKLists_test.go#L98
+[Algorithms-23-Go]:algorithms/merge_k_sorted_lists/mergeKLists.go
+[Algorithms-23]:https://leetcode.com/problems/merge-k-sorted-lists/
 [Algorithms-22-Test]:algorithms/generate_parentheses/generateParenthesis_test.go#L19
 [Algorithms-22-Go]:algorithms/generate_parentheses/generateParenthesis.go
 [Algorithms-22]:https://leetcode.com/problems/generate-parentheses/
