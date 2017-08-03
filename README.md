@@ -16,6 +16,8 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+
+|24|[Swap Nodes in Pairs][Algorithms-24]|[WindomZ][Algorithms-24-Go]|Medium|[242 ns/op/4 test cases][Algorithms-24-Test]|0 ms|
 |23|[Merge k Sorted Lists][Algorithms-23]|[WindomZ][Algorithms-23-Go]|Hard|[354 ns/op/4 test cases][Algorithms-23-Test]|19 ms|
 |22|[Generate Parentheses][Algorithms-22]|[WindomZ][Algorithms-22-Go]|Medium|[1207 ns/op/4 test cases][Algorithms-22-Test]|13 ms|
 |21|[Merge Two Sorted Lists][Algorithms-21]|[WindomZ][Algorithms-21-Go]|Easy|[270 ns/op/3 test cases][Algorithms-21-Test]|3 ms|
@@ -68,6 +70,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-24-Test]:algorithms/swap_nodes_in_pairs/swapPairs_test.go#L65
+[Algorithms-24-Go]:algorithms/swap_nodes_in_pairs/swapPairs.go
+[Algorithms-24]:https://leetcode.com/problems/swap-nodes-in-pairs/
 [Algorithms-23-Test]:algorithms/merge_k_sorted_lists/mergeKLists_test.go#L98
 [Algorithms-23-Go]:algorithms/merge_k_sorted_lists/mergeKLists.go
 [Algorithms-23]:https://leetcode.com/problems/merge-k-sorted-lists/
