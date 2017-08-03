@@ -16,6 +16,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|27|[Remove Element][Algorithms-27]|[WindomZ][Algorithms-27-Go]|Easy|[36.9 ns/op/6 test cases][Algorithms-27-Test]|3 ms|
 |26|[Remove Duplicates from Sorted Array][Algorithms-26]|[WindomZ][Algorithms-26-Go]|Easy|[38.3 ns/op/6 test cases][Algorithms-26-Test]|102 ms|
 |25|[Reverse Nodes in k-Group][Algorithms-25]|[WindomZ][Algorithms-25-Go]|Hard|[227 ns/op/3 test cases][Algorithms-25-Test]|9 ms|
 |24|[Swap Nodes in Pairs][Algorithms-24]|[WindomZ][Algorithms-24-Go]|Medium|[242 ns/op/4 test cases][Algorithms-24-Test]|0 ms|
@@ -71,6 +72,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-27-Test]:algorithms/remove_element/removeElement_test.go#L18
+[Algorithms-27-Go]:algorithms/remove_element/removeElement.go
+[Algorithms-27]:https://leetcode.com/problems/remove-element/
 [Algorithms-26-Test]:algorithms/remove_duplicates_from_sorted_array/removeDuplicates_test.go#L18
 [Algorithms-26-Go]:algorithms/remove_duplicates_from_sorted_array/removeDuplicates.go
 [Algorithms-26]:https://leetcode.com/problems/remove-duplicates-from-sorted-array/
