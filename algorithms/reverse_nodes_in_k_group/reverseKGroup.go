@@ -28,9 +28,9 @@ func _reverseKGroup(head *ListNode, k int) *ListNode {
 	// curr is k+1 node, count equal k+1
 	for ; count > 0; count-- { // reverses current k-group
 		next := head.Next // get the next head
-		head.Next = curr  // swaps head and curr
-		curr = head       //
-		head = next       // moves head to the next node
+		head.Next = curr  // moves curr to the next head
+		curr = head       // moves head to curr
+		head = next       // moves the next node to head
 	}
 	return curr
 }
