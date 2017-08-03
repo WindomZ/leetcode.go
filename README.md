@@ -17,6 +17,7 @@
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
 
+|25|[Reverse Nodes in k-Group][Algorithms-25]|[WindomZ][Algorithms-25-Go]|Hard|[227 ns/op/3 test cases][Algorithms-25-Test]|9 ms|
 |24|[Swap Nodes in Pairs][Algorithms-24]|[WindomZ][Algorithms-24-Go]|Medium|[242 ns/op/4 test cases][Algorithms-24-Test]|0 ms|
 |23|[Merge k Sorted Lists][Algorithms-23]|[WindomZ][Algorithms-23-Go]|Hard|[354 ns/op/4 test cases][Algorithms-23-Test]|19 ms|
 |22|[Generate Parentheses][Algorithms-22]|[WindomZ][Algorithms-22-Go]|Medium|[1207 ns/op/4 test cases][Algorithms-22-Test]|13 ms|
@@ -70,6 +71,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-25-Test]:algorithms/reverse_nodes_in_k_group/reverseKGroup_test.go#L65
+[Algorithms-25-Go]:algorithms/reverse_nodes_in_k_group/reverseKGroup.go
+[Algorithms-25]:https://leetcode.com/problems/reverse-nodes-in-k-group/
 [Algorithms-24-Test]:algorithms/swap_nodes_in_pairs/swapPairs_test.go#L65
 [Algorithms-24-Go]:algorithms/swap_nodes_in_pairs/swapPairs.go
 [Algorithms-24]:https://leetcode.com/problems/swap-nodes-in-pairs/
