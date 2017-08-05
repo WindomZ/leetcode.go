@@ -16,6 +16,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|29|[Divide Two Integers][Algorithms-29]|[WindomZ][Algorithms-29-Go]|Medium|[249 ns/op/12 test cases][Algorithms-29-Test]|6 ms|
 |28|[Implement strStr()][Algorithms-28]|[WindomZ][Algorithms-28-Go]|Easy|[34.0 ns/op/7 test cases][Algorithms-28-Test]|0 ms|
 |27|[Remove Element][Algorithms-27]|[WindomZ][Algorithms-27-Go]|Easy|[36.9 ns/op/6 test cases][Algorithms-27-Test]|3 ms|
 |26|[Remove Duplicates from Sorted Array][Algorithms-26]|[WindomZ][Algorithms-26-Go]|Easy|[38.3 ns/op/6 test cases][Algorithms-26-Test]|102 ms|
@@ -73,6 +74,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-29-Test]:algorithms/divide_two_integers/divide_test.go#L24
+[Algorithms-29-Go]:algorithms/divide_two_integers/divide.go
+[Algorithms-29]:https://leetcode.com/divide-two-integers/
 [Algorithms-28-Test]:algorithms/implement_strstr/strStr_test.go#L19
 [Algorithms-28-Go]:algorithms/implement_strstr/strStr.go
 [Algorithms-28]:https://leetcode.com/implement-strstr/
