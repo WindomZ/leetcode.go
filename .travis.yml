@@ -7,8 +7,12 @@ go: master
 before_install:
   - go get github.com/WindomZ/testify/assert
   - go get github.com/mattn/goveralls
+  - go get github.com/golang/lint/golint
 
 script:
+  - diff -u <(echo -n) <(gofmt -s -d ./)
+  - diff -u <(echo -n) <(go vet ./...)
+  - diff -u <(echo -n) <(golint ./...)
 #  - go test -v ./... -covermode=count -coverprofile=coverage.out
   - $(go env GOPATH | awk 'BEGIN{FS=":"} {print $1}')/bin/goveralls -service=travis-ci
   - go test -v ./...
