@@ -6,6 +6,14 @@
 [![Coverage Status](https://coveralls.io/repos/github/WindomZ/leetcode.go/badge.svg?branch=master)](https://coveralls.io/github/WindomZ/leetcode.go?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/WindomZ/leetcode.go)](https://goreportcard.com/report/github.com/WindomZ/leetcode.go)
 
+- [Pursue](#pursue)
+- [Algorithms](#algorithms)
+- [Testing](#testing)
+- [Contributing](#contributing)
+  - [Challenge](#challenge)
+  - [Discuss](#discuss)
+  - [Support](#support)
+
 ## Pursue
 
 - **Faster** and **better** solutions.
