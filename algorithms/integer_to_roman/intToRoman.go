@@ -1,10 +1,10 @@
 package integertoroman
 
 var (
-	m = [4]string{"", "m", "MM", "MMM"}
-	c = [10]string{"", "c", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"}
-	x = [10]string{"", "x", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"}
-	i = [10]string{"", "i", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"}
+	m = [4]string{"", "M", "MM", "MMM"}
+	c = [10]string{"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"}
+	x = [10]string{"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"}
+	i = [10]string{"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"}
 )
 
 func intToRoman(num int) string {
