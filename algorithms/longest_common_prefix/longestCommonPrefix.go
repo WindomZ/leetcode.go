@@ -1,4 +1,4 @@
-package longest_common_prefix
+package longestcommonprefix
 
 func longestCommonPrefix(strs []string) string {
 	if len(strs) >= 1 {

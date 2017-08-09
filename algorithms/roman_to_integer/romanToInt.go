@@ -1,4 +1,4 @@
-package roman_to_integer
+package romantointeger
 
 func romanToInt(s string) int {
 	if l := len(s); l >= 1 {
@@ -24,7 +24,7 @@ func romanToInt(s string) int {
 				result += 5
 				current = 2
 			default: // 'I'
-				result += 1
+				result++
 				current = 1
 			}
 			if last != 0 && last < current {

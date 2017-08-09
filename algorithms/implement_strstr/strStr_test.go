@@ -1,4 +1,4 @@
-package implement_strstr
+package implementstrstr
 
 import (
 	"testing"

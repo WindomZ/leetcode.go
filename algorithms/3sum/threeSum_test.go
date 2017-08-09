@@ -1,4 +1,4 @@
-package three_sum
+package threesum
 
 import (
 	"testing"

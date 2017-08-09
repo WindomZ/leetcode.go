@@ -1,4 +1,4 @@
-package divide_two_integers
+package dividetwointegers
 
 import (
 	"math"

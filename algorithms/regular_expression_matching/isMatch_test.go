@@ -1,4 +1,4 @@
-package regular_expression_matching
+package regularexpressionmatching
 
 import (
 	"testing"

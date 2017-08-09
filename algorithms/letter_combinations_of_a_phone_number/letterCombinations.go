@@ -1,6 +1,6 @@
-package letter_combinations_of_a_phone_number
+package lettercombinationsofaphonenumber
 
-var charsmap [10]string = [10]string{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
+var charsmap = [10]string{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
 
 func letterCombinations(digits string) []string {
 	if len(digits) == 0 {

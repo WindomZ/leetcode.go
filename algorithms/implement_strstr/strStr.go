@@ -1,4 +1,4 @@
-package implement_strstr
+package implementstrstr
 
 func strStr(haystack string, needle string) int {
 	if hl, nl := len(haystack), len(needle); nl == 0 {

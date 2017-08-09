@@ -1,4 +1,4 @@
-package zigzag_conversion
+package zigzagconversion
 
 func convert(s string, numRows int) string {
 	if l := len(s); numRows >= 2 && numRows < l {

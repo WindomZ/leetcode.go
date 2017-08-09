@@ -1,4 +1,4 @@
-package generate_parentheses
+package generateparentheses
 
 import (
 	"testing"

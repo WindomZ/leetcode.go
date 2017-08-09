@@ -1,4 +1,4 @@
-package longest_palindromic_substring
+package longestpalindromicsubstring
 
 import (
 	"testing"

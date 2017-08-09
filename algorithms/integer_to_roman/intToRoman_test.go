@@ -1,4 +1,4 @@
-package integer_to_roman
+package integertoroman
 
 import (
 	"testing"

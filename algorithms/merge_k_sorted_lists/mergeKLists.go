@@ -1,4 +1,4 @@
-package merge_k_sorted_lists
+package mergeksortedlists
 
 // ListNode definition for singly-linked list.
 type ListNode struct {

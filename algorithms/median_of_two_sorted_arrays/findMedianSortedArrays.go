@@ -1,4 +1,4 @@
-package median_of_two_sorted_arrays
+package medianoftwosortedarrays
 
 import "math"
 
@@ -16,7 +16,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	odd := size%2 != 0 // bool, if size is odd.
 	offset := size / 2 // middle index.
 	if !odd {
-		offset -= 1 // middle index if size is even.
+		offset-- // middle index if size is even.
 	}
 
 	var n1, n2 int

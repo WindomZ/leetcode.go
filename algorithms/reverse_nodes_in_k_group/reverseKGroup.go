@@ -1,4 +1,4 @@
-package reverse_nodes_in_k_group
+package reversenodesinkgroup
 
 // ListNode definition for singly-linked list.
 type ListNode struct {

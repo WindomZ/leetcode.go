@@ -1,4 +1,4 @@
-package three_sum_closest
+package threesumclosest
 
 import (
 	"testing"

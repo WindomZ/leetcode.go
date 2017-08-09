@@ -1,4 +1,4 @@
-package generate_parentheses
+package generateparentheses
 
 func generateParenthesis(n int) []string {
 	if n >= 1 {

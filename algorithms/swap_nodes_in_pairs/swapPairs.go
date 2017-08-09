@@ -1,4 +1,4 @@
-package swap_nodes_in_pairs
+package swapnodesinpairs
 
 // ListNode definition for singly-linked list.
 type ListNode struct {

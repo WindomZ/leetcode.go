@@ -1,4 +1,4 @@
-package regular_expression_matching
+package regularexpressionmatching
 
 func isMatch(s string, p string) bool {
 	if s != p {

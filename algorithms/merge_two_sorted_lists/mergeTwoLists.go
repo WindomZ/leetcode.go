@@ -1,4 +1,4 @@
-package merge_two_sorted_lists
+package mergetwosortedlists
 
 // ListNode definition for singly-linked list.
 type ListNode struct {

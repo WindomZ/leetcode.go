@@ -1,4 +1,4 @@
-package remove_element
+package removeelement
 
 func removeElement(nums []int, val int) int {
 	length := 0

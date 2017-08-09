@@ -1,4 +1,4 @@
-package four_sum
+package foursum
 
 import (
 	"testing"

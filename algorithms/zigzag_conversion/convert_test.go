@@ -1,4 +1,4 @@
-package zigzag_conversion
+package zigzagconversion
 
 import (
 	"testing"
