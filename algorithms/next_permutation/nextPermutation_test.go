@@ -24,6 +24,10 @@ func Test_nextPermutation(t *testing.T) {
 	r = []int{1, 1, 5}
 	nextPermutation(r)
 	assert.Equal(t, []int{1, 5, 1}, r)
+
+	r = []int{1, 2, 5, 1}
+	nextPermutation(r)
+	assert.Equal(t, []int{1, 5, 1, 2}, r)
 }
 
 func Benchmark_nextPermutation(b *testing.B) {

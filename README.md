@@ -84,7 +84,7 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
-[Algorithms-31-Test]:algorithms/next_permutation/nextPermutation_test.go#L29
+[Algorithms-31-Test]:algorithms/next_permutation/nextPermutation_test.go#L33
 [Algorithms-31-Go]:algorithms/next_permutation/nextPermutation.go
 [Algorithms-31]:https://leetcode.com/next-permutation/
 [Algorithms-30-Test]:algorithms/substring_with_concatenation_of_all_words/findSubstring_test.go#L28
