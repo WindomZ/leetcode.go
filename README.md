@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|31|[Next Permutation][Algorithms-31]|[WindomZ][Algorithms-31-Go]|Medium|[11.4 ns/op/4 test cases][Algorithms-31-Test]|6 ms|
 |30|[Substring with Concatenation of All Words][Algorithms-30]|[WindomZ][Algorithms-30-Go]|Hard|[1358 ns/op/3 test cases][Algorithms-30-Test]|13 ms|
 |29|[Divide Two Integers][Algorithms-29]|[WindomZ][Algorithms-29-Go]|Medium|[249 ns/op/12 test cases][Algorithms-29-Test]|6 ms|
 |28|[Implement strStr()][Algorithms-28]|[WindomZ][Algorithms-28-Go]|Easy|[34.0 ns/op/7 test cases][Algorithms-28-Test]|0 ms|
@@ -83,6 +84,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-31-Test]:algorithms/next_permutation/nextPermutation_test.go#L29
+[Algorithms-31-Go]:algorithms/next_permutation/nextPermutation.go
+[Algorithms-31]:https://leetcode.com/next-permutation/
 [Algorithms-30-Test]:algorithms/substring_with_concatenation_of_all_words/findSubstring_test.go#L28
 [Algorithms-30-Go]:algorithms/substring_with_concatenation_of_all_words/findSubstring.go
 [Algorithms-30]:https://leetcode.com/substring-with-concatenation-of-all-words/
