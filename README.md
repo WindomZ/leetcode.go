@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|34|[Search for a Range][Algorithms-34]|[WindomZ][Algorithms-34-Go]|Medium|[209 ns/op/8 test cases][Algorithms-34-Test]|19 ms|
 |33|[Search in Rotated Sorted Array][Algorithms-33]|[WindomZ][Algorithms-33-Go]|Medium|[151 ns/op/8 test cases][Algorithms-33-Test]|3 ms|
 |32|[Longest Valid Parentheses][Algorithms-32]|[WindomZ][Algorithms-32-Go]|Hard|[221 ns/op/8 test cases][Algorithms-32-Test]|3 ms|
 |31|[Next Permutation][Algorithms-31]|[WindomZ][Algorithms-31-Go]|Medium|[11.4 ns/op/4 test cases][Algorithms-31-Test]|6 ms|
@@ -86,6 +87,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-34-Test]:algorithms/search_for_a_range/searchRange_test.go#L20
+[Algorithms-34-Go]:algorithms/search_for_a_range/searchRange.go
+[Algorithms-34]:https://leetcode.com/search-for-a-range/
 [Algorithms-33-Test]:algorithms/search_in_rotated_sorted_array/search_test.go#L20
 [Algorithms-33-Go]:algorithms/search_in_rotated_sorted_array/search.go
 [Algorithms-33]:https://leetcode.com/search-in-rotated-sorted-array/
