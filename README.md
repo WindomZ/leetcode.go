@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|33|[Search in Rotated Sorted Array][Algorithms-33]|[WindomZ][Algorithms-33-Go]|Medium|[151 ns/op/8 test cases][Algorithms-33-Test]|3 ms|
 |32|[Longest Valid Parentheses][Algorithms-32]|[WindomZ][Algorithms-32-Go]|Hard|[221 ns/op/8 test cases][Algorithms-32-Test]|3 ms|
 |31|[Next Permutation][Algorithms-31]|[WindomZ][Algorithms-31-Go]|Medium|[11.4 ns/op/4 test cases][Algorithms-31-Test]|6 ms|
 |30|[Substring with Concatenation of All Words][Algorithms-30]|[WindomZ][Algorithms-30-Go]|Hard|[1358 ns/op/3 test cases][Algorithms-30-Test]|13 ms|
@@ -85,6 +86,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-33-Test]:algorithms/search_in_rotated_sorted_array/search_test.go#L20
+[Algorithms-33-Go]:algorithms/search_in_rotated_sorted_array/search.go
+[Algorithms-33]:https://leetcode.com/search-in-rotated-sorted-array/
 [Algorithms-32-Test]:algorithms/longest_valid_parentheses/longestValidParentheses_test.go#L23
 [Algorithms-32-Go]:algorithms/longest_valid_parentheses/longestValidParentheses.go
 [Algorithms-32]:https://leetcode.com/longest-valid-parentheses/
