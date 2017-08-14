@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|35|[Search Insert Position][Algorithms-35]|[WindomZ][Algorithms-35-Go]|Medium|[30.8 ns/op/8 test cases][Algorithms-35-Test]|6 ms|
 |34|[Search for a Range][Algorithms-34]|[WindomZ][Algorithms-34-Go]|Medium|[209 ns/op/8 test cases][Algorithms-34-Test]|19 ms|
 |33|[Search in Rotated Sorted Array][Algorithms-33]|[WindomZ][Algorithms-33-Go]|Medium|[151 ns/op/8 test cases][Algorithms-33-Test]|3 ms|
 |32|[Longest Valid Parentheses][Algorithms-32]|[WindomZ][Algorithms-32-Go]|Hard|[221 ns/op/8 test cases][Algorithms-32-Test]|3 ms|
@@ -87,6 +88,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-35-Test]:algorithms/search_insert_position/searchInsert_test.go#L22
+[Algorithms-35-Go]:algorithms/search_insert_position/searchInsert.go
+[Algorithms-35]:https://leetcode.com/search-insert-position/
 [Algorithms-34-Test]:algorithms/search_for_a_range/searchRange_test.go#L20
 [Algorithms-34-Go]:algorithms/search_for_a_range/searchRange.go
 [Algorithms-34]:https://leetcode.com/search-for-a-range/
