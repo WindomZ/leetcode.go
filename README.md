@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|37|[Sudoku Solver][Algorithms-37]|[WindomZ][Algorithms-37-Go]|Hard|[808062 ns/op/2 test cases][Algorithms-37-Test]|16 ms|
 |36|[Valid Sudoku][Algorithms-36]|[WindomZ][Algorithms-36-Go]|Medium|[565 ns/op/3 test cases][Algorithms-36-Test]|6 ms|
 |35|[Search Insert Position][Algorithms-35]|[WindomZ][Algorithms-35-Go]|Easy|[30.8 ns/op/8 test cases][Algorithms-35-Test]|6 ms|
 |34|[Search for a Range][Algorithms-34]|[WindomZ][Algorithms-34-Go]|Medium|[209 ns/op/8 test cases][Algorithms-34-Test]|19 ms|
@@ -89,6 +90,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-37-Test]:algorithms/sudoku_solver/solveSudoku_test.go#L61
+[Algorithms-37-Go]:algorithms/sudoku_solver/solveSudoku.go
+[Algorithms-37]:https://leetcode.com/sudoku-solver/
 [Algorithms-36-Test]:algorithms/valid_sudoku/isValidSudoku_test.go#L56
 [Algorithms-36-Go]:algorithms/valid_sudoku/isValidSudoku.go
 [Algorithms-36]:https://leetcode.com/valid-sudoku/
