@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|38|[Count and Say][Algorithms-38]|[WindomZ][Algorithms-38-Go]|Easy|[262 ns/op/4 test cases][Algorithms-38-Test]|0 ms|
 |37|[Sudoku Solver][Algorithms-37]|[WindomZ][Algorithms-37-Go]|Hard|[134573 ns/op/2 test cases][Algorithms-37-Test]|0 ms|
 |36|[Valid Sudoku][Algorithms-36]|[WindomZ][Algorithms-36-Go]|Medium|[565 ns/op/3 test cases][Algorithms-36-Test]|6 ms|
 |35|[Search Insert Position][Algorithms-35]|[WindomZ][Algorithms-35-Go]|Easy|[30.8 ns/op/8 test cases][Algorithms-35-Test]|6 ms|
@@ -90,6 +91,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-38-Test]:algorithms/count_and_say/countAndSay_test.go#L18
+[Algorithms-38-Go]:algorithms/count_and_say/countAndSay.go
+[Algorithms-38]:https://leetcode.com/count-and-say/
 [Algorithms-37-Test]:algorithms/sudoku_solver/solveSudoku_test.go#L61
 [Algorithms-37-Go]:algorithms/sudoku_solver/solveSudoku.go
 [Algorithms-37]:https://leetcode.com/sudoku-solver/
