@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|39|[Combination Sum][Algorithms-39]|[WindomZ][Algorithms-39-Go]|Medium|[623 ns/op/3 test cases][Algorithms-39-Test]|6 ms|
 |38|[Count and Say][Algorithms-38]|[WindomZ][Algorithms-38-Go]|Easy|[262 ns/op/4 test cases][Algorithms-38-Test]|0 ms|
 |37|[Sudoku Solver][Algorithms-37]|[WindomZ][Algorithms-37-Go]|Hard|[134573 ns/op/2 test cases][Algorithms-37-Test]|0 ms|
 |36|[Valid Sudoku][Algorithms-36]|[WindomZ][Algorithms-36-Go]|Medium|[565 ns/op/3 test cases][Algorithms-36-Test]|6 ms|
@@ -91,6 +92,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-39-Test]:algorithms/combination_sum/combinationSum_test.go#L16
+[Algorithms-39-Go]:algorithms/combination_sum/combinationSum.go
+[Algorithms-39]:https://leetcode.com/combination-sum/
 [Algorithms-38-Test]:algorithms/count_and_say/countAndSay_test.go#L18
 [Algorithms-38-Go]:algorithms/count_and_say/countAndSay.go
 [Algorithms-38]:https://leetcode.com/count-and-say/
