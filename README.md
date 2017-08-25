@@ -25,6 +25,7 @@
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
 |43|[Multiply Strings][Algorithms-43]|[WindomZ][Algorithms-43-Go]|Medium|[215 ns/op/6 test cases][Algorithms-43-Test]|3 ms|
+|42|[Trapping Rain Water][Algorithms-42]|[WindomZ][Algorithms-42-Go]|Hard|[74.1 ns/op/6 test cases][Algorithms-42-Test]|6 ms|
 |41|[First Missing Positive][Algorithms-41]|[WindomZ][Algorithms-41-Go]|Hard|[60.3 ns/op/6 test cases][Algorithms-41-Test]|3 ms|
 |40|[Combination Sum II][Algorithms-40]|[WindomZ][Algorithms-40-Go]|Medium|[710 ns/op/3 test cases][Algorithms-40-Test]|3 ms|
 |39|[Combination Sum][Algorithms-39]|[WindomZ][Algorithms-39-Go]|Medium|[623 ns/op/3 test cases][Algorithms-39-Test]|6 ms|
@@ -98,6 +99,9 @@ If you like it then you can put a :star: on it.
 [Algorithms-43-Test]:algorithms/multiply_strings/multiply_test.go#L20
 [Algorithms-43-Go]:algorithms/multiply_strings/multiply.go
 [Algorithms-43]:https://leetcode.com/multiply-strings/
+[Algorithms-42-Test]:algorithms/trapping_rain_water/trap_test.go#L18
+[Algorithms-42-Go]:algorithms/trapping_rain_water/trap.go
+[Algorithms-42]:https://leetcode.com/trapping-rain-water/
 [Algorithms-41-Test]:algorithms/first_missing_positive/firstMissingPositive_test.go#L18
 [Algorithms-41-Go]:algorithms/first_missing_positive/firstMissingPositive.go
 [Algorithms-41]:https://leetcode.com/first-missing-positive/
