@@ -24,7 +24,8 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|44|[Wildcard Matching][Algorithms-44]|[WindomZ][Algorithms-44-Go]|Hard|[49.6 ns/op/9 test cases][Algorithms-44-Test]|18 ms|
+|45|[Jump Game II][Algorithms-45]|[WindomZ][Algorithms-45-Go]|Hard|[19.6 ns/op/6 test cases][Algorithms-45-Test]|19 ms|
+|44|[Wildcard Matching][Algorithms-44]|[WindomZ][Algorithms-44-Go]|Hard|[49.6 ns/op/9 test cases][Algorithms-44-Test]|15 ms|
 |43|[Multiply Strings][Algorithms-43]|[WindomZ][Algorithms-43-Go]|Medium|[215 ns/op/6 test cases][Algorithms-43-Test]|3 ms|
 |42|[Trapping Rain Water][Algorithms-42]|[WindomZ][Algorithms-42-Go]|Hard|[74.1 ns/op/6 test cases][Algorithms-42-Test]|6 ms|
 |41|[First Missing Positive][Algorithms-41]|[WindomZ][Algorithms-41-Go]|Hard|[60.3 ns/op/6 test cases][Algorithms-41-Test]|3 ms|
@@ -97,6 +98,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-45-Test]:algorithms/jump_game_ii/jump_test.go#L18
+[Algorithms-45-Go]:algorithms/jump_game_ii/jump.go
+[Algorithms-45]:https://leetcode.com/jump-game-ii/
 [Algorithms-44-Test]:algorithms/wildcard_matching/isMatch_test.go#L21
 [Algorithms-44-Go]:algorithms/wildcard_matching/isMatch.go
 [Algorithms-44]:https://leetcode.com/wildcard-matching/
