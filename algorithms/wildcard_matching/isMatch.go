@@ -30,7 +30,6 @@ func isMatch(s string, p string) bool {
 func matchOne(b1 byte, b2 byte) bool {
 	if b2 == '?' || b1 == b2 {
 		return true
-	} else {
-		return false
 	}
+	return false
 }
