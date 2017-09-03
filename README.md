@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|47|[Permutations II][Algorithms-47]|[WindomZ][Algorithms-47-Go]|Medium|[531 ns/op/3 test cases][Algorithms-47-Test]|19 ms|
 |46|[Permutations][Algorithms-46]|[WindomZ][Algorithms-46-Go]|Medium|[1713 ns/op/3 test cases][Algorithms-46-Test]|9 ms|
 |45|[Jump Game II][Algorithms-45]|[WindomZ][Algorithms-45-Go]|Hard|[19.6 ns/op/6 test cases][Algorithms-45-Test]|19 ms|
 |44|[Wildcard Matching][Algorithms-44]|[WindomZ][Algorithms-44-Go]|Hard|[49.6 ns/op/9 test cases][Algorithms-44-Test]|15 ms|
@@ -99,6 +100,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star: on it.
 
+[Algorithms-47-Test]:algorithms/permutations_ii/permuteUnique_test.go#L53
+[Algorithms-47-Go]:algorithms/permutations_ii/permuteUnique.go
+[Algorithms-47]:https://leetcode.com/permutations-ii/
 [Algorithms-46-Test]:algorithms/permutations/permute_test.go#L47
 [Algorithms-46-Go]:algorithms/permutations/permute.go
 [Algorithms-46]:https://leetcode.com/permutations/
