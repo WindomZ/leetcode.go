@@ -12,9 +12,7 @@ func permute(nums []int) [][]int {
 func permuteRecursive(nums []int, pos int, result *[][]int) {
 	if pos >= len(nums) {
 		num := make([]int, len(nums))
-		for i, n := range nums {
-			num[i] = n
-		}
+		copy(num, nums)
 		*result = append(*result, num) // append to result
 		return
 	}
