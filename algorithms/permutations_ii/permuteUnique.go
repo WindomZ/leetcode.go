@@ -1,4 +1,4 @@
-package permutations_ii
+package permutationsii
 
 import "sort"
 
