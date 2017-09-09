@@ -72,17 +72,17 @@
 |2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|[79.4 ns/op/1 test cases][Algorithms-2-Test]|29 ms|
 |1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[305 ns/op/3 test cases][Algorithms-1-Test]|6 ms|
 
-> NOTE: 'Single Repetition Duration' and 'LeetCode Run Time' are for _reference_ only.
+> **NOTE**: 'Single Repetition Duration' and 'LeetCode Run Time' are for _reference_ only.
 
 > All tests should be run on a machine, and through multiple benchmark tests.
 
 ## Testing
 
 ```bash
-git clone https://github.com/WindomZ/leetcode.go "$YOUR_PROJECT_PATH"
+git clone https://github.com/WindomZ/leetcode.go.git "$YOUR_PROJECT_PATH"
 cd "$YOUR_PROJECT_PATH"
-go test -v --run=".*" ./algorithms/...
-go test -test.bench=".*" ./algorithms/...
+go test -v -run=. ./algorithms/...
+go test -bench=. -benchmem ./algorithms/...
 ```
 
 ## Contributing
@@ -98,7 +98,7 @@ Welcome to **pull requests(PRs)** of the **better** solutions.
 Welcome to report bugs, suggest ideas and discuss on [issues page](https://github.com/WindomZ/leetcode.go/issues).
 
 ### Support
-If you like it then you can put a :star: on it.
+If you like it then you can put a :star:Star on it.
 
 [Algorithms-47-Test]:algorithms/permutations_ii/permuteUnique_test.go#L53
 [Algorithms-47-Go]:algorithms/permutations_ii/permuteUnique.go
