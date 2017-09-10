@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|48|[Rotate Image][Algorithms-48]|[WindomZ][Algorithms-48-Go]|Medium|[12.1 ns/op/3 test cases][Algorithms-48-Test]|3 ms|
 |47|[Permutations II][Algorithms-47]|[WindomZ][Algorithms-47-Go]|Medium|[531 ns/op/3 test cases][Algorithms-47-Test]|19 ms|
 |46|[Permutations][Algorithms-46]|[WindomZ][Algorithms-46-Go]|Medium|[1713 ns/op/3 test cases][Algorithms-46-Test]|9 ms|
 |45|[Jump Game II][Algorithms-45]|[WindomZ][Algorithms-45-Go]|Hard|[19.6 ns/op/6 test cases][Algorithms-45-Test]|19 ms|
@@ -100,6 +101,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Algorithms-48-Test]:algorithms/rotate_image/rotate_test.go#L43
+[Algorithms-48-Go]:algorithms/rotate_image/rotate.go
+[Algorithms-48]:https://leetcode.com/rotate-image/
 [Algorithms-47-Test]:algorithms/permutations_ii/permuteUnique_test.go#L53
 [Algorithms-47-Go]:algorithms/permutations_ii/permuteUnique.go
 [Algorithms-47]:https://leetcode.com/permutations-ii/
