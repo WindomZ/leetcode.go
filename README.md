@@ -7,7 +7,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/WindomZ/leetcode.go)](https://goreportcard.com/report/github.com/WindomZ/leetcode.go)
 
 - [Pursue](#pursue)
-- [Algorithms](#algorithms)
+- [Solutions](#solutions)
 - [Testing](#testing)
 - [Contributing](#contributing)
   - [Challenge](#challenge)
@@ -20,58 +20,58 @@
 - **100%** coverage tests.
 - **Benchmark** tests.
 
-## Algorithms
+## Solutions
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|48|[Rotate Image][Algorithms-48]|[WindomZ][Algorithms-48-Go]|Medium|[12.1 ns/op/3 test cases][Algorithms-48-Test]|3 ms|
-|47|[Permutations II][Algorithms-47]|[WindomZ][Algorithms-47-Go]|Medium|[531 ns/op/3 test cases][Algorithms-47-Test]|19 ms|
-|46|[Permutations][Algorithms-46]|[WindomZ][Algorithms-46-Go]|Medium|[1713 ns/op/3 test cases][Algorithms-46-Test]|9 ms|
-|45|[Jump Game II][Algorithms-45]|[WindomZ][Algorithms-45-Go]|Hard|[19.6 ns/op/6 test cases][Algorithms-45-Test]|19 ms|
-|44|[Wildcard Matching][Algorithms-44]|[WindomZ][Algorithms-44-Go]|Hard|[49.6 ns/op/9 test cases][Algorithms-44-Test]|15 ms|
-|43|[Multiply Strings][Algorithms-43]|[WindomZ][Algorithms-43-Go]|Medium|[215 ns/op/6 test cases][Algorithms-43-Test]|3 ms|
-|42|[Trapping Rain Water][Algorithms-42]|[WindomZ][Algorithms-42-Go]|Hard|[74.1 ns/op/6 test cases][Algorithms-42-Test]|6 ms|
-|41|[First Missing Positive][Algorithms-41]|[WindomZ][Algorithms-41-Go]|Hard|[60.3 ns/op/6 test cases][Algorithms-41-Test]|3 ms|
-|40|[Combination Sum II][Algorithms-40]|[WindomZ][Algorithms-40-Go]|Medium|[710 ns/op/3 test cases][Algorithms-40-Test]|3 ms|
-|39|[Combination Sum][Algorithms-39]|[WindomZ][Algorithms-39-Go]|Medium|[623 ns/op/3 test cases][Algorithms-39-Test]|6 ms|
-|38|[Count and Say][Algorithms-38]|[WindomZ][Algorithms-38-Go]|Easy|[262 ns/op/4 test cases][Algorithms-38-Test]|0 ms|
-|37|[Sudoku Solver][Algorithms-37]|[WindomZ][Algorithms-37-Go]|Hard|[134573 ns/op/2 test cases][Algorithms-37-Test]|0 ms|
-|36|[Valid Sudoku][Algorithms-36]|[WindomZ][Algorithms-36-Go]|Medium|[565 ns/op/3 test cases][Algorithms-36-Test]|6 ms|
-|35|[Search Insert Position][Algorithms-35]|[WindomZ][Algorithms-35-Go]|Easy|[30.8 ns/op/8 test cases][Algorithms-35-Test]|6 ms|
-|34|[Search for a Range][Algorithms-34]|[WindomZ][Algorithms-34-Go]|Medium|[209 ns/op/8 test cases][Algorithms-34-Test]|19 ms|
-|33|[Search in Rotated Sorted Array][Algorithms-33]|[WindomZ][Algorithms-33-Go]|Medium|[151 ns/op/8 test cases][Algorithms-33-Test]|3 ms|
-|32|[Longest Valid Parentheses][Algorithms-32]|[WindomZ][Algorithms-32-Go]|Hard|[221 ns/op/8 test cases][Algorithms-32-Test]|3 ms|
-|31|[Next Permutation][Algorithms-31]|[WindomZ][Algorithms-31-Go]|Medium|[11.4 ns/op/4 test cases][Algorithms-31-Test]|6 ms|
-|30|[Substring with Concatenation of All Words][Algorithms-30]|[WindomZ][Algorithms-30-Go]|Hard|[1358 ns/op/3 test cases][Algorithms-30-Test]|13 ms|
-|29|[Divide Two Integers][Algorithms-29]|[WindomZ][Algorithms-29-Go]|Medium|[249 ns/op/12 test cases][Algorithms-29-Test]|6 ms|
-|28|[Implement strStr()][Algorithms-28]|[WindomZ][Algorithms-28-Go]|Easy|[34.0 ns/op/7 test cases][Algorithms-28-Test]|0 ms|
-|27|[Remove Element][Algorithms-27]|[WindomZ][Algorithms-27-Go]|Easy|[36.9 ns/op/6 test cases][Algorithms-27-Test]|3 ms|
-|26|[Remove Duplicates from Sorted Array][Algorithms-26]|[WindomZ][Algorithms-26-Go]|Easy|[38.3 ns/op/6 test cases][Algorithms-26-Test]|102 ms|
-|25|[Reverse Nodes in k-Group][Algorithms-25]|[WindomZ][Algorithms-25-Go]|Hard|[227 ns/op/3 test cases][Algorithms-25-Test]|9 ms|
-|24|[Swap Nodes in Pairs][Algorithms-24]|[WindomZ][Algorithms-24-Go]|Medium|[242 ns/op/4 test cases][Algorithms-24-Test]|0 ms|
-|23|[Merge k Sorted Lists][Algorithms-23]|[WindomZ][Algorithms-23-Go]|Hard|[354 ns/op/4 test cases][Algorithms-23-Test]|19 ms|
-|22|[Generate Parentheses][Algorithms-22]|[WindomZ][Algorithms-22-Go]|Medium|[1207 ns/op/4 test cases][Algorithms-22-Test]|13 ms|
-|21|[Merge Two Sorted Lists][Algorithms-21]|[WindomZ][Algorithms-21-Go]|Easy|[270 ns/op/3 test cases][Algorithms-21-Test]|3 ms|
-|20|[Valid Parentheses][Algorithms-20]|[WindomZ][Algorithms-20-Go]|Easy|[127 ns/op/6 test cases][Algorithms-20-Test]|0 ms|
-|19|[Remove Nth Node From End of List][Algorithms-19]|[WindomZ][Algorithms-19-Go]|Medium|[0.00 ns/op/6 test cases][Algorithms-19-Test]|3 ms|
-|18|[4Sum][Algorithms-18]|[WindomZ][Algorithms-18-Go]|Medium|[796 ns/op/3 test cases][Algorithms-18-Test]|16 ms|
-|17|[Letter Combinations of a Phone Number][Algorithms-17]|[WindomZ][Algorithms-17-Go]|Medium|[1466 ns/op/4 test cases][Algorithms-17-Test]|0 ms|
-|16|[3Sum Closest][Algorithms-16]|[WindomZ][Algorithms-16-Go]|Medium|[1426 ns/op/8 test cases][Algorithms-16-Test]|9 ms|
-|15|[3Sum][Algorithms-15]|[WindomZ][Algorithms-15-Go]|Medium|[614 ns/op/4 test cases][Algorithms-15-Test]|1525 ms|
-|14|[Longest Common Prefix][Algorithms-14]|[WindomZ][Algorithms-14-Go]|Easy|[45.8 ns/op/8 test cases][Algorithms-14-Test]|3 ms|
-|13|[Roman to Integer][Algorithms-13]|[WindomZ][Algorithms-13-Go]|Easy|[101 ns/op/8 test cases][Algorithms-13-Test]|19 ms|
-|12|[Integer to Roman][Algorithms-12]|[WindomZ][Algorithms-12-Go]|Medium|[96.6 ns/op/8 test cases][Algorithms-12-Test]|22 ms|
-|11|[Container With Most Water][Algorithms-11]|[WindomZ][Algorithms-11-Go]|Medium|[38.0 ns/op/5 test cases][Algorithms-11-Test]|25 ms|
-|10|[Regular Expression Matching][Algorithms-10]|[WindomZ][Algorithms-10-Go]|Hard|[630 ns/op/6 test cases][Algorithms-10-Test]|3 ms|
-|9|[Palindrome Number][Algorithms-9]|[WindomZ][Algorithms-9-Go]|Easy|[27.3 ns/op/7 test cases][Algorithms-9-Test]|55 ms|
-|8|[String to Integer (atoi)][Algorithms-8]|[WindomZ][Algorithms-8-Go]|Medium|[33.4 ns/op/5 test cases][Algorithms-8-Test]|3 ms|
-|7|[Reverse Integer][Algorithms-7]|[WindomZ][Algorithms-7-Go]|Easy|[39.3 ns/op/5 test cases][Algorithms-7-Test]|3 ms|
-|6|[ZigZag Conversion][Algorithms-6]|[WindomZ][Algorithms-6-Go]|Medium|[205 ns/op/5 test cases][Algorithms-6-Test]|9 ms|
-|5|[Longest Palindromic Substring][Algorithms-5]|[WindomZ][Algorithms-5-Go]|Medium|[151 ns/op/6 test cases][Algorithms-5-Test]|9 ms|
-|4|[Median of Two Sorted Arrays][Algorithms-4]|[WindomZ][Algorithms-4-Go]|Hard|[74.3 ns/op/14 test cases][Algorithms-4-Test]|32 ms|
-|3|[Longest Substring Without Repeating Characters][Algorithms-3]|[WindomZ][Algorithms-3-Go]|Medium|[103 ns/op/3 test cases][Algorithms-3-Test]|6 ms|
-|2|[Add Two Numbers][Algorithms-2]|[WindomZ][Algorithms-2-Go]|Medium|[79.4 ns/op/1 test cases][Algorithms-2-Test]|29 ms|
-|1|[Two Sum][Algorithms-1]|[WindomZ][Algorithms-1-Go]|Easy|[305 ns/op/3 test cases][Algorithms-1-Test]|6 ms|
+|48|[Rotate Image][Solutions-48]|[WindomZ][Solutions-48-Go]|Medium|[12.1 ns/op/3 test cases][Solutions-48-Test]|3 ms|
+|47|[Permutations II][Solutions-47]|[WindomZ][Solutions-47-Go]|Medium|[531 ns/op/3 test cases][Solutions-47-Test]|19 ms|
+|46|[Permutations][Solutions-46]|[WindomZ][Solutions-46-Go]|Medium|[1713 ns/op/3 test cases][Solutions-46-Test]|9 ms|
+|45|[Jump Game II][Solutions-45]|[WindomZ][Solutions-45-Go]|Hard|[19.6 ns/op/6 test cases][Solutions-45-Test]|19 ms|
+|44|[Wildcard Matching][Solutions-44]|[WindomZ][Solutions-44-Go]|Hard|[49.6 ns/op/9 test cases][Solutions-44-Test]|15 ms|
+|43|[Multiply Strings][Solutions-43]|[WindomZ][Solutions-43-Go]|Medium|[215 ns/op/6 test cases][Solutions-43-Test]|3 ms|
+|42|[Trapping Rain Water][Solutions-42]|[WindomZ][Solutions-42-Go]|Hard|[74.1 ns/op/6 test cases][Solutions-42-Test]|6 ms|
+|41|[First Missing Positive][Solutions-41]|[WindomZ][Solutions-41-Go]|Hard|[60.3 ns/op/6 test cases][Solutions-41-Test]|3 ms|
+|40|[Combination Sum II][Solutions-40]|[WindomZ][Solutions-40-Go]|Medium|[710 ns/op/3 test cases][Solutions-40-Test]|3 ms|
+|39|[Combination Sum][Solutions-39]|[WindomZ][Solutions-39-Go]|Medium|[623 ns/op/3 test cases][Solutions-39-Test]|6 ms|
+|38|[Count and Say][Solutions-38]|[WindomZ][Solutions-38-Go]|Easy|[262 ns/op/4 test cases][Solutions-38-Test]|0 ms|
+|37|[Sudoku Solver][Solutions-37]|[WindomZ][Solutions-37-Go]|Hard|[134573 ns/op/2 test cases][Solutions-37-Test]|0 ms|
+|36|[Valid Sudoku][Solutions-36]|[WindomZ][Solutions-36-Go]|Medium|[565 ns/op/3 test cases][Solutions-36-Test]|6 ms|
+|35|[Search Insert Position][Solutions-35]|[WindomZ][Solutions-35-Go]|Easy|[30.8 ns/op/8 test cases][Solutions-35-Test]|6 ms|
+|34|[Search for a Range][Solutions-34]|[WindomZ][Solutions-34-Go]|Medium|[209 ns/op/8 test cases][Solutions-34-Test]|19 ms|
+|33|[Search in Rotated Sorted Array][Solutions-33]|[WindomZ][Solutions-33-Go]|Medium|[151 ns/op/8 test cases][Solutions-33-Test]|3 ms|
+|32|[Longest Valid Parentheses][Solutions-32]|[WindomZ][Solutions-32-Go]|Hard|[221 ns/op/8 test cases][Solutions-32-Test]|3 ms|
+|31|[Next Permutation][Solutions-31]|[WindomZ][Solutions-31-Go]|Medium|[11.4 ns/op/4 test cases][Solutions-31-Test]|6 ms|
+|30|[Substring with Concatenation of All Words][Solutions-30]|[WindomZ][Solutions-30-Go]|Hard|[1358 ns/op/3 test cases][Solutions-30-Test]|13 ms|
+|29|[Divide Two Integers][Solutions-29]|[WindomZ][Solutions-29-Go]|Medium|[249 ns/op/12 test cases][Solutions-29-Test]|6 ms|
+|28|[Implement strStr()][Solutions-28]|[WindomZ][Solutions-28-Go]|Easy|[34.0 ns/op/7 test cases][Solutions-28-Test]|0 ms|
+|27|[Remove Element][Solutions-27]|[WindomZ][Solutions-27-Go]|Easy|[36.9 ns/op/6 test cases][Solutions-27-Test]|3 ms|
+|26|[Remove Duplicates from Sorted Array][Solutions-26]|[WindomZ][Solutions-26-Go]|Easy|[38.3 ns/op/6 test cases][Solutions-26-Test]|102 ms|
+|25|[Reverse Nodes in k-Group][Solutions-25]|[WindomZ][Solutions-25-Go]|Hard|[227 ns/op/3 test cases][Solutions-25-Test]|9 ms|
+|24|[Swap Nodes in Pairs][Solutions-24]|[WindomZ][Solutions-24-Go]|Medium|[242 ns/op/4 test cases][Solutions-24-Test]|0 ms|
+|23|[Merge k Sorted Lists][Solutions-23]|[WindomZ][Solutions-23-Go]|Hard|[354 ns/op/4 test cases][Solutions-23-Test]|19 ms|
+|22|[Generate Parentheses][Solutions-22]|[WindomZ][Solutions-22-Go]|Medium|[1207 ns/op/4 test cases][Solutions-22-Test]|13 ms|
+|21|[Merge Two Sorted Lists][Solutions-21]|[WindomZ][Solutions-21-Go]|Easy|[270 ns/op/3 test cases][Solutions-21-Test]|3 ms|
+|20|[Valid Parentheses][Solutions-20]|[WindomZ][Solutions-20-Go]|Easy|[127 ns/op/6 test cases][Solutions-20-Test]|0 ms|
+|19|[Remove Nth Node From End of List][Solutions-19]|[WindomZ][Solutions-19-Go]|Medium|[0.00 ns/op/6 test cases][Solutions-19-Test]|3 ms|
+|18|[4Sum][Solutions-18]|[WindomZ][Solutions-18-Go]|Medium|[796 ns/op/3 test cases][Solutions-18-Test]|16 ms|
+|17|[Letter Combinations of a Phone Number][Solutions-17]|[WindomZ][Solutions-17-Go]|Medium|[1466 ns/op/4 test cases][Solutions-17-Test]|0 ms|
+|16|[3Sum Closest][Solutions-16]|[WindomZ][Solutions-16-Go]|Medium|[1426 ns/op/8 test cases][Solutions-16-Test]|9 ms|
+|15|[3Sum][Solutions-15]|[WindomZ][Solutions-15-Go]|Medium|[614 ns/op/4 test cases][Solutions-15-Test]|1525 ms|
+|14|[Longest Common Prefix][Solutions-14]|[WindomZ][Solutions-14-Go]|Easy|[45.8 ns/op/8 test cases][Solutions-14-Test]|3 ms|
+|13|[Roman to Integer][Solutions-13]|[WindomZ][Solutions-13-Go]|Easy|[101 ns/op/8 test cases][Solutions-13-Test]|19 ms|
+|12|[Integer to Roman][Solutions-12]|[WindomZ][Solutions-12-Go]|Medium|[96.6 ns/op/8 test cases][Solutions-12-Test]|22 ms|
+|11|[Container With Most Water][Solutions-11]|[WindomZ][Solutions-11-Go]|Medium|[38.0 ns/op/5 test cases][Solutions-11-Test]|25 ms|
+|10|[Regular Expression Matching][Solutions-10]|[WindomZ][Solutions-10-Go]|Hard|[630 ns/op/6 test cases][Solutions-10-Test]|3 ms|
+|9|[Palindrome Number][Solutions-9]|[WindomZ][Solutions-9-Go]|Easy|[27.3 ns/op/7 test cases][Solutions-9-Test]|55 ms|
+|8|[String to Integer (atoi)][Solutions-8]|[WindomZ][Solutions-8-Go]|Medium|[33.4 ns/op/5 test cases][Solutions-8-Test]|3 ms|
+|7|[Reverse Integer][Solutions-7]|[WindomZ][Solutions-7-Go]|Easy|[39.3 ns/op/5 test cases][Solutions-7-Test]|3 ms|
+|6|[ZigZag Conversion][Solutions-6]|[WindomZ][Solutions-6-Go]|Medium|[205 ns/op/5 test cases][Solutions-6-Test]|9 ms|
+|5|[Longest Palindromic Substring][Solutions-5]|[WindomZ][Solutions-5-Go]|Medium|[151 ns/op/6 test cases][Solutions-5-Test]|9 ms|
+|4|[Median of Two Sorted Arrays][Solutions-4]|[WindomZ][Solutions-4-Go]|Hard|[74.3 ns/op/14 test cases][Solutions-4-Test]|32 ms|
+|3|[Longest Substring Without Repeating Characters][Solutions-3]|[WindomZ][Solutions-3-Go]|Medium|[103 ns/op/3 test cases][Solutions-3-Test]|6 ms|
+|2|[Add Two Numbers][Solutions-2]|[WindomZ][Solutions-2-Go]|Medium|[79.4 ns/op/1 test cases][Solutions-2-Test]|29 ms|
+|1|[Two Sum][Solutions-1]|[WindomZ][Solutions-1-Go]|Easy|[305 ns/op/3 test cases][Solutions-1-Test]|6 ms|
 
 > **NOTE**: 'Single Repetition Duration' and 'LeetCode Run Time' are for _reference_ only.
 
@@ -82,8 +82,8 @@
 ```bash
 git clone https://github.com/WindomZ/leetcode.go.git "$YOUR_PROJECT_PATH"
 cd "$YOUR_PROJECT_PATH"
-go test -v -run=. ./algorithms/...
-go test -bench=. -benchmem ./algorithms/...
+go test -v -run=. ./solutions/...
+go test -bench=. -benchmem ./solutions/...
 ```
 
 ## Contributing
@@ -101,147 +101,147 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
-[Algorithms-48-Test]:algorithms/rotate_image/rotate_test.go#L43
-[Algorithms-48-Go]:algorithms/rotate_image/rotate.go
-[Algorithms-48]:https://leetcode.com/rotate-image/
-[Algorithms-47-Test]:algorithms/permutations_ii/permuteUnique_test.go#L53
-[Algorithms-47-Go]:algorithms/permutations_ii/permuteUnique.go
-[Algorithms-47]:https://leetcode.com/permutations-ii/
-[Algorithms-46-Test]:algorithms/permutations/permute_test.go#L47
-[Algorithms-46-Go]:algorithms/permutations/permute.go
-[Algorithms-46]:https://leetcode.com/permutations/
-[Algorithms-45-Test]:algorithms/jump_game_ii/jump_test.go#L18
-[Algorithms-45-Go]:algorithms/jump_game_ii/jump.go
-[Algorithms-45]:https://leetcode.com/jump-game-ii/
-[Algorithms-44-Test]:algorithms/wildcard_matching/isMatch_test.go#L21
-[Algorithms-44-Go]:algorithms/wildcard_matching/isMatch.go
-[Algorithms-44]:https://leetcode.com/wildcard-matching/
-[Algorithms-43-Test]:algorithms/multiply_strings/multiply_test.go#L20
-[Algorithms-43-Go]:algorithms/multiply_strings/multiply.go
-[Algorithms-43]:https://leetcode.com/multiply-strings/
-[Algorithms-42-Test]:algorithms/trapping_rain_water/trap_test.go#L18
-[Algorithms-42-Go]:algorithms/trapping_rain_water/trap.go
-[Algorithms-42]:https://leetcode.com/trapping-rain-water/
-[Algorithms-41-Test]:algorithms/first_missing_positive/firstMissingPositive_test.go#L18
-[Algorithms-41-Go]:algorithms/first_missing_positive/firstMissingPositive.go
-[Algorithms-41]:https://leetcode.com/first-missing-positive/
-[Algorithms-40-Test]:algorithms/combination_sum_ii/combinationSum2_test.go#L16
-[Algorithms-40-Go]:algorithms/combination_sum_ii/combinationSum2.go
-[Algorithms-40]:https://leetcode.com/combination-sum-ii/
-[Algorithms-39-Test]:algorithms/combination_sum/combinationSum_test.go#L16
-[Algorithms-39-Go]:algorithms/combination_sum/combinationSum.go
-[Algorithms-39]:https://leetcode.com/combination-sum/
-[Algorithms-38-Test]:algorithms/count_and_say/countAndSay_test.go#L18
-[Algorithms-38-Go]:algorithms/count_and_say/countAndSay.go
-[Algorithms-38]:https://leetcode.com/count-and-say/
-[Algorithms-37-Test]:algorithms/sudoku_solver/solveSudoku_test.go#L61
-[Algorithms-37-Go]:algorithms/sudoku_solver/solveSudoku.go
-[Algorithms-37]:https://leetcode.com/sudoku-solver/
-[Algorithms-36-Test]:algorithms/valid_sudoku/isValidSudoku_test.go#L56
-[Algorithms-36-Go]:algorithms/valid_sudoku/isValidSudoku.go
-[Algorithms-36]:https://leetcode.com/valid-sudoku/
-[Algorithms-35-Test]:algorithms/search_insert_position/searchInsert_test.go#L22
-[Algorithms-35-Go]:algorithms/search_insert_position/searchInsert.go
-[Algorithms-35]:https://leetcode.com/search-insert-position/
-[Algorithms-34-Test]:algorithms/search_for_a_range/searchRange_test.go#L20
-[Algorithms-34-Go]:algorithms/search_for_a_range/searchRange.go
-[Algorithms-34]:https://leetcode.com/search-for-a-range/
-[Algorithms-33-Test]:algorithms/search_in_rotated_sorted_array/search_test.go#L20
-[Algorithms-33-Go]:algorithms/search_in_rotated_sorted_array/search.go
-[Algorithms-33]:https://leetcode.com/search-in-rotated-sorted-array/
-[Algorithms-32-Test]:algorithms/longest_valid_parentheses/longestValidParentheses_test.go#L23
-[Algorithms-32-Go]:algorithms/longest_valid_parentheses/longestValidParentheses.go
-[Algorithms-32]:https://leetcode.com/longest-valid-parentheses/
-[Algorithms-31-Test]:algorithms/next_permutation/nextPermutation_test.go#L33
-[Algorithms-31-Go]:algorithms/next_permutation/nextPermutation.go
-[Algorithms-31]:https://leetcode.com/next-permutation/
-[Algorithms-30-Test]:algorithms/substring_with_concatenation_of_all_words/findSubstring_test.go#L28
-[Algorithms-30-Go]:algorithms/substring_with_concatenation_of_all_words/findSubstring.go
-[Algorithms-30]:https://leetcode.com/substring-with-concatenation-of-all-words/
-[Algorithms-29-Test]:algorithms/divide_two_integers/divide_test.go#L24
-[Algorithms-29-Go]:algorithms/divide_two_integers/divide.go
-[Algorithms-29]:https://leetcode.com/divide-two-integers/
-[Algorithms-28-Test]:algorithms/implement_strstr/strStr_test.go#L19
-[Algorithms-28-Go]:algorithms/implement_strstr/strStr.go
-[Algorithms-28]:https://leetcode.com/implement-strstr/
-[Algorithms-27-Test]:algorithms/remove_element/removeElement_test.go#L18
-[Algorithms-27-Go]:algorithms/remove_element/removeElement.go
-[Algorithms-27]:https://leetcode.com/problems/remove-element/
-[Algorithms-26-Test]:algorithms/remove_duplicates_from_sorted_array/removeDuplicates_test.go#L18
-[Algorithms-26-Go]:algorithms/remove_duplicates_from_sorted_array/removeDuplicates.go
-[Algorithms-26]:https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-[Algorithms-25-Test]:algorithms/reverse_nodes_in_k_group/reverseKGroup_test.go#L65
-[Algorithms-25-Go]:algorithms/reverse_nodes_in_k_group/reverseKGroup.go
-[Algorithms-25]:https://leetcode.com/problems/reverse-nodes-in-k-group/
-[Algorithms-24-Test]:algorithms/swap_nodes_in_pairs/swapPairs_test.go#L65
-[Algorithms-24-Go]:algorithms/swap_nodes_in_pairs/swapPairs.go
-[Algorithms-24]:https://leetcode.com/problems/swap-nodes-in-pairs/
-[Algorithms-23-Test]:algorithms/merge_k_sorted_lists/mergeKLists_test.go#L98
-[Algorithms-23-Go]:algorithms/merge_k_sorted_lists/mergeKLists.go
-[Algorithms-23]:https://leetcode.com/problems/merge-k-sorted-lists/
-[Algorithms-22-Test]:algorithms/generate_parentheses/generateParenthesis_test.go#L19
-[Algorithms-22-Go]:algorithms/generate_parentheses/generateParenthesis.go
-[Algorithms-22]:https://leetcode.com/problems/generate-parentheses/
-[Algorithms-21-Test]:algorithms/merge_two_sorted_lists/mergeTwoLists_test.go#L75
-[Algorithms-21-Go]:algorithms/merge_two_sorted_lists/mergeTwoLists.go
-[Algorithms-21]:https://leetcode.com/problems/merge-two-sorted-lists/
-[Algorithms-20-Test]:algorithms/valid_parentheses/isValid_test.go#L25
-[Algorithms-20-Go]:algorithms/valid_parentheses/isValid.go
-[Algorithms-20]:https://leetcode.com/problems/valid-parentheses/
-[Algorithms-19-Test]:algorithms/remove_nth_node_from_end_of_list/removeNthFromEnd_test.go#L72
-[Algorithms-19-Go]:algorithms/remove_nth_node_from_end_of_list/removeNthFromEnd.go
-[Algorithms-19]:https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-[Algorithms-18-Test]:algorithms/4sum/fourSum_test.go#L28
-[Algorithms-18-Go]:algorithms/4sum/fourSum.go
-[Algorithms-18]:https://leetcode.com/problems/4sum/
-[Algorithms-17-Test]:algorithms/letter_combinations_of_a_phone_number/letterCombinations_test.go#L27
-[Algorithms-17-Go]:algorithms/letter_combinations_of_a_phone_number/letterCombinations.go
-[Algorithms-17]:https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-[Algorithms-16-Test]:algorithms/3sum_closest/threeSumClosest_test.go#L20
-[Algorithms-16-Go]:algorithms/3sum_closest/threeSumClosest.go
-[Algorithms-16]:https://leetcode.com/problems/3sum-closest/
-[Algorithms-15-Test]:algorithms/3sum/threeSum_test.go#L20
-[Algorithms-15-Go]:algorithms/3sum/threeSum.go
-[Algorithms-15]:https://leetcode.com/problems/3sum/
-[Algorithms-14-Test]:algorithms/longest_common_prefix/longestCommonPrefix_test.go#L19
-[Algorithms-14-Go]:algorithms/longest_common_prefix/longestCommonPrefix.go
-[Algorithms-14]:https://leetcode.com/problems/longest-common-prefix/
-[Algorithms-13-Test]:algorithms/roman_to_integer/romanToInt_test.go#L23
-[Algorithms-13-Go]:algorithms/roman_to_integer/romanToInt.go
-[Algorithms-13]:https://leetcode.com/problems/roman-to-integer/
-[Algorithms-12-Test]:algorithms/integer_to_roman/intToRoman_test.go#L22
-[Algorithms-12-Go]:algorithms/integer_to_roman/intToRoman.go
-[Algorithms-12]:https://leetcode.com/problems/integer-to-roman/
-[Algorithms-11-Test]:algorithms/container_with_most_water/maxArea_test.go#L21
-[Algorithms-11-Go]:algorithms/container_with_most_water/maxArea.go
-[Algorithms-11]:https://leetcode.com/problems/container-with-most-water/
-[Algorithms-10-Test]:algorithms/regular_expression_matching/isMatch_test.go#L40
-[Algorithms-10-Go]:algorithms/regular_expression_matching/isMatch.go
-[Algorithms-10]:https://leetcode.com/problems/regular-expression-matching/
-[Algorithms-9-Test]:algorithms/palindrome_number/isPalindrome_test.go#L20
-[Algorithms-9-Go]:algorithms/palindrome_number/isPalindrome.go
-[Algorithms-9]:https://leetcode.com/problems/palindrome-number/
-[Algorithms-8-Test]:algorithms/string_to_integer_atoi/myAtoi_test.go#L34
-[Algorithms-8-Go]:algorithms/string_to_integer_atoi/myAtoi.go
-[Algorithms-8]:https://leetcode.com/problems/string-to-integer-atoi/
-[Algorithms-7-Test]:algorithms/reverse_integer/reverse_test.go#L32
-[Algorithms-7-Go]:algorithms/reverse_integer/reverse.go
-[Algorithms-7]:https://leetcode.com/problems/reverse-integer/
-[Algorithms-6-Test]:algorithms/zigzag_conversion/convert_test.go#L18
-[Algorithms-6-Go]:algorithms/zigzag_conversion/convert.go
-[Algorithms-6]:https://leetcode.com/problems/zigzag-conversion/
-[Algorithms-5-Test]:algorithms/longest_palindromic_substring/longestPalindrome_test.go#L18
-[Algorithms-5-Go]:algorithms/longest_palindromic_substring/longestPalindrome.go
-[Algorithms-5]:https://leetcode.com/problems/longest-palindromic-substring/
-[Algorithms-4-Test]:algorithms/median_of_two_sorted_arrays/findMedianSortedArrays_test.go#L71
-[Algorithms-4-Go]:algorithms/median_of_two_sorted_arrays/findMedianSortedArrays.go
-[Algorithms-4]:https://leetcode.com/problems/median-of-two-sorted-arrays/
-[Algorithms-3-Test]:algorithms/longest_substring_without_repeating_characters/lengthOfLongestSubstring_test.go#L16
-[Algorithms-3-Go]:algorithms/longest_substring_without_repeating_characters/lengthOfLongestSubstring.go
-[Algorithms-3]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
-[Algorithms-2-Test]:algorithms/add_two_numbers/addTwoNumbers_test.go#L118
-[Algorithms-2-Go]:algorithms/add_two_numbers/addTwoNumbers.go
-[Algorithms-2]:https://leetcode.com/problems/add-two-numbers/
-[Algorithms-1-Test]:algorithms/two_sum/twoSum_test.go#L16
-[Algorithms-1-Go]:algorithms/two_sum/twoSum.go
-[Algorithms-1]:https://leetcode.com/problems/two-sum/
+[Solutions-48-Test]:solutions/rotate_image/rotate_test.go#L43
+[Solutions-48-Go]:solutions/rotate_image/rotate.go
+[Solutions-48]:https://leetcode.com/rotate-image/
+[Solutions-47-Test]:solutions/permutations_ii/permuteUnique_test.go#L53
+[Solutions-47-Go]:solutions/permutations_ii/permuteUnique.go
+[Solutions-47]:https://leetcode.com/permutations-ii/
+[Solutions-46-Test]:solutions/permutations/permute_test.go#L47
+[Solutions-46-Go]:solutions/permutations/permute.go
+[Solutions-46]:https://leetcode.com/permutations/
+[Solutions-45-Test]:solutions/jump_game_ii/jump_test.go#L18
+[Solutions-45-Go]:solutions/jump_game_ii/jump.go
+[Solutions-45]:https://leetcode.com/jump-game-ii/
+[Solutions-44-Test]:solutions/wildcard_matching/isMatch_test.go#L21
+[Solutions-44-Go]:solutions/wildcard_matching/isMatch.go
+[Solutions-44]:https://leetcode.com/wildcard-matching/
+[Solutions-43-Test]:solutions/multiply_strings/multiply_test.go#L20
+[Solutions-43-Go]:solutions/multiply_strings/multiply.go
+[Solutions-43]:https://leetcode.com/multiply-strings/
+[Solutions-42-Test]:solutions/trapping_rain_water/trap_test.go#L18
+[Solutions-42-Go]:solutions/trapping_rain_water/trap.go
+[Solutions-42]:https://leetcode.com/trapping-rain-water/
+[Solutions-41-Test]:solutions/first_missing_positive/firstMissingPositive_test.go#L18
+[Solutions-41-Go]:solutions/first_missing_positive/firstMissingPositive.go
+[Solutions-41]:https://leetcode.com/first-missing-positive/
+[Solutions-40-Test]:solutions/combination_sum_ii/combinationSum2_test.go#L16
+[Solutions-40-Go]:solutions/combination_sum_ii/combinationSum2.go
+[Solutions-40]:https://leetcode.com/combination-sum-ii/
+[Solutions-39-Test]:solutions/combination_sum/combinationSum_test.go#L16
+[Solutions-39-Go]:solutions/combination_sum/combinationSum.go
+[Solutions-39]:https://leetcode.com/combination-sum/
+[Solutions-38-Test]:solutions/count_and_say/countAndSay_test.go#L18
+[Solutions-38-Go]:solutions/count_and_say/countAndSay.go
+[Solutions-38]:https://leetcode.com/count-and-say/
+[Solutions-37-Test]:solutions/sudoku_solver/solveSudoku_test.go#L61
+[Solutions-37-Go]:solutions/sudoku_solver/solveSudoku.go
+[Solutions-37]:https://leetcode.com/sudoku-solver/
+[Solutions-36-Test]:solutions/valid_sudoku/isValidSudoku_test.go#L56
+[Solutions-36-Go]:solutions/valid_sudoku/isValidSudoku.go
+[Solutions-36]:https://leetcode.com/valid-sudoku/
+[Solutions-35-Test]:solutions/search_insert_position/searchInsert_test.go#L22
+[Solutions-35-Go]:solutions/search_insert_position/searchInsert.go
+[Solutions-35]:https://leetcode.com/search-insert-position/
+[Solutions-34-Test]:solutions/search_for_a_range/searchRange_test.go#L20
+[Solutions-34-Go]:solutions/search_for_a_range/searchRange.go
+[Solutions-34]:https://leetcode.com/search-for-a-range/
+[Solutions-33-Test]:solutions/search_in_rotated_sorted_array/search_test.go#L20
+[Solutions-33-Go]:solutions/search_in_rotated_sorted_array/search.go
+[Solutions-33]:https://leetcode.com/search-in-rotated-sorted-array/
+[Solutions-32-Test]:solutions/longest_valid_parentheses/longestValidParentheses_test.go#L23
+[Solutions-32-Go]:solutions/longest_valid_parentheses/longestValidParentheses.go
+[Solutions-32]:https://leetcode.com/longest-valid-parentheses/
+[Solutions-31-Test]:solutions/next_permutation/nextPermutation_test.go#L33
+[Solutions-31-Go]:solutions/next_permutation/nextPermutation.go
+[Solutions-31]:https://leetcode.com/next-permutation/
+[Solutions-30-Test]:solutions/substring_with_concatenation_of_all_words/findSubstring_test.go#L28
+[Solutions-30-Go]:solutions/substring_with_concatenation_of_all_words/findSubstring.go
+[Solutions-30]:https://leetcode.com/substring-with-concatenation-of-all-words/
+[Solutions-29-Test]:solutions/divide_two_integers/divide_test.go#L24
+[Solutions-29-Go]:solutions/divide_two_integers/divide.go
+[Solutions-29]:https://leetcode.com/divide-two-integers/
+[Solutions-28-Test]:solutions/implement_strstr/strStr_test.go#L19
+[Solutions-28-Go]:solutions/implement_strstr/strStr.go
+[Solutions-28]:https://leetcode.com/implement-strstr/
+[Solutions-27-Test]:solutions/remove_element/removeElement_test.go#L18
+[Solutions-27-Go]:solutions/remove_element/removeElement.go
+[Solutions-27]:https://leetcode.com/problems/remove-element/
+[Solutions-26-Test]:solutions/remove_duplicates_from_sorted_array/removeDuplicates_test.go#L18
+[Solutions-26-Go]:solutions/remove_duplicates_from_sorted_array/removeDuplicates.go
+[Solutions-26]:https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+[Solutions-25-Test]:solutions/reverse_nodes_in_k_group/reverseKGroup_test.go#L65
+[Solutions-25-Go]:solutions/reverse_nodes_in_k_group/reverseKGroup.go
+[Solutions-25]:https://leetcode.com/problems/reverse-nodes-in-k-group/
+[Solutions-24-Test]:solutions/swap_nodes_in_pairs/swapPairs_test.go#L65
+[Solutions-24-Go]:solutions/swap_nodes_in_pairs/swapPairs.go
+[Solutions-24]:https://leetcode.com/problems/swap-nodes-in-pairs/
+[Solutions-23-Test]:solutions/merge_k_sorted_lists/mergeKLists_test.go#L98
+[Solutions-23-Go]:solutions/merge_k_sorted_lists/mergeKLists.go
+[Solutions-23]:https://leetcode.com/problems/merge-k-sorted-lists/
+[Solutions-22-Test]:solutions/generate_parentheses/generateParenthesis_test.go#L19
+[Solutions-22-Go]:solutions/generate_parentheses/generateParenthesis.go
+[Solutions-22]:https://leetcode.com/problems/generate-parentheses/
+[Solutions-21-Test]:solutions/merge_two_sorted_lists/mergeTwoLists_test.go#L75
+[Solutions-21-Go]:solutions/merge_two_sorted_lists/mergeTwoLists.go
+[Solutions-21]:https://leetcode.com/problems/merge-two-sorted-lists/
+[Solutions-20-Test]:solutions/valid_parentheses/isValid_test.go#L25
+[Solutions-20-Go]:solutions/valid_parentheses/isValid.go
+[Solutions-20]:https://leetcode.com/problems/valid-parentheses/
+[Solutions-19-Test]:solutions/remove_nth_node_from_end_of_list/removeNthFromEnd_test.go#L72
+[Solutions-19-Go]:solutions/remove_nth_node_from_end_of_list/removeNthFromEnd.go
+[Solutions-19]:https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+[Solutions-18-Test]:solutions/4sum/fourSum_test.go#L28
+[Solutions-18-Go]:solutions/4sum/fourSum.go
+[Solutions-18]:https://leetcode.com/problems/4sum/
+[Solutions-17-Test]:solutions/letter_combinations_of_a_phone_number/letterCombinations_test.go#L27
+[Solutions-17-Go]:solutions/letter_combinations_of_a_phone_number/letterCombinations.go
+[Solutions-17]:https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+[Solutions-16-Test]:solutions/3sum_closest/threeSumClosest_test.go#L20
+[Solutions-16-Go]:solutions/3sum_closest/threeSumClosest.go
+[Solutions-16]:https://leetcode.com/problems/3sum-closest/
+[Solutions-15-Test]:solutions/3sum/threeSum_test.go#L20
+[Solutions-15-Go]:solutions/3sum/threeSum.go
+[Solutions-15]:https://leetcode.com/problems/3sum/
+[Solutions-14-Test]:solutions/longest_common_prefix/longestCommonPrefix_test.go#L19
+[Solutions-14-Go]:solutions/longest_common_prefix/longestCommonPrefix.go
+[Solutions-14]:https://leetcode.com/problems/longest-common-prefix/
+[Solutions-13-Test]:solutions/roman_to_integer/romanToInt_test.go#L23
+[Solutions-13-Go]:solutions/roman_to_integer/romanToInt.go
+[Solutions-13]:https://leetcode.com/problems/roman-to-integer/
+[Solutions-12-Test]:solutions/integer_to_roman/intToRoman_test.go#L22
+[Solutions-12-Go]:solutions/integer_to_roman/intToRoman.go
+[Solutions-12]:https://leetcode.com/problems/integer-to-roman/
+[Solutions-11-Test]:solutions/container_with_most_water/maxArea_test.go#L21
+[Solutions-11-Go]:solutions/container_with_most_water/maxArea.go
+[Solutions-11]:https://leetcode.com/problems/container-with-most-water/
+[Solutions-10-Test]:solutions/regular_expression_matching/isMatch_test.go#L40
+[Solutions-10-Go]:solutions/regular_expression_matching/isMatch.go
+[Solutions-10]:https://leetcode.com/problems/regular-expression-matching/
+[Solutions-9-Test]:solutions/palindrome_number/isPalindrome_test.go#L20
+[Solutions-9-Go]:solutions/palindrome_number/isPalindrome.go
+[Solutions-9]:https://leetcode.com/problems/palindrome-number/
+[Solutions-8-Test]:solutions/string_to_integer_atoi/myAtoi_test.go#L34
+[Solutions-8-Go]:solutions/string_to_integer_atoi/myAtoi.go
+[Solutions-8]:https://leetcode.com/problems/string-to-integer-atoi/
+[Solutions-7-Test]:solutions/reverse_integer/reverse_test.go#L32
+[Solutions-7-Go]:solutions/reverse_integer/reverse.go
+[Solutions-7]:https://leetcode.com/problems/reverse-integer/
+[Solutions-6-Test]:solutions/zigzag_conversion/convert_test.go#L18
+[Solutions-6-Go]:solutions/zigzag_conversion/convert.go
+[Solutions-6]:https://leetcode.com/problems/zigzag-conversion/
+[Solutions-5-Test]:solutions/longest_palindromic_substring/longestPalindrome_test.go#L18
+[Solutions-5-Go]:solutions/longest_palindromic_substring/longestPalindrome.go
+[Solutions-5]:https://leetcode.com/problems/longest-palindromic-substring/
+[Solutions-4-Test]:solutions/median_of_two_sorted_arrays/findMedianSortedArrays_test.go#L71
+[Solutions-4-Go]:solutions/median_of_two_sorted_arrays/findMedianSortedArrays.go
+[Solutions-4]:https://leetcode.com/problems/median-of-two-sorted-arrays/
+[Solutions-3-Test]:solutions/longest_substring_without_repeating_characters/lengthOfLongestSubstring_test.go#L16
+[Solutions-3-Go]:solutions/longest_substring_without_repeating_characters/lengthOfLongestSubstring.go
+[Solutions-3]:https://leetcode.com/problems/longest-substring-without-repeating-characters/
+[Solutions-2-Test]:solutions/add_two_numbers/addTwoNumbers_test.go#L118
+[Solutions-2-Go]:solutions/add_two_numbers/addTwoNumbers.go
+[Solutions-2]:https://leetcode.com/problems/add-two-numbers/
+[Solutions-1-Test]:solutions/two_sum/twoSum_test.go#L16
+[Solutions-1-Go]:solutions/two_sum/twoSum.go
+[Solutions-1]:https://leetcode.com/problems/two-sum/
