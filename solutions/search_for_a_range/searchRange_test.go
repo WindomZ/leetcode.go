@@ -18,14 +18,19 @@ func Test_searchRange(t *testing.T) {
 }
 
 func Benchmark_searchRange(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		searchRange([]int{}, 0)
-		searchRange([]int{4}, 4)
-		searchRange([]int{4, 5}, 5)
-		searchRange([]int{4, 5, 6}, 6)
-		searchRange([]int{4, 5, 6, 6, 7}, 6)
-		searchRange([]int{4, 5, 6, 6, 7, 7, 8}, 7)
-		searchRange([]int{4, 5, 6, 6, 7, 7, 7, 8}, 7)
-		searchRange([]int{4, 5, 6, 6, 7, 7, 7, 8, 8}, 8)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			searchRange([]int{}, 0)
+			searchRange([]int{4}, 4)
+			searchRange([]int{4, 5}, 5)
+			searchRange([]int{4, 5, 6}, 6)
+			searchRange([]int{4, 5, 6, 6, 7}, 6)
+			searchRange([]int{4, 5, 6, 6, 7, 7, 8}, 7)
+			searchRange([]int{4, 5, 6, 6, 7, 7, 7, 8}, 7)
+			searchRange([]int{4, 5, 6, 6, 7, 7, 7, 8, 8}, 8)
+		}
+	})
 }

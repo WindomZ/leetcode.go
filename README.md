@@ -34,12 +34,12 @@
 |41|[First Missing Positive][Solutions-41]|[WindomZ][Solutions-41-Go]|Hard|[12.3 ns/op/6 test cases][Solutions-41-Test]|3 ms|
 |40|[Combination Sum II][Solutions-40]|[WindomZ][Solutions-40-Go]|Medium|[203 ns/op/3 test cases][Solutions-40-Test]|3 ms|
 |39|[Combination Sum][Solutions-39]|[WindomZ][Solutions-39-Go]|Medium|[165 ns/op/3 test cases][Solutions-39-Test]|6 ms|
-|38|[Count and Say][Solutions-38]|[WindomZ][Solutions-38-Go]|Easy|[262 ns/op/4 test cases][Solutions-38-Test]|0 ms|
-|37|[Sudoku Solver][Solutions-37]|[WindomZ][Solutions-37-Go]|Hard|[134573 ns/op/2 test cases][Solutions-37-Test]|0 ms|
-|36|[Valid Sudoku][Solutions-36]|[WindomZ][Solutions-36-Go]|Medium|[565 ns/op/3 test cases][Solutions-36-Test]|6 ms|
-|35|[Search Insert Position][Solutions-35]|[WindomZ][Solutions-35-Go]|Easy|[30.8 ns/op/8 test cases][Solutions-35-Test]|6 ms|
-|34|[Search for a Range][Solutions-34]|[WindomZ][Solutions-34-Go]|Medium|[209 ns/op/8 test cases][Solutions-34-Test]|19 ms|
-|33|[Search in Rotated Sorted Array][Solutions-33]|[WindomZ][Solutions-33-Go]|Medium|[151 ns/op/8 test cases][Solutions-33-Test]|3 ms|
+|38|[Count and Say][Solutions-38]|[WindomZ][Solutions-38-Go]|Easy|[66.8 ns/op/4 test cases][Solutions-38-Test]|0 ms|
+|37|[Sudoku Solver][Solutions-37]|[WindomZ][Solutions-37-Go]|Hard|[35497 ns/op/2 test cases][Solutions-37-Test]|0 ms|
+|36|[Valid Sudoku][Solutions-36]|[WindomZ][Solutions-36-Go]|Medium|[135 ns/op/3 test cases][Solutions-36-Test]|6 ms|
+|35|[Search Insert Position][Solutions-35]|[WindomZ][Solutions-35-Go]|Easy|[7.76 ns/op/8 test cases][Solutions-35-Test]|6 ms|
+|34|[Search for a Range][Solutions-34]|[WindomZ][Solutions-34-Go]|Medium|[53.5 ns/op/8 test cases][Solutions-34-Test]|19 ms|
+|33|[Search in Rotated Sorted Array][Solutions-33]|[WindomZ][Solutions-33-Go]|Medium|[30.0 ns/op/8 test cases][Solutions-33-Test]|3 ms|
 |32|[Longest Valid Parentheses][Solutions-32]|[WindomZ][Solutions-32-Go]|Hard|[221 ns/op/8 test cases][Solutions-32-Test]|3 ms|
 |31|[Next Permutation][Solutions-31]|[WindomZ][Solutions-31-Go]|Medium|[11.4 ns/op/4 test cases][Solutions-31-Test]|6 ms|
 |30|[Substring with Concatenation of All Words][Solutions-30]|[WindomZ][Solutions-30-Go]|Hard|[1358 ns/op/3 test cases][Solutions-30-Test]|13 ms|

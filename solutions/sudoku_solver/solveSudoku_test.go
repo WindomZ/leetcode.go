@@ -83,28 +83,33 @@ func Test_solveSudoku(t *testing.T) {
 }
 
 func Benchmark_solveSudoku(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		solveSudoku([][]byte{
-			[]byte("........."),
-			[]byte("........."),
-			[]byte("........."),
-			[]byte("........."),
-			[]byte("........."),
-			[]byte("........."),
-			[]byte("........."),
-			[]byte("........."),
-			[]byte("........."),
-		})
-		solveSudoku([][]byte{
-			[]byte("53..7...."),
-			[]byte("6..195..."),
-			[]byte(".98....6."),
-			[]byte("8...6...3"),
-			[]byte("4..8.3..1"),
-			[]byte("7...2...6"),
-			[]byte(".6....28."),
-			[]byte("...419..5"),
-			[]byte("....8..79"),
-		})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			solveSudoku([][]byte{
+				[]byte("........."),
+				[]byte("........."),
+				[]byte("........."),
+				[]byte("........."),
+				[]byte("........."),
+				[]byte("........."),
+				[]byte("........."),
+				[]byte("........."),
+				[]byte("........."),
+			})
+			solveSudoku([][]byte{
+				[]byte("53..7...."),
+				[]byte("6..195..."),
+				[]byte(".98....6."),
+				[]byte("8...6...3"),
+				[]byte("4..8.3..1"),
+				[]byte("7...2...6"),
+				[]byte(".6....28."),
+				[]byte("...419..5"),
+				[]byte("....8..79"),
+			})
+		}
+	})
 }

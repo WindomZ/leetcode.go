@@ -16,10 +16,15 @@ func Test_countAndSay(t *testing.T) {
 }
 
 func Benchmark_countAndSay(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		countAndSay(0)
-		countAndSay(1)
-		countAndSay(4)
-		countAndSay(8)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			countAndSay(0)
+			countAndSay(1)
+			countAndSay(4)
+			countAndSay(8)
+		}
+	})
 }

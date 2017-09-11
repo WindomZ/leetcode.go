@@ -20,14 +20,19 @@ func Test_searchInsert(t *testing.T) {
 }
 
 func Benchmark_searchInsert(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		searchInsert([]int{}, 0)
-		searchInsert([]int{4}, 4)
-		searchInsert([]int{4, 5}, 5)
-		searchInsert([]int{4, 5, 6}, 6)
-		searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 2)
-		searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 3)
-		searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 7)
-		searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 8)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			searchInsert([]int{}, 0)
+			searchInsert([]int{4}, 4)
+			searchInsert([]int{4, 5}, 5)
+			searchInsert([]int{4, 5, 6}, 6)
+			searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 2)
+			searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 3)
+			searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 7)
+			searchInsert([]int{0, 1, 2, 4, 5, 6, 7}, 8)
+		}
+	})
 }
