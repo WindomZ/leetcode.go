@@ -45,9 +45,14 @@ func Test_permute(t *testing.T) {
 }
 
 func Benchmark_permute(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		permute([]int{})
-		permute([]int{1, 2, 3})
-		permute([]int{1, 2, 3, 4})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			permute([]int{})
+			permute([]int{1, 2, 3})
+			permute([]int{1, 2, 3, 4})
+		}
+	})
 }

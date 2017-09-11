@@ -25,9 +25,9 @@
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
 |48|[Rotate Image][Solutions-48]|[WindomZ][Solutions-48-Go]|Medium|[12.1 ns/op/3 test cases][Solutions-48-Test]|3 ms|
-|47|[Permutations II][Solutions-47]|[WindomZ][Solutions-47-Go]|Medium|[531 ns/op/3 test cases][Solutions-47-Test]|19 ms|
-|46|[Permutations][Solutions-46]|[WindomZ][Solutions-46-Go]|Medium|[1713 ns/op/3 test cases][Solutions-46-Test]|9 ms|
-|45|[Jump Game II][Solutions-45]|[WindomZ][Solutions-45-Go]|Hard|[19.6 ns/op/6 test cases][Solutions-45-Test]|19 ms|
+|47|[Permutations II][Solutions-47]|[WindomZ][Solutions-47-Go]|Medium|[198 ns/op/3 test cases][Solutions-47-Test]|19 ms|
+|46|[Permutations][Solutions-46]|[WindomZ][Solutions-46-Go]|Medium|[484 ns/op/3 test cases][Solutions-46-Test]|9 ms|
+|45|[Jump Game II][Solutions-45]|[WindomZ][Solutions-45-Go]|Hard|[5.14 ns/op/6 test cases][Solutions-45-Test]|19 ms|
 |44|[Wildcard Matching][Solutions-44]|[WindomZ][Solutions-44-Go]|Hard|[49.6 ns/op/9 test cases][Solutions-44-Test]|15 ms|
 |43|[Multiply Strings][Solutions-43]|[WindomZ][Solutions-43-Go]|Medium|[215 ns/op/6 test cases][Solutions-43-Test]|3 ms|
 |42|[Trapping Rain Water][Solutions-42]|[WindomZ][Solutions-42-Go]|Hard|[74.1 ns/op/6 test cases][Solutions-42-Test]|6 ms|

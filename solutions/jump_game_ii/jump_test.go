@@ -16,12 +16,17 @@ func Test_jump(t *testing.T) {
 }
 
 func Benchmark_jump(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		jump([]int{})
-		jump([]int{1})
-		jump([]int{1, 1, 0, 0})
-		jump([]int{2, 3, 1, 1, 4})
-		jump([]int{1, 2, 4, 3, 6})
-		jump([]int{4, 2, 1, 3, 6})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			jump([]int{})
+			jump([]int{1})
+			jump([]int{1, 1, 0, 0})
+			jump([]int{2, 3, 1, 1, 4})
+			jump([]int{1, 2, 4, 3, 6})
+			jump([]int{4, 2, 1, 3, 6})
+		}
+	})
 }

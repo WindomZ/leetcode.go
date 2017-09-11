@@ -51,9 +51,14 @@ func Test_permuteUnique(t *testing.T) {
 }
 
 func Benchmark_permuteUnique(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		permuteUnique([]int{})
-		permuteUnique([]int{1, 1, 2})
-		permuteUnique([]int{1, 2, 3})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			permuteUnique([]int{})
+			permuteUnique([]int{1, 1, 2})
+			permuteUnique([]int{1, 2, 3})
+		}
+	})
 }
