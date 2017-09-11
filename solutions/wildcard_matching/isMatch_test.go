@@ -19,15 +19,20 @@ func Test_isMatch(t *testing.T) {
 }
 
 func Benchmark_isMatch(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		isMatch("", "")
-		isMatch("aa", "a")
-		isMatch("aa", "aa")
-		isMatch("aaa", "aa")
-		isMatch("aa", "*")
-		isMatch("aa", "a*")
-		isMatch("ab", "?*")
-		isMatch("aab", "c*a*b")
-		isMatch("aab", "*a*b**")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			isMatch("", "")
+			isMatch("aa", "a")
+			isMatch("aa", "aa")
+			isMatch("aaa", "aa")
+			isMatch("aa", "*")
+			isMatch("aa", "a*")
+			isMatch("ab", "?*")
+			isMatch("aab", "c*a*b")
+			isMatch("aab", "*a*b**")
+		}
+	})
 }

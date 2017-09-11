@@ -14,9 +14,14 @@ func Test_combinationSum(t *testing.T) {
 }
 
 func Benchmark_combinationSum(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		combinationSum([]int{}, 0)
-		combinationSum([]int{7, 3}, 17)
-		combinationSum([]int{2, 3, 6, 7}, 7)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			combinationSum([]int{}, 0)
+			combinationSum([]int{7, 3}, 17)
+			combinationSum([]int{2, 3, 6, 7}, 7)
+		}
+	})
 }

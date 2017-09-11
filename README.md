@@ -28,12 +28,12 @@
 |47|[Permutations II][Solutions-47]|[WindomZ][Solutions-47-Go]|Medium|[198 ns/op/3 test cases][Solutions-47-Test]|19 ms|
 |46|[Permutations][Solutions-46]|[WindomZ][Solutions-46-Go]|Medium|[484 ns/op/3 test cases][Solutions-46-Test]|9 ms|
 |45|[Jump Game II][Solutions-45]|[WindomZ][Solutions-45-Go]|Hard|[5.14 ns/op/6 test cases][Solutions-45-Test]|19 ms|
-|44|[Wildcard Matching][Solutions-44]|[WindomZ][Solutions-44-Go]|Hard|[49.6 ns/op/9 test cases][Solutions-44-Test]|15 ms|
-|43|[Multiply Strings][Solutions-43]|[WindomZ][Solutions-43-Go]|Medium|[215 ns/op/6 test cases][Solutions-43-Test]|3 ms|
-|42|[Trapping Rain Water][Solutions-42]|[WindomZ][Solutions-42-Go]|Hard|[74.1 ns/op/6 test cases][Solutions-42-Test]|6 ms|
-|41|[First Missing Positive][Solutions-41]|[WindomZ][Solutions-41-Go]|Hard|[60.3 ns/op/6 test cases][Solutions-41-Test]|3 ms|
-|40|[Combination Sum II][Solutions-40]|[WindomZ][Solutions-40-Go]|Medium|[710 ns/op/3 test cases][Solutions-40-Test]|3 ms|
-|39|[Combination Sum][Solutions-39]|[WindomZ][Solutions-39-Go]|Medium|[623 ns/op/3 test cases][Solutions-39-Test]|6 ms|
+|44|[Wildcard Matching][Solutions-44]|[WindomZ][Solutions-44-Go]|Hard|[10.9 ns/op/9 test cases][Solutions-44-Test]|15 ms|
+|43|[Multiply Strings][Solutions-43]|[WindomZ][Solutions-43-Go]|Medium|[53.4 ns/op/6 test cases][Solutions-43-Test]|3 ms|
+|42|[Trapping Rain Water][Solutions-42]|[WindomZ][Solutions-42-Go]|Hard|[14.4 ns/op/6 test cases][Solutions-42-Test]|6 ms|
+|41|[First Missing Positive][Solutions-41]|[WindomZ][Solutions-41-Go]|Hard|[12.3 ns/op/6 test cases][Solutions-41-Test]|3 ms|
+|40|[Combination Sum II][Solutions-40]|[WindomZ][Solutions-40-Go]|Medium|[203 ns/op/3 test cases][Solutions-40-Test]|3 ms|
+|39|[Combination Sum][Solutions-39]|[WindomZ][Solutions-39-Go]|Medium|[165 ns/op/3 test cases][Solutions-39-Test]|6 ms|
 |38|[Count and Say][Solutions-38]|[WindomZ][Solutions-38-Go]|Easy|[262 ns/op/4 test cases][Solutions-38-Test]|0 ms|
 |37|[Sudoku Solver][Solutions-37]|[WindomZ][Solutions-37-Go]|Hard|[134573 ns/op/2 test cases][Solutions-37-Test]|0 ms|
 |36|[Valid Sudoku][Solutions-36]|[WindomZ][Solutions-36-Go]|Medium|[565 ns/op/3 test cases][Solutions-36-Test]|6 ms|

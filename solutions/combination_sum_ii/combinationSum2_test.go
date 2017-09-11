@@ -14,9 +14,14 @@ func Test_combinationSum2(t *testing.T) {
 }
 
 func Benchmark_combinationSum2(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		combinationSum2([]int{}, 0)
-		combinationSum2([]int{2, 3, 6, 7}, 7)
-		combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			combinationSum2([]int{}, 0)
+			combinationSum2([]int{2, 3, 6, 7}, 7)
+			combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8)
+		}
+	})
 }

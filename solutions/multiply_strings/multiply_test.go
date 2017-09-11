@@ -18,12 +18,17 @@ func Test_multiply(t *testing.T) {
 }
 
 func Benchmark_multiply(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		multiply("1", "0")
-		multiply("1", "1")
-		multiply("10", "2")
-		multiply("12", "23")
-		multiply("123", "45")
-		multiply("999", "99")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			multiply("1", "0")
+			multiply("1", "1")
+			multiply("10", "2")
+			multiply("12", "23")
+			multiply("123", "45")
+			multiply("999", "99")
+		}
+	})
 }

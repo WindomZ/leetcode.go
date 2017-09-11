@@ -16,12 +16,17 @@ func Test_firstMissingPositive(t *testing.T) {
 }
 
 func Benchmark_firstMissingPositive(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		firstMissingPositive([]int{})
-		firstMissingPositive([]int{1, 2, 0})
-		firstMissingPositive([]int{3, 4, -1, 1})
-		firstMissingPositive([]int{3, 4, -1, 1, 2, 5})
-		firstMissingPositive([]int{3, 4, -1, 1, 2, 5, 8, 9})
-		firstMissingPositive([]int{6, 4, -1, -2, 2, 5, 3, 1})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			firstMissingPositive([]int{})
+			firstMissingPositive([]int{1, 2, 0})
+			firstMissingPositive([]int{3, 4, -1, 1})
+			firstMissingPositive([]int{3, 4, -1, 1, 2, 5})
+			firstMissingPositive([]int{3, 4, -1, 1, 2, 5, 8, 9})
+			firstMissingPositive([]int{6, 4, -1, -2, 2, 5, 3, 1})
+		}
+	})
 }
