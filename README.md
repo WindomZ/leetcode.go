@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|50|[Pow(x, n)][Solutions-50]|[WindomZ][Solutions-50-Go]|Medium|[7.31 ns/op/12 test cases][Solutions-50-Test]|3 ms|
 |49|[Group Anagrams][Solutions-49]|[WindomZ][Solutions-49-Go]|Medium|[313 ns/op/3 test cases][Solutions-49-Test]|582 ms|
 |48|[Rotate Image][Solutions-48]|[WindomZ][Solutions-48-Go]|Medium|[12.1 ns/op/3 test cases][Solutions-48-Test]|3 ms|
 |47|[Permutations II][Solutions-47]|[WindomZ][Solutions-47-Go]|Medium|[198 ns/op/3 test cases][Solutions-47-Test]|19 ms|
@@ -102,6 +103,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-50-Test]:solutions/powx_n/myPow_test.go#L26
+[Solutions-50-Go]:solutions/powx_n/myPow.go
+[Solutions-50]:https://leetcode.com/powx-n/
 [Solutions-49-Test]:solutions/group_anagrams/groupAnagrams_test.go#L23
 [Solutions-49-Go]:solutions/group_anagrams/groupAnagrams.go
 [Solutions-49]:https://leetcode.com/group-anagrams/
