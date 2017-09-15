@@ -42,11 +42,11 @@
 |35|[Search Insert Position][Solutions-35]|[WindomZ][Solutions-35-Go]|Easy|[7.76 ns/op/8 test cases][Solutions-35-Test]|6 ms|
 |34|[Search for a Range][Solutions-34]|[WindomZ][Solutions-34-Go]|Medium|[53.5 ns/op/8 test cases][Solutions-34-Test]|19 ms|
 |33|[Search in Rotated Sorted Array][Solutions-33]|[WindomZ][Solutions-33-Go]|Medium|[30.0 ns/op/8 test cases][Solutions-33-Test]|3 ms|
-|32|[Longest Valid Parentheses][Solutions-32]|[WindomZ][Solutions-32-Go]|Hard|[221 ns/op/8 test cases][Solutions-32-Test]|3 ms|
-|31|[Next Permutation][Solutions-31]|[WindomZ][Solutions-31-Go]|Medium|[11.4 ns/op/4 test cases][Solutions-31-Test]|6 ms|
-|30|[Substring with Concatenation of All Words][Solutions-30]|[WindomZ][Solutions-30-Go]|Hard|[1358 ns/op/3 test cases][Solutions-30-Test]|13 ms|
-|29|[Divide Two Integers][Solutions-29]|[WindomZ][Solutions-29-Go]|Medium|[249 ns/op/12 test cases][Solutions-29-Test]|6 ms|
-|28|[Implement strStr()][Solutions-28]|[WindomZ][Solutions-28-Go]|Easy|[34.0 ns/op/7 test cases][Solutions-28-Test]|0 ms|
+|32|[Longest Valid Parentheses][Solutions-32]|[WindomZ][Solutions-32-Go]|Hard|[78.9 ns/op/8 test cases][Solutions-32-Test]|3 ms|
+|31|[Next Permutation][Solutions-31]|[WindomZ][Solutions-31-Go]|Medium|[2.97 ns/op/4 test cases][Solutions-31-Test]|6 ms|
+|30|[Substring with Concatenation of All Words][Solutions-30]|[WindomZ][Solutions-30-Go]|Hard|[331 ns/op/3 test cases][Solutions-30-Test]|13 ms|
+|29|[Divide Two Integers][Solutions-29]|[WindomZ][Solutions-29-Go]|Medium|[63.2 ns/op/12 test cases][Solutions-29-Test]|6 ms|
+|28|[Implement strStr()][Solutions-28]|[WindomZ][Solutions-28-Go]|Easy|[9.29 ns/op/7 test cases][Solutions-28-Test]|0 ms|
 |27|[Remove Element][Solutions-27]|[WindomZ][Solutions-27-Go]|Easy|[36.9 ns/op/6 test cases][Solutions-27-Test]|3 ms|
 |26|[Remove Duplicates from Sorted Array][Solutions-26]|[WindomZ][Solutions-26-Go]|Easy|[38.3 ns/op/6 test cases][Solutions-26-Test]|102 ms|
 |25|[Reverse Nodes in k-Group][Solutions-25]|[WindomZ][Solutions-25-Go]|Hard|[227 ns/op/3 test cases][Solutions-25-Test]|9 ms|

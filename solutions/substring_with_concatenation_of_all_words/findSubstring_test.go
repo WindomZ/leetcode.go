@@ -26,11 +26,16 @@ func Test_findSubstring(t *testing.T) {
 }
 
 func Benchmark_findSubstring(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		findSubstring("", []string{""})
-		findSubstring("acaacc",
-			[]string{"ca", "ac"})
-		findSubstring("ababaab",
-			[]string{"ab", "ba", "ba"})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			findSubstring("", []string{""})
+			findSubstring("acaacc",
+				[]string{"ca", "ac"})
+			findSubstring("ababaab",
+				[]string{"ab", "ba", "ba"})
+		}
+	})
 }

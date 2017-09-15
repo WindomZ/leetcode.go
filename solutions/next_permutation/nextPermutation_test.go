@@ -31,10 +31,15 @@ func Test_nextPermutation(t *testing.T) {
 }
 
 func Benchmark_nextPermutation(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		nextPermutation([]int{})
-		nextPermutation([]int{1, 2, 3})
-		nextPermutation([]int{3, 2, 1})
-		nextPermutation([]int{1, 1, 5})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			nextPermutation([]int{})
+			nextPermutation([]int{1, 2, 3})
+			nextPermutation([]int{3, 2, 1})
+			nextPermutation([]int{1, 1, 5})
+		}
+	})
 }

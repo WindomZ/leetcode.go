@@ -21,14 +21,19 @@ func Test_longestValidParentheses(t *testing.T) {
 }
 
 func Benchmark_longestValidParentheses(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		longestValidParentheses("")
-		longestValidParentheses("()")
-		longestValidParentheses("()()")
-		longestValidParentheses("(()()")
-		longestValidParentheses("()(()")
-		longestValidParentheses(")()())")
-		longestValidParentheses("(()(((()")
-		longestValidParentheses(")()(((())))(")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			longestValidParentheses("")
+			longestValidParentheses("()")
+			longestValidParentheses("()()")
+			longestValidParentheses("(()()")
+			longestValidParentheses("()(()")
+			longestValidParentheses(")()())")
+			longestValidParentheses("(()(((()")
+			longestValidParentheses(")()(((())))(")
+		}
+	})
 }

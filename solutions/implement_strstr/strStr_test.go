@@ -17,13 +17,18 @@ func Test_strStr(t *testing.T) {
 }
 
 func Benchmark_strStr(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		strStr("", "")
-		strStr("A", "")
-		strStr("ABC", "B")
-		strStr("ABCDE", "CD")
-		strStr("ABCDEFG", "DEF")
-		strStr("ABCDEFGHI", "I")
-		strStr("ABCDEFGHIJK", "HIK")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			strStr("", "")
+			strStr("A", "")
+			strStr("ABC", "B")
+			strStr("ABCDE", "CD")
+			strStr("ABCDEFG", "DEF")
+			strStr("ABCDEFGHI", "I")
+			strStr("ABCDEFGHIJK", "HIK")
+		}
+	})
 }
