@@ -47,14 +47,14 @@
 |30|[Substring with Concatenation of All Words][Solutions-30]|[WindomZ][Solutions-30-Go]|Hard|[331 ns/op/3 test cases][Solutions-30-Test]|13 ms|
 |29|[Divide Two Integers][Solutions-29]|[WindomZ][Solutions-29-Go]|Medium|[63.2 ns/op/12 test cases][Solutions-29-Test]|6 ms|
 |28|[Implement strStr()][Solutions-28]|[WindomZ][Solutions-28-Go]|Easy|[9.29 ns/op/7 test cases][Solutions-28-Test]|0 ms|
-|27|[Remove Element][Solutions-27]|[WindomZ][Solutions-27-Go]|Easy|[36.9 ns/op/6 test cases][Solutions-27-Test]|3 ms|
-|26|[Remove Duplicates from Sorted Array][Solutions-26]|[WindomZ][Solutions-26-Go]|Easy|[38.3 ns/op/6 test cases][Solutions-26-Test]|102 ms|
-|25|[Reverse Nodes in k-Group][Solutions-25]|[WindomZ][Solutions-25-Go]|Hard|[227 ns/op/3 test cases][Solutions-25-Test]|9 ms|
-|24|[Swap Nodes in Pairs][Solutions-24]|[WindomZ][Solutions-24-Go]|Medium|[242 ns/op/4 test cases][Solutions-24-Test]|0 ms|
-|23|[Merge k Sorted Lists][Solutions-23]|[WindomZ][Solutions-23-Go]|Hard|[354 ns/op/4 test cases][Solutions-23-Test]|19 ms|
-|22|[Generate Parentheses][Solutions-22]|[WindomZ][Solutions-22-Go]|Medium|[1207 ns/op/4 test cases][Solutions-22-Test]|13 ms|
-|21|[Merge Two Sorted Lists][Solutions-21]|[WindomZ][Solutions-21-Go]|Easy|[270 ns/op/3 test cases][Solutions-21-Test]|3 ms|
-|20|[Valid Parentheses][Solutions-20]|[WindomZ][Solutions-20-Go]|Easy|[127 ns/op/6 test cases][Solutions-20-Test]|0 ms|
+|27|[Remove Element][Solutions-27]|[WindomZ][Solutions-27-Go]|Easy|[8.75 ns/op/6 test cases][Solutions-27-Test]|3 ms|
+|26|[Remove Duplicates from Sorted Array][Solutions-26]|[WindomZ][Solutions-26-Go]|Easy|[9.51 ns/op/6 test cases][Solutions-26-Test]|102 ms|
+|25|[Reverse Nodes in k-Group][Solutions-25]|[WindomZ][Solutions-25-Go]|Hard|[58.6 ns/op/3 test cases][Solutions-25-Test]|9 ms|
+|24|[Swap Nodes in Pairs][Solutions-24]|[WindomZ][Solutions-24-Go]|Medium|[62.1 ns/op/4 test cases][Solutions-24-Test]|0 ms|
+|23|[Merge k Sorted Lists][Solutions-23]|[WindomZ][Solutions-23-Go]|Hard|[88.7 ns/op/4 test cases][Solutions-23-Test]|19 ms|
+|22|[Generate Parentheses][Solutions-22]|[WindomZ][Solutions-22-Go]|Medium|[340 ns/op/4 test cases][Solutions-22-Test]|13 ms|
+|21|[Merge Two Sorted Lists][Solutions-21]|[WindomZ][Solutions-21-Go]|Easy|[89.0 ns/op/3 test cases][Solutions-21-Test]|3 ms|
+|20|[Valid Parentheses][Solutions-20]|[WindomZ][Solutions-20-Go]|Easy|[28.9 ns/op/6 test cases][Solutions-20-Test]|0 ms|
 |19|[Remove Nth Node From End of List][Solutions-19]|[WindomZ][Solutions-19-Go]|Medium|[0.00 ns/op/6 test cases][Solutions-19-Test]|3 ms|
 |18|[4Sum][Solutions-18]|[WindomZ][Solutions-18-Go]|Medium|[796 ns/op/3 test cases][Solutions-18-Test]|16 ms|
 |17|[Letter Combinations of a Phone Number][Solutions-17]|[WindomZ][Solutions-17-Go]|Medium|[1466 ns/op/4 test cases][Solutions-17-Test]|0 ms|

@@ -23,12 +23,17 @@ func Test_isValid(t *testing.T) {
 }
 
 func Benchmark_isValid(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		isValid("")
-		isValid("([)]")
-		isValid("{[()]}")
-		isValid("()[]{}")
-		isValid("()[]{}[]()")
-		isValid("()[]{[()]}[]()")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			isValid("")
+			isValid("([)]")
+			isValid("{[()]}")
+			isValid("()[]{}")
+			isValid("()[]{}[]()")
+			isValid("()[]{[()]}[]()")
+		}
+	})
 }

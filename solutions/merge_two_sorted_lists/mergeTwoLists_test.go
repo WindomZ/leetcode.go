@@ -73,38 +73,43 @@ func Test_mergeTwoLists_2(t *testing.T) {
 }
 
 func Benchmark_mergeTwoLists(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		mergeTwoLists(nil, nil)
-		mergeTwoLists(&ListNode{
-			Val: 1,
-			Next: &ListNode{
-				Val: 3,
-			},
-		}, &ListNode{
-			Val: 2,
-			Next: &ListNode{
-				Val: 4,
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			mergeTwoLists(nil, nil)
+			mergeTwoLists(&ListNode{
+				Val: 1,
 				Next: &ListNode{
-					Val: 6,
+					Val: 3,
 				},
-			},
-		})
-		mergeTwoLists(&ListNode{
-			Val: 1,
-			Next: &ListNode{
-				Val: 3,
+			}, &ListNode{
+				Val: 2,
 				Next: &ListNode{
-					Val: 5,
+					Val: 4,
+					Next: &ListNode{
+						Val: 6,
+					},
 				},
-			},
-		}, &ListNode{
-			Val: 2,
-			Next: &ListNode{
-				Val: 4,
+			})
+			mergeTwoLists(&ListNode{
+				Val: 1,
 				Next: &ListNode{
-					Val: 6,
+					Val: 3,
+					Next: &ListNode{
+						Val: 5,
+					},
 				},
-			},
-		})
-	}
+			}, &ListNode{
+				Val: 2,
+				Next: &ListNode{
+					Val: 4,
+					Next: &ListNode{
+						Val: 6,
+					},
+				},
+			})
+		}
+	})
 }

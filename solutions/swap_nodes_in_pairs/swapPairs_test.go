@@ -63,37 +63,42 @@ func Test_swapPairs(t *testing.T) {
 }
 
 func Benchmark_swapPairs(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		swapPairs(nil)
-		swapPairs(&ListNode{
-			Val: 1,
-		})
-		swapPairs(&ListNode{
-			Val: 1,
-			Next: &ListNode{
-				Val: 2,
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			swapPairs(nil)
+			swapPairs(&ListNode{
+				Val: 1,
+			})
+			swapPairs(&ListNode{
+				Val: 1,
 				Next: &ListNode{
-					Val: 3,
+					Val: 2,
 					Next: &ListNode{
-						Val: 4,
-					},
-				},
-			},
-		})
-		swapPairs(&ListNode{
-			Val: 1,
-			Next: &ListNode{
-				Val: 2,
-				Next: &ListNode{
-					Val: 3,
-					Next: &ListNode{
-						Val: 4,
+						Val: 3,
 						Next: &ListNode{
-							Val: 5,
+							Val: 4,
 						},
 					},
 				},
-			},
-		})
-	}
+			})
+			swapPairs(&ListNode{
+				Val: 1,
+				Next: &ListNode{
+					Val: 2,
+					Next: &ListNode{
+						Val: 3,
+						Next: &ListNode{
+							Val: 4,
+							Next: &ListNode{
+								Val: 5,
+							},
+						},
+					},
+				},
+			})
+		}
+	})
 }

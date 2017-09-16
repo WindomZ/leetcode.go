@@ -16,12 +16,17 @@ func Test_removeElement(t *testing.T) {
 }
 
 func Benchmark_removeElement(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		removeElement([]int{}, 0)
-		removeElement([]int{1, 1, 2}, 1)
-		removeElement([]int{1, 1, 2, 3, 3}, 3)
-		removeElement([]int{1, 1, 2, 3, 3, 4, 4, 5}, 4)
-		removeElement([]int{1, 1, 2, 3, 3, 4, 4, 5, 6, 6, 7}, 6)
-		removeElement([]int{1, 1, 2, 3, 3, 4, 4, 5, 6, 6, 7, 8, 8}, 8)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			removeElement([]int{}, 0)
+			removeElement([]int{1, 1, 2}, 1)
+			removeElement([]int{1, 1, 2, 3, 3}, 3)
+			removeElement([]int{1, 1, 2, 3, 3, 4, 4, 5}, 4)
+			removeElement([]int{1, 1, 2, 3, 3, 4, 4, 5, 6, 6, 7}, 6)
+			removeElement([]int{1, 1, 2, 3, 3, 4, 4, 5, 6, 6, 7, 8, 8}, 8)
+		}
+	})
 }

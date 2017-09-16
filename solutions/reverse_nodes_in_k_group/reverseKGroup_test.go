@@ -63,34 +63,39 @@ func Test_reverseKGroup(t *testing.T) {
 }
 
 func Benchmark_reverseKGroup(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		reverseKGroup(nil, 10)
-		reverseKGroup(&ListNode{
-			Val: 1,
-			Next: &ListNode{
-				Val: 2,
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			reverseKGroup(nil, 10)
+			reverseKGroup(&ListNode{
+				Val: 1,
 				Next: &ListNode{
-					Val: 3,
+					Val: 2,
 					Next: &ListNode{
-						Val: 4,
-					},
-				},
-			},
-		}, 2)
-		reverseKGroup(&ListNode{
-			Val: 1,
-			Next: &ListNode{
-				Val: 2,
-				Next: &ListNode{
-					Val: 3,
-					Next: &ListNode{
-						Val: 4,
+						Val: 3,
 						Next: &ListNode{
-							Val: 5,
+							Val: 4,
 						},
 					},
 				},
-			},
-		}, 3)
-	}
+			}, 2)
+			reverseKGroup(&ListNode{
+				Val: 1,
+				Next: &ListNode{
+					Val: 2,
+					Next: &ListNode{
+						Val: 3,
+						Next: &ListNode{
+							Val: 4,
+							Next: &ListNode{
+								Val: 5,
+							},
+						},
+					},
+				},
+			}, 3)
+		}
+	})
 }

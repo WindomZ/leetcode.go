@@ -96,52 +96,57 @@ func Test_mergeKLists(t *testing.T) {
 }
 
 func Benchmark_mergeKLists(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		mergeKLists(nil)
-		mergeKLists([]*ListNode{{Val: 1}})
-		mergeKLists([]*ListNode{
-			{
-				Val: 1,
-				Next: &ListNode{
-					Val:  3,
-					Next: nil,
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			mergeKLists(nil)
+			mergeKLists([]*ListNode{{Val: 1}})
+			mergeKLists([]*ListNode{
+				{
+					Val: 1,
+					Next: &ListNode{
+						Val:  3,
+						Next: nil,
+					},
 				},
-			},
-			{
-				Val: 2,
-				Next: &ListNode{
-					Val:  4,
-					Next: nil,
+				{
+					Val: 2,
+					Next: &ListNode{
+						Val:  4,
+						Next: nil,
+					},
 				},
-			},
-		})
-		mergeKLists([]*ListNode{
-			{
-				Val: 1,
-				Next: &ListNode{
-					Val:  5,
-					Next: nil,
+			})
+			mergeKLists([]*ListNode{
+				{
+					Val: 1,
+					Next: &ListNode{
+						Val:  5,
+						Next: nil,
+					},
 				},
-			},
-			{
-				Val: 2,
-				Next: &ListNode{
-					Val:  6,
-					Next: nil,
+				{
+					Val: 2,
+					Next: &ListNode{
+						Val:  6,
+						Next: nil,
+					},
 				},
-			},
-			{
-				Val: 3,
-				Next: &ListNode{
-					Val: 7,
+				{
+					Val: 3,
+					Next: &ListNode{
+						Val: 7,
+					},
 				},
-			},
-			{
-				Val: 4,
-				Next: &ListNode{
-					Val: 8,
+				{
+					Val: 4,
+					Next: &ListNode{
+						Val: 8,
+					},
 				},
-			},
-		})
-	}
+			})
+		}
+	})
 }

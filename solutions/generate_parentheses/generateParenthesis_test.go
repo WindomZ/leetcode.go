@@ -17,10 +17,15 @@ func Test_generateParenthesis(t *testing.T) {
 }
 
 func Benchmark_generateParenthesis(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		generateParenthesis(0)
-		generateParenthesis(1)
-		generateParenthesis(2)
-		generateParenthesis(3)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			generateParenthesis(0)
+			generateParenthesis(1)
+			generateParenthesis(2)
+			generateParenthesis(3)
+		}
+	})
 }
