@@ -14,9 +14,14 @@ func Test_lengthOfLongestSubstring(t *testing.T) {
 }
 
 func Benchmark_lengthOfLongestSubstring(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		lengthOfLongestSubstring("abcabcbb")
-		lengthOfLongestSubstring("bbbbb")
-		lengthOfLongestSubstring("pwwkew")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			lengthOfLongestSubstring("abcabcbb")
+			lengthOfLongestSubstring("bbbbb")
+			lengthOfLongestSubstring("pwwkew")
+		}
+	})
 }

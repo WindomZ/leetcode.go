@@ -30,11 +30,16 @@ func Test_reverse(t *testing.T) {
 }
 
 func Benchmark_reverse(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		reverse(1)
-		reverse(12)
-		reverse(123)
-		reverse(1000000003)
-		reverse(1534236469)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			reverse(1)
+			reverse(12)
+			reverse(123)
+			reverse(1000000003)
+			reverse(1534236469)
+		}
+	})
 }

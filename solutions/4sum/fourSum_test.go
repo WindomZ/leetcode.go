@@ -26,9 +26,14 @@ func Test_fourSum(t *testing.T) {
 }
 
 func Benchmark_fourSum(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		fourSum([]int{}, 0)
-		fourSum([]int{1, 0, -1, 0, -2, 2}, 0)
-		fourSum([]int{1, 0, -1, 0, -2, 2, -3, 3}, 0)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			fourSum([]int{}, 0)
+			fourSum([]int{1, 0, -1, 0, -2, 2}, 0)
+			fourSum([]int{1, 0, -1, 0, -2, 2, -3, 3}, 0)
+		}
+	})
 }

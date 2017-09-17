@@ -21,14 +21,19 @@ func Test_romanToInt(t *testing.T) {
 }
 
 func Benchmark_romanToInt(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		romanToInt("")
-		romanToInt("I")
-		romanToInt("MCX")
-		romanToInt("MCXI")
-		romanToInt("MMCXI")
-		romanToInt("MMCMCXI")
-		romanToInt("MMMCMXCIX")
-		romanToInt("MCMCDXCXLIXIV")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			romanToInt("")
+			romanToInt("I")
+			romanToInt("MCX")
+			romanToInt("MCXI")
+			romanToInt("MMCXI")
+			romanToInt("MMCMCXI")
+			romanToInt("MMMCMXCIX")
+			romanToInt("MCMCDXCXLIXIV")
+		}
+	})
 }

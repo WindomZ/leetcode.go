@@ -18,10 +18,15 @@ func Test_threeSum(t *testing.T) {
 }
 
 func Benchmark_threeSum(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		threeSum([]int{})
-		threeSum([]int{1, 3, -4})
-		threeSum([]int{0, 0, 0, 0})
-		threeSum([]int{-1, 0, 1, 2, -1, -4})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			threeSum([]int{})
+			threeSum([]int{1, 3, -4})
+			threeSum([]int{0, 0, 0, 0})
+			threeSum([]int{-1, 0, 1, 2, -1, -4})
+		}
+	})
 }

@@ -19,11 +19,16 @@ func Test_maxArea(t *testing.T) {
 }
 
 func Benchmark_maxArea(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		maxArea([]int{})
-		maxArea([]int{1, 2, 3})
-		maxArea([]int{5, 4, 3, 2, 1})
-		maxArea([]int{1, 2, 3, 4, 5, 6, 7})
-		maxArea([]int{8, 1, 7, 2, 6, 3, 5, 4})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			maxArea([]int{})
+			maxArea([]int{1, 2, 3})
+			maxArea([]int{5, 4, 3, 2, 1})
+			maxArea([]int{1, 2, 3, 4, 5, 6, 7})
+			maxArea([]int{8, 1, 7, 2, 6, 3, 5, 4})
+		}
+	})
 }

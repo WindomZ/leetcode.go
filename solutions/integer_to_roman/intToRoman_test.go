@@ -20,14 +20,19 @@ func Test_intToRoman(t *testing.T) {
 }
 
 func Benchmark_intToRoman(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		intToRoman(0)
-		intToRoman(9)
-		intToRoman(10)
-		intToRoman(99)
-		intToRoman(100)
-		intToRoman(999)
-		intToRoman(1000)
-		intToRoman(3999)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			intToRoman(0)
+			intToRoman(9)
+			intToRoman(10)
+			intToRoman(99)
+			intToRoman(100)
+			intToRoman(999)
+			intToRoman(1000)
+			intToRoman(3999)
+		}
+	})
 }

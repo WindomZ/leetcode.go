@@ -16,12 +16,17 @@ func Test_longestPalindrome(t *testing.T) {
 }
 
 func Benchmark_longestPalindrome(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		longestPalindrome("")
-		longestPalindrome("a")
-		longestPalindrome("abcda")
-		longestPalindrome("babad")
-		longestPalindrome("cbbd")
-		longestPalindrome("abacdfgdcaba")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			longestPalindrome("")
+			longestPalindrome("a")
+			longestPalindrome("abcda")
+			longestPalindrome("babad")
+			longestPalindrome("cbbd")
+			longestPalindrome("abacdfgdcaba")
+		}
+	})
 }

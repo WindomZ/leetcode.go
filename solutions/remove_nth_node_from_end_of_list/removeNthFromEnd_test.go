@@ -70,66 +70,73 @@ func Test_removeNthFromEnd_3(t *testing.T) {
 }
 
 func Benchmark_removeNthFromEnd(b *testing.B) {
-	removeNthFromEnd(nil, 0)
-	removeNthFromEnd(&ListNode{}, 0)
-	removeNthFromEnd(&ListNode{
-		Val: 1,
-		Next: &ListNode{
-			Val: 2,
-			Next: &ListNode{
-				Val: 3,
-			},
-		},
-	}, 3)
-	removeNthFromEnd(&ListNode{
-		Val: 2,
-		Next: &ListNode{
-			Val: 4,
-			Next: &ListNode{
-				Val: 3,
-			},
-		},
-	}, 2)
-	removeNthFromEnd(&ListNode{
-		Val: 1,
-		Next: &ListNode{
-			Val: 2,
-			Next: &ListNode{
-				Val: 3,
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			removeNthFromEnd(nil, 0)
+			removeNthFromEnd(&ListNode{}, 0)
+			removeNthFromEnd(&ListNode{
+				Val: 1,
 				Next: &ListNode{
-					Val: 4,
+					Val: 2,
 					Next: &ListNode{
-						Val: 5,
+						Val: 3,
 					},
 				},
-			},
-		},
-	}, 2)
-	removeNthFromEnd(&ListNode{
-		Val: 1,
-		Next: &ListNode{
-			Val: 2,
-			Next: &ListNode{
-				Val: 3,
+			}, 3)
+			removeNthFromEnd(&ListNode{
+				Val: 2,
 				Next: &ListNode{
 					Val: 4,
 					Next: &ListNode{
-						Val: 5,
+						Val: 3,
+					},
+				},
+			}, 2)
+			removeNthFromEnd(&ListNode{
+				Val: 1,
+				Next: &ListNode{
+					Val: 2,
+					Next: &ListNode{
+						Val: 3,
 						Next: &ListNode{
-							Val: 6,
+							Val: 4,
 							Next: &ListNode{
-								Val: 7,
+								Val: 5,
+							},
+						},
+					},
+				},
+			}, 2)
+			removeNthFromEnd(&ListNode{
+				Val: 1,
+				Next: &ListNode{
+					Val: 2,
+					Next: &ListNode{
+						Val: 3,
+						Next: &ListNode{
+							Val: 4,
+							Next: &ListNode{
+								Val: 5,
 								Next: &ListNode{
-									Val: 8,
+									Val: 6,
 									Next: &ListNode{
-										Val: 9,
+										Val: 7,
+										Next: &ListNode{
+											Val: 8,
+											Next: &ListNode{
+												Val: 9,
+											},
+										},
 									},
 								},
 							},
 						},
 					},
 				},
-			},
-		},
-	}, 1)
+			}, 1)
+		}
+	})
 }

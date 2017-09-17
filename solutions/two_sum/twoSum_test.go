@@ -14,9 +14,14 @@ func Test_twoSum(t *testing.T) {
 }
 
 func Benchmark_twoSum(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		twoSum([]int{3, 2, 4}, 5)
-		twoSum([]int{3, 2, 4}, 6)
-		twoSum([]int{3, 2, 4}, 7)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			twoSum([]int{3, 2, 4}, 5)
+			twoSum([]int{3, 2, 4}, 6)
+			twoSum([]int{3, 2, 4}, 7)
+		}
+	})
 }

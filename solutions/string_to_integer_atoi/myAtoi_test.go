@@ -32,11 +32,16 @@ func Test_myAtoi(t *testing.T) {
 }
 
 func Benchmark_myAtoi(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		myAtoi("")
-		myAtoi("-1")
-		myAtoi("  123 ")
-		myAtoi("+2147483648")
-		myAtoi("-2147483648")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			myAtoi("")
+			myAtoi("-1")
+			myAtoi("  123 ")
+			myAtoi("+2147483648")
+			myAtoi("-2147483648")
+		}
+	})
 }

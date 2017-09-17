@@ -17,14 +17,19 @@ func Test_longestCommonPrefix(t *testing.T) {
 }
 
 func Benchmark_longestCommonPrefix(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		longestCommonPrefix([]string{})
-		longestCommonPrefix([]string{"", "acb"})
-		longestCommonPrefix([]string{"abc", "cba"})
-		longestCommonPrefix([]string{"abc", "acb"})
-		longestCommonPrefix([]string{"abc", "abd"})
-		longestCommonPrefix([]string{"abcd", "abce", "abde"})
-		longestCommonPrefix([]string{"abcd", "abce", "bdea", "abde"})
-		longestCommonPrefix([]string{"abcd", "abcde", "abcdef", "abcefg"})
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			longestCommonPrefix([]string{})
+			longestCommonPrefix([]string{"", "acb"})
+			longestCommonPrefix([]string{"abc", "cba"})
+			longestCommonPrefix([]string{"abc", "acb"})
+			longestCommonPrefix([]string{"abc", "abd"})
+			longestCommonPrefix([]string{"abcd", "abce", "abde"})
+			longestCommonPrefix([]string{"abcd", "abce", "bdea", "abde"})
+			longestCommonPrefix([]string{"abcd", "abcde", "abcdef", "abcefg"})
+		}
+	})
 }

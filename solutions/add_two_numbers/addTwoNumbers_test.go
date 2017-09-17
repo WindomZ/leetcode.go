@@ -134,7 +134,12 @@ func Benchmark_addTwoNumbers(b *testing.B) {
 			},
 		},
 	}
-	for i := 0; i < b.N; i++ {
-		addTwoNumbers(l1, l2)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			addTwoNumbers(l1, l2)
+		}
+	})
 }

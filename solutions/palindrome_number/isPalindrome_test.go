@@ -18,13 +18,18 @@ func Test_isPalindrome(t *testing.T) {
 }
 
 func Benchmark_isPalindrome(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		isPalindrome(-1)
-		isPalindrome(5)
-		isPalindrome(10)
-		isPalindrome(121)
-		isPalindrome(1210)
-		isPalindrome(123454321)
-		isPalindrome(123456764321)
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			isPalindrome(-1)
+			isPalindrome(5)
+			isPalindrome(10)
+			isPalindrome(121)
+			isPalindrome(1210)
+			isPalindrome(123454321)
+			isPalindrome(123456764321)
+		}
+	})
 }

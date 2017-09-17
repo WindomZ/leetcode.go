@@ -25,10 +25,15 @@ func Test_letterCombinations(t *testing.T) {
 }
 
 func Benchmark_letterCombinations(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		letterCombinations("")
-		letterCombinations("01")
-		letterCombinations("24")
-		letterCombinations("159")
-	}
+	b.StopTimer()
+	b.ReportAllocs()
+	b.StartTimer()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			letterCombinations("")
+			letterCombinations("01")
+			letterCombinations("24")
+			letterCombinations("159")
+		}
+	})
 }

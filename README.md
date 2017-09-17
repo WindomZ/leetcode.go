@@ -55,25 +55,25 @@
 |22|[Generate Parentheses][Solutions-22]|[WindomZ][Solutions-22-Go]|Medium|[340 ns/op/4 test cases][Solutions-22-Test]|13 ms|
 |21|[Merge Two Sorted Lists][Solutions-21]|[WindomZ][Solutions-21-Go]|Easy|[89.0 ns/op/3 test cases][Solutions-21-Test]|3 ms|
 |20|[Valid Parentheses][Solutions-20]|[WindomZ][Solutions-20-Go]|Easy|[28.9 ns/op/6 test cases][Solutions-20-Test]|0 ms|
-|19|[Remove Nth Node From End of List][Solutions-19]|[WindomZ][Solutions-19-Go]|Medium|[0.00 ns/op/6 test cases][Solutions-19-Test]|3 ms|
-|18|[4Sum][Solutions-18]|[WindomZ][Solutions-18-Go]|Medium|[796 ns/op/3 test cases][Solutions-18-Test]|16 ms|
-|17|[Letter Combinations of a Phone Number][Solutions-17]|[WindomZ][Solutions-17-Go]|Medium|[1466 ns/op/4 test cases][Solutions-17-Test]|0 ms|
-|16|[3Sum Closest][Solutions-16]|[WindomZ][Solutions-16-Go]|Medium|[1426 ns/op/8 test cases][Solutions-16-Test]|9 ms|
-|15|[3Sum][Solutions-15]|[WindomZ][Solutions-15-Go]|Medium|[614 ns/op/4 test cases][Solutions-15-Test]|1525 ms|
-|14|[Longest Common Prefix][Solutions-14]|[WindomZ][Solutions-14-Go]|Easy|[45.8 ns/op/8 test cases][Solutions-14-Test]|3 ms|
-|13|[Roman to Integer][Solutions-13]|[WindomZ][Solutions-13-Go]|Easy|[101 ns/op/8 test cases][Solutions-13-Test]|19 ms|
-|12|[Integer to Roman][Solutions-12]|[WindomZ][Solutions-12-Go]|Medium|[96.6 ns/op/8 test cases][Solutions-12-Test]|22 ms|
-|11|[Container With Most Water][Solutions-11]|[WindomZ][Solutions-11-Go]|Medium|[38.0 ns/op/5 test cases][Solutions-11-Test]|25 ms|
-|10|[Regular Expression Matching][Solutions-10]|[WindomZ][Solutions-10-Go]|Hard|[630 ns/op/6 test cases][Solutions-10-Test]|3 ms|
-|9|[Palindrome Number][Solutions-9]|[WindomZ][Solutions-9-Go]|Easy|[27.3 ns/op/7 test cases][Solutions-9-Test]|55 ms|
-|8|[String to Integer (atoi)][Solutions-8]|[WindomZ][Solutions-8-Go]|Medium|[33.4 ns/op/5 test cases][Solutions-8-Test]|3 ms|
-|7|[Reverse Integer][Solutions-7]|[WindomZ][Solutions-7-Go]|Easy|[39.3 ns/op/5 test cases][Solutions-7-Test]|3 ms|
-|6|[ZigZag Conversion][Solutions-6]|[WindomZ][Solutions-6-Go]|Medium|[205 ns/op/5 test cases][Solutions-6-Test]|9 ms|
-|5|[Longest Palindromic Substring][Solutions-5]|[WindomZ][Solutions-5-Go]|Medium|[151 ns/op/6 test cases][Solutions-5-Test]|9 ms|
-|4|[Median of Two Sorted Arrays][Solutions-4]|[WindomZ][Solutions-4-Go]|Hard|[74.3 ns/op/14 test cases][Solutions-4-Test]|32 ms|
-|3|[Longest Substring Without Repeating Characters][Solutions-3]|[WindomZ][Solutions-3-Go]|Medium|[103 ns/op/3 test cases][Solutions-3-Test]|6 ms|
-|2|[Add Two Numbers][Solutions-2]|[WindomZ][Solutions-2-Go]|Medium|[79.4 ns/op/1 test cases][Solutions-2-Test]|29 ms|
-|1|[Two Sum][Solutions-1]|[WindomZ][Solutions-1-Go]|Easy|[305 ns/op/3 test cases][Solutions-1-Test]|6 ms|
+|19|[Remove Nth Node From End of List][Solutions-19]|[WindomZ][Solutions-19-Go]|Medium|[97.3 ns/op/6 test cases][Solutions-19-Test]|3 ms|
+|18|[4Sum][Solutions-18]|[WindomZ][Solutions-18-Go]|Medium|[233 ns/op/3 test cases][Solutions-18-Test]|16 ms|
+|17|[Letter Combinations of a Phone Number][Solutions-17]|[WindomZ][Solutions-17-Go]|Medium|[407 ns/op/4 test cases][Solutions-17-Test]|0 ms|
+|16|[3Sum Closest][Solutions-16]|[WindomZ][Solutions-16-Go]|Medium|[379 ns/op/8 test cases][Solutions-16-Test]|9 ms|
+|15|[3Sum][Solutions-15]|[WindomZ][Solutions-15-Go]|Medium|[183 ns/op/4 test cases][Solutions-15-Test]|1525 ms|
+|14|[Longest Common Prefix][Solutions-14]|[WindomZ][Solutions-14-Go]|Easy|[10.6 ns/op/8 test cases][Solutions-14-Test]|3 ms|
+|13|[Roman to Integer][Solutions-13]|[WindomZ][Solutions-13-Go]|Easy|[16.9 ns/op/8 test cases][Solutions-13-Test]|19 ms|
+|12|[Integer to Roman][Solutions-12]|[WindomZ][Solutions-12-Go]|Medium|[26.4 ns/op/8 test cases][Solutions-12-Test]|22 ms|
+|11|[Container With Most Water][Solutions-11]|[WindomZ][Solutions-11-Go]|Medium|[7.84 ns/op/5 test cases][Solutions-11-Test]|25 ms|
+|10|[Regular Expression Matching][Solutions-10]|[WindomZ][Solutions-10-Go]|Hard|[183 ns/op/6 test cases][Solutions-10-Test]|3 ms|
+|9|[Palindrome Number][Solutions-9]|[WindomZ][Solutions-9-Go]|Easy|[6.37 ns/op/7 test cases][Solutions-9-Test]|55 ms|
+|8|[String to Integer (atoi)][Solutions-8]|[WindomZ][Solutions-8-Go]|Medium|[7.31 ns/op/5 test cases][Solutions-8-Test]|3 ms|
+|7|[Reverse Integer][Solutions-7]|[WindomZ][Solutions-7-Go]|Easy|[9.00 ns/op/5 test cases][Solutions-7-Test]|3 ms|
+|6|[ZigZag Conversion][Solutions-6]|[WindomZ][Solutions-6-Go]|Medium|[55.1 ns/op/5 test cases][Solutions-6-Test]|9 ms|
+|5|[Longest Palindromic Substring][Solutions-5]|[WindomZ][Solutions-5-Go]|Medium|[39.1 ns/op/6 test cases][Solutions-5-Test]|9 ms|
+|4|[Median of Two Sorted Arrays][Solutions-4]|[WindomZ][Solutions-4-Go]|Hard|[19.4 ns/op/14 test cases][Solutions-4-Test]|32 ms|
+|3|[Longest Substring Without Repeating Characters][Solutions-3]|[WindomZ][Solutions-3-Go]|Medium|[21.3 ns/op/3 test cases][Solutions-3-Test]|6 ms|
+|2|[Add Two Numbers][Solutions-2]|[WindomZ][Solutions-2-Go]|Medium|[19.4 ns/op/1 test cases][Solutions-2-Test]|29 ms|
+|1|[Two Sum][Solutions-1]|[WindomZ][Solutions-1-Go]|Easy|[79.5 ns/op/3 test cases][Solutions-1-Test]|6 ms|
 
 > **NOTE**: 'Single Repetition Duration' and 'LeetCode Run Time' are for _reference_ only.
 
