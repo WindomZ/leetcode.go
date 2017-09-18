@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|53|[Maximum Subarray][Solutions-53]|[WindomZ][Solutions-53-Go]|Easy|[10.3 ns/op/6 test cases][Solutions-53-Test]|12 ms|
 |50|[Pow(x, n)][Solutions-50]|[WindomZ][Solutions-50-Go]|Medium|[7.31 ns/op/12 test cases][Solutions-50-Test]|3 ms|
 |49|[Group Anagrams][Solutions-49]|[WindomZ][Solutions-49-Go]|Medium|[313 ns/op/3 test cases][Solutions-49-Test]|582 ms|
 |48|[Rotate Image][Solutions-48]|[WindomZ][Solutions-48-Go]|Medium|[12.1 ns/op/3 test cases][Solutions-48-Test]|3 ms|
@@ -103,6 +104,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-53-Test]:solutions/maximum_subarray/maxSubArray_test.go#L18
+[Solutions-53-Go]:solutions/maximum_subarray/maxSubArray.go
+[Solutions-53]:https://leetcode.com/maximum-subarray/
 [Solutions-50-Test]:solutions/powx_n/myPow_test.go#L26
 [Solutions-50-Go]:solutions/powx_n/myPow.go
 [Solutions-50]:https://leetcode.com/powx-n/
