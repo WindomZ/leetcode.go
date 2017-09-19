@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|55|[Jump Game][Solutions-55]|[WindomZ][Solutions-55-Go]|Medium|[7.32 ns/op/6 test cases][Solutions-55-Test]|19 ms|
 |54|[Spiral Matrix][Solutions-54]|[WindomZ][Solutions-54-Go]|Medium|[45.5 ns/op/3 test cases][Solutions-54-Test]|0 ms|
 |53|[Maximum Subarray][Solutions-53]|[WindomZ][Solutions-53-Go]|Easy|[10.3 ns/op/6 test cases][Solutions-53-Test]|12 ms|
 |50|[Pow(x, n)][Solutions-50]|[WindomZ][Solutions-50-Go]|Medium|[7.31 ns/op/12 test cases][Solutions-50-Test]|3 ms|
@@ -105,7 +106,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
-[Solutions-54-Test]:solutions/spiral_matrix/spiralOrder_test.go#L28
+[Solutions-55-Test]:solutions/jump_game/canJump_test.go#L18
+[Solutions-55-Go]:solutions/jump_game/canJump.go
+[Solutions-55]:https://leetcode.com/jump-game/
+[Solutions-54-Test]:solutions/spiral_matrix/spiralOrder_test.go#L53
 [Solutions-54-Go]:solutions/spiral_matrix/spiralOrder.go
 [Solutions-54]:https://leetcode.com/spiral-matrix/
 [Solutions-53-Test]:solutions/maximum_subarray/maxSubArray_test.go#L18
