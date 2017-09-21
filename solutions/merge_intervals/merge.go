@@ -8,22 +8,23 @@ type Interval struct {
 	End   int
 }
 
+// IntervalSlice slice of Interval
 type IntervalSlice []Interval
 
 // Len is the number of elements in the collection.
-func (l IntervalSlice) Len() int {
-	return len(l)
+func (s IntervalSlice) Len() int {
+	return len(s)
 }
 
 // Less reports whether the element with
 // index i should sort before the element with index j.
-func (l IntervalSlice) Less(i, j int) bool {
-	return l[i].Start < l[j].Start
+func (s IntervalSlice) Less(i, j int) bool {
+	return s[i].Start < s[j].Start
 }
 
 // Swap swaps the elements with indexes i and j.
-func (l IntervalSlice) Swap(i, j int) {
-	l[i], l[j] = l[j], l[i]
+func (s IntervalSlice) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
 }
 
 func merge(intervals []Interval) []Interval {
@@ -33,17 +34,28 @@ func merge(intervals []Interval) []Interval {
 
 	sort.Sort(IntervalSlice(intervals))
 
-	res := make([]Interval, 1, len(intervals))
-	res[0] = intervals[0]
-	for i, j := 1, 0; i < len(intervals); i++ {
-		if res[j].End < intervals[i].Start {
-			res = append(res, intervals[i])
-			j++
+	// a another sort scheme, faster in benchmark
+	//for keep := true; keep; {
+	//	keep = false
+	//	for i := 0; i < len(intervals)-1; i++ {
+	//		if intervals[i].Start > intervals[i+1].Start {
+	//			intervals[i], intervals[i+1] = intervals[i+1], intervals[i]
+	//			keep = true
+	//		}
+	//	}
+	//}
+
+	res := make([]Interval, 0, len(intervals))
+	current := intervals[0]
+	for _, next := range intervals[1:] {
+		if next.Start <= current.End {
+			current.End = max(current.End, next.End)
 		} else {
-			res[j].End = max(res[j].End, intervals[i].End)
+			res = append(res, current)
+			current = next
 		}
 	}
-	return res
+	return append(res, current)
 }
 
 func max(x, y int) int {

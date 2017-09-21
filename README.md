@@ -24,7 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|56|[Merge Intervals][Solutions-56]|[WindomZ][Solutions-56-Go]|Medium|[162 ns/op/6 test cases][Solutions-56-Test]|19 ms|
+|56|[Merge Intervals][Solutions-56]|[WindomZ][Solutions-56-Go]|Medium|[154 ns/op/5 test cases][Solutions-56-Test]|19 ms|
 |55|[Jump Game][Solutions-55]|[WindomZ][Solutions-55-Go]|Medium|[7.32 ns/op/6 test cases][Solutions-55-Test]|19 ms|
 |54|[Spiral Matrix][Solutions-54]|[WindomZ][Solutions-54-Go]|Medium|[45.5 ns/op/3 test cases][Solutions-54-Test]|0 ms|
 |53|[Maximum Subarray][Solutions-53]|[WindomZ][Solutions-53-Go]|Easy|[10.3 ns/op/6 test cases][Solutions-53-Test]|12 ms|
@@ -107,7 +107,7 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
-[Solutions-56-Test]:solutions/merge_intervals/merge_test.go#L18
+[Solutions-56-Test]:solutions/merge_intervals/merge_test.go#L59
 [Solutions-56-Go]:solutions/merge_intervals/merge.go
 [Solutions-56]:https://leetcode.com/merge-intervals/
 [Solutions-55-Test]:solutions/jump_game/canJump_test.go#L18
