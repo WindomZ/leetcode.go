@@ -24,7 +24,8 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|58|[Length of Last Word][Solutions-56]|[WindomZ][Solutions-56-Go]|Easy|[4.02 ns/op/5 test cases][Solutions-56-Test]|0 ms|
+|59|[Spiral Matrix II][Solutions-59]|[WindomZ][Solutions-59-Go]|Medium|[90.3 ns/op/3 test cases][Solutions-59-Test]|? ms|
+|58|[Length of Last Word][Solutions-58]|[WindomZ][Solutions-58-Go]|Easy|[4.02 ns/op/5 test cases][Solutions-58-Test]|0 ms|
 |56|[Merge Intervals][Solutions-56]|[WindomZ][Solutions-56-Go]|Medium|[154 ns/op/5 test cases][Solutions-56-Test]|19 ms|
 |55|[Jump Game][Solutions-55]|[WindomZ][Solutions-55-Go]|Medium|[7.32 ns/op/6 test cases][Solutions-55-Test]|19 ms|
 |54|[Spiral Matrix][Solutions-54]|[WindomZ][Solutions-54-Go]|Medium|[45.5 ns/op/3 test cases][Solutions-54-Test]|0 ms|
@@ -112,6 +113,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-59-Test]:solutions/spiral_matrix_ii/spiralmatrixii_test.go#L22
+[Solutions-59-Go]:solutions/spiral_matrix_ii/spiralmatrixii.go
+[Solutions-59]:https://leetcode.com/spiral-matrix-ii/
 [Solutions-58-Test]:solutions/length_of_last_word/lengthOfLastWord_test.go#L17
 [Solutions-58-Go]:solutions/length_of_last_word/lengthOfLastWord.go
 [Solutions-58]:https://leetcode.com/length-of-last-word/
