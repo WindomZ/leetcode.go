@@ -93,6 +93,10 @@ go test -v -run=. ./solutions/...
 go test -bench=. -benchmem ./solutions/...
 ```
 
+## Related
+
+- [WindomZ/leetcode-init](https://github.com/WindomZ/leetcode-init) A simple cli to creates leetcode code template.
+
 ## Contributing
 
 ### Challenge
