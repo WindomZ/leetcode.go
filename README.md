@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|61|[Rotate List][Solutions-61]|[WindomZ][Solutions-61-Go]|Medium|[34.0 ns/op/2 test cases][Solutions-61-Test]|? ms|
 |59|[Spiral Matrix II][Solutions-59]|[WindomZ][Solutions-59-Go]|Medium|[90.3 ns/op/3 test cases][Solutions-59-Test]|? ms|
 |58|[Length of Last Word][Solutions-58]|[WindomZ][Solutions-58-Go]|Easy|[4.02 ns/op/5 test cases][Solutions-58-Test]|0 ms|
 |56|[Merge Intervals][Solutions-56]|[WindomZ][Solutions-56-Go]|Medium|[154 ns/op/5 test cases][Solutions-56-Test]|19 ms|
@@ -113,6 +114,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-61-Test]:solutions/rotate_list/rotatelist_test.go#L29
+[Solutions-61-Go]:solutions/rotate_list/rotatelist.go
+[Solutions-61]:https://leetcode.com/rotate-list/
 [Solutions-59-Test]:solutions/spiral_matrix_ii/spiralmatrixii_test.go#L22
 [Solutions-59-Go]:solutions/spiral_matrix_ii/spiralmatrixii.go
 [Solutions-59]:https://leetcode.com/spiral-matrix-ii/
