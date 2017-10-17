@@ -24,6 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|62|[Unique Paths][Solutions-62]|[WindomZ][Solutions-62-Go]|Medium|[9.39 ns/op/10 test cases][Solutions-62-Test]|? ms|
 |61|[Rotate List][Solutions-61]|[WindomZ][Solutions-61-Go]|Medium|[34.0 ns/op/2 test cases][Solutions-61-Test]|? ms|
 |60|[Permutation Sequence][Solutions-60]|[WindomZ][Solutions-60-Go]|Medium|[73.9 ns/op/6 test cases][Solutions-60-Test]|? ms|
 |59|[Spiral Matrix II][Solutions-59]|[WindomZ][Solutions-59-Go]|Medium|[90.3 ns/op/3 test cases][Solutions-59-Test]|? ms|
@@ -115,6 +116,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-62-Test]:solutions/unique_paths/uniquepaths_test.go#L22
+[Solutions-62-Go]:solutions/unique_paths/uniquepaths.go
+[Solutions-62]:https://leetcode.com/unique-paths/
 [Solutions-61-Test]:solutions/rotate_list/rotatelist_test.go#L29
 [Solutions-61-Go]:solutions/rotate_list/rotatelist.go
 [Solutions-61]:https://leetcode.com/rotate-list/
