@@ -28,7 +28,7 @@
 |62|[Unique Paths][Solutions-62]|[WindomZ][Solutions-62-Go]|Medium|[9.39 ns/op/10 test cases][Solutions-62-Test]|? ms|
 |61|[Rotate List][Solutions-61]|[WindomZ][Solutions-61-Go]|Medium|[34.0 ns/op/2 test cases][Solutions-61-Test]|? ms|
 |60|[Permutation Sequence][Solutions-60]|[WindomZ][Solutions-60-Go]|Medium|[73.9 ns/op/6 test cases][Solutions-60-Test]|? ms|
-|59|[Spiral Matrix II][Solutions-59]|[WindomZ][Solutions-59-Go]|Medium|[82.1 ns/op/3 test cases][Solutions-59-Test]|? ms|
+|59|[Spiral Matrix II][Solutions-59]|[WindomZ][Solutions-59-Go]|Medium|[82.1 ns/op/3 test cases][Solutions-59-Test]|0 ms|
 |58|[Length of Last Word][Solutions-58]|[WindomZ][Solutions-58-Go]|Easy|[4.02 ns/op/5 test cases][Solutions-58-Test]|0 ms|
 |56|[Merge Intervals][Solutions-56]|[WindomZ][Solutions-56-Go]|Medium|[154 ns/op/5 test cases][Solutions-56-Test]|19 ms|
 |55|[Jump Game][Solutions-55]|[WindomZ][Solutions-55-Go]|Medium|[7.32 ns/op/6 test cases][Solutions-55-Test]|19 ms|
