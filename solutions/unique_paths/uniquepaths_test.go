@@ -17,6 +17,8 @@ func Test_uniquePaths(t *testing.T) {
 	assert.Equal(t, 6, uniquePaths(3, 3))
 	assert.Equal(t, 10, uniquePaths(3, 4))
 	assert.Equal(t, 15, uniquePaths(3, 5))
+	assert.Equal(t, 924, uniquePaths(7, 7))
+	assert.Equal(t, 48620, uniquePaths(10, 10))
 }
 
 func Benchmark_uniquePaths(b *testing.B) {
