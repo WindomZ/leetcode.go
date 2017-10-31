@@ -24,7 +24,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|63|[Unique Paths II][Solutions-63]|[WindomZ][Solutions-63-Go]|Medium|[36.3 ns/op/5 test cases][Solutions-63-Test]|? ms|
+|63|[Unique Paths II][Solutions-63]|[WindomZ][Solutions-63-Go]|Medium|[36.3 ns/op/5 test cases][Solutions-63-Test]|3 ms|
 |62|[Unique Paths][Solutions-62]|[WindomZ][Solutions-62-Go]|Medium|[5.51 ns/op/11 test cases][Solutions-62-Test]|0 ms|
 |61|[Rotate List][Solutions-61]|[WindomZ][Solutions-61-Go]|Medium|[34.0 ns/op/2 test cases][Solutions-61-Test]|6 ms|
 |60|[Permutation Sequence][Solutions-60]|[WindomZ][Solutions-60-Go]|Medium|[73.9 ns/op/6 test cases][Solutions-60-Test]|3 ms|
