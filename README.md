@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|65|[Valid Number][Solutions-65]|[WindomZ][Solutions-65-Go]|Hard|[46.3 ns/op/8 test cases][Solutions-65-Test]|9 ms|
 |64|[Minimum Path Sum][Solutions-64]|[WindomZ][Solutions-64-Go]|Medium|[48.4 ns/op/5 test cases][Solutions-64-Test]|16 ms|
 |63|[Unique Paths II][Solutions-63]|[WindomZ][Solutions-63-Go]|Medium|[36.3 ns/op/5 test cases][Solutions-63-Test]|3 ms|
 |62|[Unique Paths][Solutions-62]|[WindomZ][Solutions-62-Go]|Medium|[5.51 ns/op/11 test cases][Solutions-62-Test]|0 ms|
@@ -119,6 +120,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-65-Test]:solutions/valid_number/validnumber_test.go#L46
+[Solutions-65-Go]:solutions/valid_number/validnumber.go
+[Solutions-65]:https://leetcode.com/problems/valid-number/
 [Solutions-64-Test]:solutions/minimum_path_sum/minimumpathsum_test.go#L37
 [Solutions-64-Go]:solutions/minimum_path_sum/minimumpathsum.go
 [Solutions-64]:https://leetcode.com/problems/minimum-path-sum/
