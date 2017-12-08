@@ -34,7 +34,7 @@ func Test_minPathSum(t *testing.T) {
 	}))
 }
 
-func Benchmark_permute(b *testing.B) {
+func Benchmark_minPathSum(b *testing.B) {
 	b.StopTimer()
 	b.ReportAllocs()
 	b.StartTimer()
