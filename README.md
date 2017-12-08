@@ -86,9 +86,9 @@
 |2|[Add Two Numbers][Solutions-2]|[WindomZ][Solutions-2-Go]|Medium|[19.4 ns/op/1 test cases][Solutions-2-Test]|29 ms|
 |1|[Two Sum][Solutions-1]|[WindomZ][Solutions-1-Go]|Easy|[79.5 ns/op/3 test cases][Solutions-1-Test]|6 ms|
 
-> **NOTE**: 'Single Repetition Duration' and 'LeetCode Run Time' are for _reference_ only.
+> **NOTE**: '`Single Repetition Duration`' and '`LeetCode Run Time`' are for **reference** only.
 
-> All tests should be run on a machine, and through multiple benchmark tests.
+> All tests should be run on a **same** machine, and through **multiple** benchmark tests.
 
 ## Testing
 
@@ -101,7 +101,7 @@ go test -bench=. -benchmem ./solutions/...
 
 ## Related
 
-- [WindomZ/leetcode-init](https://github.com/WindomZ/leetcode-init) A simple cli to creates leetcode code template.
+- [WindomZ/leetcode-init](https://github.com/WindomZ/leetcode-init) - A tool to creates leetcode code template via cli.
 
 ## Contributing
 
