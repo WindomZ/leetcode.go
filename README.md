@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|64|[Minimum Path Sum][Solutions-64]|[WindomZ][Solutions-64-Go]|Medium|[48.4 ns/op/5 test cases][Solutions-64-Test]|16 ms|
 |63|[Unique Paths II][Solutions-63]|[WindomZ][Solutions-63-Go]|Medium|[36.3 ns/op/5 test cases][Solutions-63-Test]|3 ms|
 |62|[Unique Paths][Solutions-62]|[WindomZ][Solutions-62-Go]|Medium|[5.51 ns/op/11 test cases][Solutions-62-Test]|0 ms|
 |61|[Rotate List][Solutions-61]|[WindomZ][Solutions-61-Go]|Medium|[34.0 ns/op/2 test cases][Solutions-61-Test]|6 ms|
@@ -118,6 +119,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-64-Test]:solutions/minimum_path_sum/minimumpathsum_test.go#L37
+[Solutions-64-Go]:solutions/minimum_path_sum/minimumpathsum.go
+[Solutions-64]:https://leetcode.com/problems/minimum-path-sum/
 [Solutions-63-Test]:solutions/unique_paths_ii/uniquepathsii_test.go#L22
 [Solutions-63-Go]:solutions/unique_paths_ii/uniquepathsii.go
 [Solutions-63]:https://leetcode.com/problems/unique-paths-ii/
