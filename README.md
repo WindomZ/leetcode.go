@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|67|[Add Binary][Solutions-67]|[WindomZ][Solutions-67-Go]|Easy|[84.0 ns/op/5 test cases][Solutions-67-Test]|3 ms|
 |66|[Plus One][Solutions-66]|[WindomZ][Solutions-66-Go]|Easy|[29.8 ns/op/6 test cases][Solutions-66-Test]|3 ms|
 |65|[Valid Number][Solutions-65]|[WindomZ][Solutions-65-Go]|Hard|[46.3 ns/op/8 test cases][Solutions-65-Test]|9 ms|
 |64|[Minimum Path Sum][Solutions-64]|[WindomZ][Solutions-64-Go]|Medium|[48.4 ns/op/5 test cases][Solutions-64-Test]|16 ms|
@@ -121,6 +122,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-67-Test]:solutions/add_binary/addbinary_test.go#L17
+[Solutions-67-Go]:solutions/add_binary/addbinary.go
+[Solutions-67]:https://leetcode.com/problems/add-binary/
 [Solutions-66-Test]:solutions/plus_one/plusone_test.go#L18
 [Solutions-66-Go]:solutions/plus_one/plusone.go
 [Solutions-66]:https://leetcode.com/problems/plus-one/
