@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|71|[Simplify Path][Solutions-71]|[WindomZ][Solutions-71-golang]|Medium|[382 ns/op/6 test cases][Solutions-71-Test]|3 ms|
 |70|[Climbing Stairs][Solutions-70]|[WindomZ][Solutions-70-go]|Easy|[7.59 ns/op/9 test cases][Solutions-70-Test]|0 ms|
 |69|[Sqrt(x)][Solutions-69]|[WindomZ][Solutions-69-go]|Easy|[27.6 ns/op/8 test cases][Solutions-69-Test]|6 ms|
 |67|[Add Binary][Solutions-67]|[WindomZ][Solutions-67-Go]|Easy|[84.0 ns/op/5 test cases][Solutions-67-Test]|3 ms|
@@ -124,6 +125,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-71]:https://leetcode.com/problems/simplify-path/
+[Solutions-71-golang]:solutions/simplify_path/simplifypath.go
+[Solutions-71-Test]:solutions/simplify_path/simplifypath_test.go#L19
 [Solutions-70]:https://leetcode.com/problems/climbing-stairs/
 [Solutions-70-go]:solutions/climbing_stairs/climbingstairs.go
 [Solutions-70-Test]:solutions/climbing_stairs/climbingstairs_test.go#L17
