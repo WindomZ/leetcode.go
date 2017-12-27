@@ -25,7 +25,8 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|74|[Search a 2D Matrix][Solutions-74]|[WindomZ][Solutions-74-golang]|Medium|[32.6 ns/op/6 test cases][Solutions-74-Test]|16 ms|
+|75|[Sort Colors][Solutions-75]|[WindomZ][Solutions-75-golang]|Medium|[13.4 ns/op/6 test cases][Solutions-75-Test]|3 ms|
+|74|[Search a 2D Matrix][Solutions-74]|[WindomZ][Solutions-74-golang]|Medium|[32.5 ns/op/6 test cases][Solutions-74-Test]|16 ms|
 |73|[Set Matrix Zeroes][Solutions-73]|[WindomZ][Solutions-73-golang]|Medium|[22.0 ns/op/6 test cases][Solutions-73-Test]|42 ms|
 |71|[Simplify Path][Solutions-71]|[WindomZ][Solutions-71-golang]|Medium|[382 ns/op/6 test cases][Solutions-71-Test]|3 ms|
 |70|[Climbing Stairs][Solutions-70]|[WindomZ][Solutions-70-go]|Easy|[7.59 ns/op/9 test cases][Solutions-70-Test]|0 ms|
@@ -127,6 +128,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-75]:https://leetcode.com/problems/sort-colors/
+[Solutions-75-golang]:solutions/sort_colors/sortcolors.go
+[Solutions-75-Test]:solutions/sort_colors/sortcolors_test.go#L35
 [Solutions-74]:https://leetcode.com/problems/search-a-2d-matrix/
 [Solutions-74-golang]:solutions/search_a_2d_matrix/searcha2dmatrix.go
 [Solutions-74-Test]:solutions/search_a_2d_matrix/searcha2dmatrix_test.go#L38
