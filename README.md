@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|78|[Subsets][Solutions-78]|[WindomZ][Solutions-78-golang]|Medium|[447 ns/op/5 test cases][Solutions-78-Test]|6 ms|
 |77|[Combinations][Solutions-77]|[WindomZ][Solutions-77-golang]|Medium|[336 ns/op/6 test cases][Solutions-77-Test]|246 ms|
 |75|[Sort Colors][Solutions-75]|[WindomZ][Solutions-75-golang]|Medium|[13.4 ns/op/6 test cases][Solutions-75-Test]|3 ms|
 |74|[Search a 2D Matrix][Solutions-74]|[WindomZ][Solutions-74-golang]|Medium|[32.5 ns/op/6 test cases][Solutions-74-Test]|16 ms|
@@ -129,6 +130,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-78]:https://leetcode.com/problems/subsets/
+[Solutions-78-golang]:solutions/subsets/subsets.go
+[Solutions-78-Test]:solutions/subsets/subsets_test.go#L62
 [Solutions-77]:https://leetcode.com/problems/combinations/
 [Solutions-77-golang]:solutions/combinations/combinations.go
 [Solutions-77-Test]:solutions/combinations/combinations_test.go#L32
