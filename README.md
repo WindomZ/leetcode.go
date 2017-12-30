@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|79|[Word Search][Solutions-79]|[WindomZ][Solutions-79-golang]|Medium|[73.3 ns/op/6 test cases][Solutions-79-Test]|6 ms|
 |78|[Subsets][Solutions-78]|[WindomZ][Solutions-78-golang]|Medium|[447 ns/op/5 test cases][Solutions-78-Test]|6 ms|
 |77|[Combinations][Solutions-77]|[WindomZ][Solutions-77-golang]|Medium|[336 ns/op/6 test cases][Solutions-77-Test]|246 ms|
 |75|[Sort Colors][Solutions-75]|[WindomZ][Solutions-75-golang]|Medium|[13.4 ns/op/6 test cases][Solutions-75-Test]|3 ms|
@@ -130,6 +131,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-79]:https://leetcode.com/problems/word-search/
+[Solutions-79-golang]:solutions/word_search/wordsearch.go
+[Solutions-79-Test]:solutions/word_search/wordsearch_test.go#L30
 [Solutions-78]:https://leetcode.com/problems/subsets/
 [Solutions-78-golang]:solutions/subsets/subsets.go
 [Solutions-78-Test]:solutions/subsets/subsets_test.go#L62
