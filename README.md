@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|80|[Remove Duplicates from Sorted Array II][Solutions-80]|[WindomZ][Solutions-80-golang]|Medium|[9.82 ns/op/6 test cases][Solutions-80-Test]|12 ms|
 |79|[Word Search][Solutions-79]|[WindomZ][Solutions-79-golang]|Medium|[73.3 ns/op/6 test cases][Solutions-79-Test]|6 ms|
 |78|[Subsets][Solutions-78]|[WindomZ][Solutions-78-golang]|Medium|[447 ns/op/5 test cases][Solutions-78-Test]|6 ms|
 |77|[Combinations][Solutions-77]|[WindomZ][Solutions-77-golang]|Medium|[336 ns/op/6 test cases][Solutions-77-Test]|246 ms|
@@ -131,6 +132,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-80]:https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+[Solutions-80-golang]:solutions/remove_duplicates_from_sorted_array_ii/removeduplicatesfromsortedarrayii.go
+[Solutions-80-Test]:solutions/remove_duplicates_from_sorted_array_ii/removeduplicatesfromsortedarrayii_test.go#L21
 [Solutions-79]:https://leetcode.com/problems/word-search/
 [Solutions-79-golang]:solutions/word_search/wordsearch.go
 [Solutions-79-Test]:solutions/word_search/wordsearch_test.go#L30
