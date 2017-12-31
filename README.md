@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|81|[Search in Rotated Sorted Array II][Solutions-81]|[WindomZ][Solutions-81-golang]|Medium|[11.7 ns/op/12 test cases][Solutions-81-Test]|9 ms|
 |80|[Remove Duplicates from Sorted Array II][Solutions-80]|[WindomZ][Solutions-80-golang]|Medium|[9.82 ns/op/6 test cases][Solutions-80-Test]|12 ms|
 |79|[Word Search][Solutions-79]|[WindomZ][Solutions-79-golang]|Medium|[73.3 ns/op/6 test cases][Solutions-79-Test]|6 ms|
 |78|[Subsets][Solutions-78]|[WindomZ][Solutions-78-golang]|Medium|[447 ns/op/5 test cases][Solutions-78-Test]|6 ms|
@@ -132,6 +133,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-81]:https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+[Solutions-81-golang]:solutions/search_in_rotated_sorted_array_ii/searchinrotatedsortedarrayii.go
+[Solutions-81-Test]:solutions/search_in_rotated_sorted_array_ii/searchinrotatedsortedarrayii_test.go#L25
 [Solutions-80]:https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 [Solutions-80-golang]:solutions/remove_duplicates_from_sorted_array_ii/removeduplicatesfromsortedarrayii.go
 [Solutions-80-Test]:solutions/remove_duplicates_from_sorted_array_ii/removeduplicatesfromsortedarrayii_test.go#L21
