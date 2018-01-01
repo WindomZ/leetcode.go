@@ -15,6 +15,10 @@ func Test_threeSum(t *testing.T) {
 		[][]int{{-1, -1, 2}, {-1, 0, 1}},
 		threeSum([]int{-1, 0, 1, 2, -1, -4}),
 	)
+	assert.Equal(t,
+		[][]int{{-1, -1, 2}, {-1, 0, 1}},
+		threeSum([]int{-1, 0, 1, 2, -1, -4, -1, 1}),
+	)
 }
 
 func Benchmark_threeSum(b *testing.B) {
