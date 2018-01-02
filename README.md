@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|83|[Remove Duplicates from Sorted List][Solutions-83]|[WindomZ][Solutions-83-golang]|Easy|[93.0 ns/op/6 test cases][Solutions-83-Test]|9 ms|
 |82|[Remove Duplicates from Sorted List II][Solutions-82]|[WindomZ][Solutions-82-golang]|Medium|[9.62 ns/op/6 test cases][Solutions-82-Test]|6 ms|
 |81|[Search in Rotated Sorted Array II][Solutions-81]|[WindomZ][Solutions-81-golang]|Medium|[11.7 ns/op/12 test cases][Solutions-81-Test]|9 ms|
 |80|[Remove Duplicates from Sorted Array II][Solutions-80]|[WindomZ][Solutions-80-golang]|Medium|[9.82 ns/op/6 test cases][Solutions-80-Test]|12 ms|
@@ -134,6 +135,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-83]:https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+[Solutions-83-golang]:solutions/remove_duplicates_from_sorted_list/removeduplicatesfromsortedlist.go
+[Solutions-83-Test]:solutions/remove_duplicates_from_sorted_list/removeduplicatesfromsortedlist_test.go#L86
 [Solutions-82]:https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 [Solutions-82-golang]:solutions/remove_duplicates_from_sorted_list_ii/removeduplicatesfromsortedlistii.go
 [Solutions-82-Test]:solutions/remove_duplicates_from_sorted_list_ii/removeduplicatesfromsortedlistii_test.go#L77
