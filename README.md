@@ -25,6 +25,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|88|[Merge Sorted Array][Solutions-88]|[WindomZ][Solutions-88-golang]|Easy|[9.00 ns/op/6 test cases][Solutions-88-Test]|3 ms|
 |86|[Partition List][Solutions-86]|[WindomZ][Solutions-86-golang]|Medium|[89.1 ns/op/3 test cases][Solutions-86-Test]|3 ms|
 |83|[Remove Duplicates from Sorted List][Solutions-83]|[WindomZ][Solutions-83-golang]|Easy|[93.0 ns/op/6 test cases][Solutions-83-Test]|9 ms|
 |82|[Remove Duplicates from Sorted List II][Solutions-82]|[WindomZ][Solutions-82-golang]|Medium|[9.62 ns/op/6 test cases][Solutions-82-Test]|6 ms|
@@ -136,6 +137,9 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-88]:https://leetcode.com/problems/merge-sorted-array/
+[Solutions-88-golang]:solutions/merge_sorted_array/mergesortedarray.go
+[Solutions-88-Test]:solutions/merge_sorted_array/mergesortedarray_test.go#L35
 [Solutions-86]:https://leetcode.com/problems/partition-list/
 [Solutions-86-golang]:solutions/partition_list/partitionlist.go
 [Solutions-86-Test]:solutions/partition_list/partitionlist_test.go#L87
