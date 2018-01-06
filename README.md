@@ -19,94 +19,94 @@
 
 - **Faster** and **better** solutions.
 - **100%** coverage tests.
-- **Benchmark** tests.
+- **100%** benchmark tests.
 
 ## Solutions
 
+> '`Single Repetition Duration`' and '`LeetCode Run Time`' are for **reference** only.
+
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
-|89|[Gray Code][Solutions-89]|[WindomZ][Solutions-89-golang]|Medium|[88.6 ns/op/6 test cases][Solutions-89-Test]|9 ms|
-|88|[Merge Sorted Array][Solutions-88]|[WindomZ][Solutions-88-golang]|Easy|[9.00 ns/op/6 test cases][Solutions-88-Test]|3 ms|
-|86|[Partition List][Solutions-86]|[WindomZ][Solutions-86-golang]|Medium|[89.1 ns/op/3 test cases][Solutions-86-Test]|3 ms|
-|83|[Remove Duplicates from Sorted List][Solutions-83]|[WindomZ][Solutions-83-golang]|Easy|[93.0 ns/op/6 test cases][Solutions-83-Test]|9 ms|
-|82|[Remove Duplicates from Sorted List II][Solutions-82]|[WindomZ][Solutions-82-golang]|Medium|[9.62 ns/op/6 test cases][Solutions-82-Test]|6 ms|
-|81|[Search in Rotated Sorted Array II][Solutions-81]|[WindomZ][Solutions-81-golang]|Medium|[11.7 ns/op/12 test cases][Solutions-81-Test]|9 ms|
-|80|[Remove Duplicates from Sorted Array II][Solutions-80]|[WindomZ][Solutions-80-golang]|Medium|[9.82 ns/op/6 test cases][Solutions-80-Test]|12 ms|
-|79|[Word Search][Solutions-79]|[WindomZ][Solutions-79-golang]|Medium|[73.3 ns/op/6 test cases][Solutions-79-Test]|6 ms|
-|78|[Subsets][Solutions-78]|[WindomZ][Solutions-78-golang]|Medium|[447 ns/op/5 test cases][Solutions-78-Test]|6 ms|
-|77|[Combinations][Solutions-77]|[WindomZ][Solutions-77-golang]|Medium|[336 ns/op/6 test cases][Solutions-77-Test]|246 ms|
-|75|[Sort Colors][Solutions-75]|[WindomZ][Solutions-75-golang]|Medium|[13.4 ns/op/6 test cases][Solutions-75-Test]|3 ms|
-|74|[Search a 2D Matrix][Solutions-74]|[WindomZ][Solutions-74-golang]|Medium|[32.5 ns/op/6 test cases][Solutions-74-Test]|16 ms|
-|73|[Set Matrix Zeroes][Solutions-73]|[WindomZ][Solutions-73-golang]|Medium|[22.0 ns/op/6 test cases][Solutions-73-Test]|42 ms|
-|71|[Simplify Path][Solutions-71]|[WindomZ][Solutions-71-golang]|Medium|[382 ns/op/6 test cases][Solutions-71-Test]|3 ms|
-|70|[Climbing Stairs][Solutions-70]|[WindomZ][Solutions-70-go]|Easy|[7.59 ns/op/9 test cases][Solutions-70-Test]|0 ms|
-|69|[Sqrt(x)][Solutions-69]|[WindomZ][Solutions-69-go]|Easy|[27.6 ns/op/8 test cases][Solutions-69-Test]|6 ms|
-|67|[Add Binary][Solutions-67]|[WindomZ][Solutions-67-Go]|Easy|[84.0 ns/op/5 test cases][Solutions-67-Test]|3 ms|
-|66|[Plus One][Solutions-66]|[WindomZ][Solutions-66-Go]|Easy|[29.8 ns/op/6 test cases][Solutions-66-Test]|3 ms|
-|65|[Valid Number][Solutions-65]|[WindomZ][Solutions-65-Go]|Hard|[46.3 ns/op/8 test cases][Solutions-65-Test]|9 ms|
-|64|[Minimum Path Sum][Solutions-64]|[WindomZ][Solutions-64-Go]|Medium|[48.4 ns/op/5 test cases][Solutions-64-Test]|16 ms|
-|63|[Unique Paths II][Solutions-63]|[WindomZ][Solutions-63-Go]|Medium|[36.3 ns/op/5 test cases][Solutions-63-Test]|3 ms|
-|62|[Unique Paths][Solutions-62]|[WindomZ][Solutions-62-Go]|Medium|[5.51 ns/op/11 test cases][Solutions-62-Test]|0 ms|
-|61|[Rotate List][Solutions-61]|[WindomZ][Solutions-61-Go]|Medium|[34.0 ns/op/2 test cases][Solutions-61-Test]|6 ms|
-|60|[Permutation Sequence][Solutions-60]|[WindomZ][Solutions-60-Go]|Medium|[73.9 ns/op/6 test cases][Solutions-60-Test]|3 ms|
-|59|[Spiral Matrix II][Solutions-59]|[WindomZ][Solutions-59-Go]|Medium|[82.1 ns/op/3 test cases][Solutions-59-Test]|0 ms|
-|58|[Length of Last Word][Solutions-58]|[WindomZ][Solutions-58-Go]|Easy|[4.02 ns/op/5 test cases][Solutions-58-Test]|0 ms|
-|56|[Merge Intervals][Solutions-56]|[WindomZ][Solutions-56-Go]|Medium|[154 ns/op/5 test cases][Solutions-56-Test]|19 ms|
-|55|[Jump Game][Solutions-55]|[WindomZ][Solutions-55-Go]|Medium|[7.32 ns/op/6 test cases][Solutions-55-Test]|19 ms|
-|54|[Spiral Matrix][Solutions-54]|[WindomZ][Solutions-54-Go]|Medium|[45.5 ns/op/3 test cases][Solutions-54-Test]|0 ms|
-|53|[Maximum Subarray][Solutions-53]|[WindomZ][Solutions-53-Go]|Easy|[10.3 ns/op/6 test cases][Solutions-53-Test]|12 ms|
-|50|[Pow(x, n)][Solutions-50]|[WindomZ][Solutions-50-Go]|Medium|[7.31 ns/op/12 test cases][Solutions-50-Test]|3 ms|
-|49|[Group Anagrams][Solutions-49]|[WindomZ][Solutions-49-Go]|Medium|[313 ns/op/3 test cases][Solutions-49-Test]|582 ms|
-|48|[Rotate Image][Solutions-48]|[WindomZ][Solutions-48-Go]|Medium|[12.1 ns/op/3 test cases][Solutions-48-Test]|3 ms|
-|47|[Permutations II][Solutions-47]|[WindomZ][Solutions-47-Go]|Medium|[198 ns/op/3 test cases][Solutions-47-Test]|19 ms|
-|46|[Permutations][Solutions-46]|[WindomZ][Solutions-46-Go]|Medium|[484 ns/op/3 test cases][Solutions-46-Test]|9 ms|
-|45|[Jump Game II][Solutions-45]|[WindomZ][Solutions-45-Go]|Hard|[5.14 ns/op/6 test cases][Solutions-45-Test]|19 ms|
-|44|[Wildcard Matching][Solutions-44]|[WindomZ][Solutions-44-Go]|Hard|[10.9 ns/op/9 test cases][Solutions-44-Test]|15 ms|
-|43|[Multiply Strings][Solutions-43]|[WindomZ][Solutions-43-Go]|Medium|[53.4 ns/op/6 test cases][Solutions-43-Test]|3 ms|
-|42|[Trapping Rain Water][Solutions-42]|[WindomZ][Solutions-42-Go]|Hard|[14.4 ns/op/6 test cases][Solutions-42-Test]|6 ms|
-|41|[First Missing Positive][Solutions-41]|[WindomZ][Solutions-41-Go]|Hard|[12.3 ns/op/6 test cases][Solutions-41-Test]|3 ms|
-|40|[Combination Sum II][Solutions-40]|[WindomZ][Solutions-40-Go]|Medium|[203 ns/op/3 test cases][Solutions-40-Test]|3 ms|
-|39|[Combination Sum][Solutions-39]|[WindomZ][Solutions-39-Go]|Medium|[165 ns/op/3 test cases][Solutions-39-Test]|6 ms|
-|38|[Count and Say][Solutions-38]|[WindomZ][Solutions-38-Go]|Easy|[66.8 ns/op/4 test cases][Solutions-38-Test]|0 ms|
-|37|[Sudoku Solver][Solutions-37]|[WindomZ][Solutions-37-Go]|Hard|[35497 ns/op/2 test cases][Solutions-37-Test]|0 ms|
-|36|[Valid Sudoku][Solutions-36]|[WindomZ][Solutions-36-Go]|Medium|[135 ns/op/3 test cases][Solutions-36-Test]|6 ms|
-|35|[Search Insert Position][Solutions-35]|[WindomZ][Solutions-35-Go]|Easy|[7.76 ns/op/8 test cases][Solutions-35-Test]|6 ms|
-|34|[Search for a Range][Solutions-34]|[WindomZ][Solutions-34-Go]|Medium|[53.5 ns/op/8 test cases][Solutions-34-Test]|19 ms|
-|33|[Search in Rotated Sorted Array][Solutions-33]|[WindomZ][Solutions-33-Go]|Medium|[30.0 ns/op/8 test cases][Solutions-33-Test]|3 ms|
-|32|[Longest Valid Parentheses][Solutions-32]|[WindomZ][Solutions-32-Go]|Hard|[78.9 ns/op/8 test cases][Solutions-32-Test]|3 ms|
-|31|[Next Permutation][Solutions-31]|[WindomZ][Solutions-31-Go]|Medium|[2.97 ns/op/4 test cases][Solutions-31-Test]|6 ms|
-|30|[Substring with Concatenation of All Words][Solutions-30]|[WindomZ][Solutions-30-Go]|Hard|[331 ns/op/3 test cases][Solutions-30-Test]|13 ms|
-|29|[Divide Two Integers][Solutions-29]|[WindomZ][Solutions-29-Go]|Medium|[63.2 ns/op/12 test cases][Solutions-29-Test]|6 ms|
-|28|[Implement strStr()][Solutions-28]|[WindomZ][Solutions-28-Go]|Easy|[9.29 ns/op/7 test cases][Solutions-28-Test]|0 ms|
-|27|[Remove Element][Solutions-27]|[WindomZ][Solutions-27-Go]|Easy|[8.75 ns/op/6 test cases][Solutions-27-Test]|3 ms|
-|26|[Remove Duplicates from Sorted Array][Solutions-26]|[WindomZ][Solutions-26-Go]|Easy|[9.51 ns/op/6 test cases][Solutions-26-Test]|102 ms|
-|25|[Reverse Nodes in k-Group][Solutions-25]|[WindomZ][Solutions-25-Go]|Hard|[58.6 ns/op/3 test cases][Solutions-25-Test]|9 ms|
-|24|[Swap Nodes in Pairs][Solutions-24]|[WindomZ][Solutions-24-Go]|Medium|[62.1 ns/op/4 test cases][Solutions-24-Test]|0 ms|
-|23|[Merge k Sorted Lists][Solutions-23]|[WindomZ][Solutions-23-Go]|Hard|[88.7 ns/op/4 test cases][Solutions-23-Test]|19 ms|
-|22|[Generate Parentheses][Solutions-22]|[WindomZ][Solutions-22-Go]|Medium|[340 ns/op/4 test cases][Solutions-22-Test]|13 ms|
-|21|[Merge Two Sorted Lists][Solutions-21]|[WindomZ][Solutions-21-Go]|Easy|[89.0 ns/op/3 test cases][Solutions-21-Test]|3 ms|
-|20|[Valid Parentheses][Solutions-20]|[WindomZ][Solutions-20-Go]|Easy|[28.9 ns/op/6 test cases][Solutions-20-Test]|0 ms|
-|19|[Remove Nth Node From End of List][Solutions-19]|[WindomZ][Solutions-19-Go]|Medium|[97.3 ns/op/6 test cases][Solutions-19-Test]|3 ms|
-|18|[4Sum][Solutions-18]|[WindomZ][Solutions-18-Go]|Medium|[233 ns/op/3 test cases][Solutions-18-Test]|16 ms|
-|17|[Letter Combinations of a Phone Number][Solutions-17]|[WindomZ][Solutions-17-Go]|Medium|[407 ns/op/4 test cases][Solutions-17-Test]|0 ms|
-|16|[3Sum Closest][Solutions-16]|[WindomZ][Solutions-16-Go]|Medium|[379 ns/op/8 test cases][Solutions-16-Test]|9 ms|
-|15|[3Sum][Solutions-15]|[WindomZ][Solutions-15-Go]|Medium|[183 ns/op/4 test cases][Solutions-15-Test]|1525 ms|
-|14|[Longest Common Prefix][Solutions-14]|[WindomZ][Solutions-14-Go]|Easy|[10.6 ns/op/8 test cases][Solutions-14-Test]|3 ms|
-|13|[Roman to Integer][Solutions-13]|[WindomZ][Solutions-13-Go]|Easy|[16.9 ns/op/8 test cases][Solutions-13-Test]|19 ms|
-|12|[Integer to Roman][Solutions-12]|[WindomZ][Solutions-12-Go]|Medium|[26.4 ns/op/8 test cases][Solutions-12-Test]|22 ms|
-|11|[Container With Most Water][Solutions-11]|[WindomZ][Solutions-11-Go]|Medium|[7.84 ns/op/5 test cases][Solutions-11-Test]|25 ms|
-|10|[Regular Expression Matching][Solutions-10]|[WindomZ][Solutions-10-Go]|Hard|[183 ns/op/6 test cases][Solutions-10-Test]|3 ms|
-|9|[Palindrome Number][Solutions-9]|[WindomZ][Solutions-9-Go]|Easy|[6.37 ns/op/7 test cases][Solutions-9-Test]|55 ms|
-|8|[String to Integer (atoi)][Solutions-8]|[WindomZ][Solutions-8-Go]|Medium|[7.31 ns/op/5 test cases][Solutions-8-Test]|3 ms|
-|7|[Reverse Integer][Solutions-7]|[WindomZ][Solutions-7-Go]|Easy|[9.00 ns/op/5 test cases][Solutions-7-Test]|3 ms|
-|6|[ZigZag Conversion][Solutions-6]|[WindomZ][Solutions-6-Go]|Medium|[55.1 ns/op/5 test cases][Solutions-6-Test]|9 ms|
-|5|[Longest Palindromic Substring][Solutions-5]|[WindomZ][Solutions-5-Go]|Medium|[39.1 ns/op/6 test cases][Solutions-5-Test]|9 ms|
-|4|[Median of Two Sorted Arrays][Solutions-4]|[WindomZ][Solutions-4-Go]|Hard|[19.4 ns/op/14 test cases][Solutions-4-Test]|32 ms|
-|3|[Longest Substring Without Repeating Characters][Solutions-3]|[WindomZ][Solutions-3-Go]|Medium|[21.3 ns/op/3 test cases][Solutions-3-Test]|6 ms|
-|2|[Add Two Numbers][Solutions-2]|[WindomZ][Solutions-2-Go]|Medium|[19.4 ns/op/1 test cases][Solutions-2-Test]|29 ms|
-|1|[Two Sum][Solutions-1]|[WindomZ][Solutions-1-Go]|Easy|[79.5 ns/op/3 test cases][Solutions-1-Test]|6 ms|
-
-> **NOTE**: '`Single Repetition Duration`' and '`LeetCode Run Time`' are for **reference** only.
+|89|[Gray Code][Solutions-89]|[Code][Solutions-89-golang]|Medium|[88.6 ns/op/6 test cases][Solutions-89-Test]|9 ms|
+|88|[Merge Sorted Array][Solutions-88]|[Code][Solutions-88-golang]|Easy|[9.00 ns/op/6 test cases][Solutions-88-Test]|3 ms|
+|86|[Partition List][Solutions-86]|[Code][Solutions-86-golang]|Medium|[89.1 ns/op/3 test cases][Solutions-86-Test]|3 ms|
+|83|[Remove Duplicates from Sorted List][Solutions-83]|[Code][Solutions-83-golang]|Easy|[93.0 ns/op/6 test cases][Solutions-83-Test]|9 ms|
+|82|[Remove Duplicates from Sorted List II][Solutions-82]|[Code][Solutions-82-golang]|Medium|[9.62 ns/op/6 test cases][Solutions-82-Test]|6 ms|
+|81|[Search in Rotated Sorted Array II][Solutions-81]|[Code][Solutions-81-golang]|Medium|[11.7 ns/op/12 test cases][Solutions-81-Test]|9 ms|
+|80|[Remove Duplicates from Sorted Array II][Solutions-80]|[Code][Solutions-80-golang]|Medium|[9.82 ns/op/6 test cases][Solutions-80-Test]|12 ms|
+|79|[Word Search][Solutions-79]|[Code][Solutions-79-golang]|Medium|[73.3 ns/op/6 test cases][Solutions-79-Test]|6 ms|
+|78|[Subsets][Solutions-78]|[Code][Solutions-78-golang]|Medium|[447 ns/op/5 test cases][Solutions-78-Test]|6 ms|
+|77|[Combinations][Solutions-77]|[Code][Solutions-77-golang]|Medium|[336 ns/op/6 test cases][Solutions-77-Test]|246 ms|
+|75|[Sort Colors][Solutions-75]|[Code][Solutions-75-golang]|Medium|[13.4 ns/op/6 test cases][Solutions-75-Test]|3 ms|
+|74|[Search a 2D Matrix][Solutions-74]|[Code][Solutions-74-golang]|Medium|[32.5 ns/op/6 test cases][Solutions-74-Test]|16 ms|
+|73|[Set Matrix Zeroes][Solutions-73]|[Code][Solutions-73-golang]|Medium|[22.0 ns/op/6 test cases][Solutions-73-Test]|42 ms|
+|71|[Simplify Path][Solutions-71]|[Code][Solutions-71-golang]|Medium|[382 ns/op/6 test cases][Solutions-71-Test]|3 ms|
+|70|[Climbing Stairs][Solutions-70]|[Code][Solutions-70-go]|Easy|[7.59 ns/op/9 test cases][Solutions-70-Test]|0 ms|
+|69|[Sqrt(x)][Solutions-69]|[Code][Solutions-69-go]|Easy|[27.6 ns/op/8 test cases][Solutions-69-Test]|6 ms|
+|67|[Add Binary][Solutions-67]|[Code][Solutions-67-Go]|Easy|[84.0 ns/op/5 test cases][Solutions-67-Test]|3 ms|
+|66|[Plus One][Solutions-66]|[Code][Solutions-66-Go]|Easy|[29.8 ns/op/6 test cases][Solutions-66-Test]|3 ms|
+|65|[Valid Number][Solutions-65]|[Code][Solutions-65-Go]|Hard|[46.3 ns/op/8 test cases][Solutions-65-Test]|9 ms|
+|64|[Minimum Path Sum][Solutions-64]|[Code][Solutions-64-Go]|Medium|[48.4 ns/op/5 test cases][Solutions-64-Test]|16 ms|
+|63|[Unique Paths II][Solutions-63]|[Code][Solutions-63-Go]|Medium|[36.3 ns/op/5 test cases][Solutions-63-Test]|3 ms|
+|62|[Unique Paths][Solutions-62]|[Code][Solutions-62-Go]|Medium|[5.51 ns/op/11 test cases][Solutions-62-Test]|0 ms|
+|61|[Rotate List][Solutions-61]|[Code][Solutions-61-Go]|Medium|[34.0 ns/op/2 test cases][Solutions-61-Test]|6 ms|
+|60|[Permutation Sequence][Solutions-60]|[Code][Solutions-60-Go]|Medium|[73.9 ns/op/6 test cases][Solutions-60-Test]|3 ms|
+|59|[Spiral Matrix II][Solutions-59]|[Code][Solutions-59-Go]|Medium|[82.1 ns/op/3 test cases][Solutions-59-Test]|0 ms|
+|58|[Length of Last Word][Solutions-58]|[Code][Solutions-58-Go]|Easy|[4.02 ns/op/5 test cases][Solutions-58-Test]|0 ms|
+|56|[Merge Intervals][Solutions-56]|[Code][Solutions-56-Go]|Medium|[154 ns/op/5 test cases][Solutions-56-Test]|19 ms|
+|55|[Jump Game][Solutions-55]|[Code][Solutions-55-Go]|Medium|[7.32 ns/op/6 test cases][Solutions-55-Test]|19 ms|
+|54|[Spiral Matrix][Solutions-54]|[Code][Solutions-54-Go]|Medium|[45.5 ns/op/3 test cases][Solutions-54-Test]|0 ms|
+|53|[Maximum Subarray][Solutions-53]|[Code][Solutions-53-Go]|Easy|[10.3 ns/op/6 test cases][Solutions-53-Test]|12 ms|
+|50|[Pow(x, n)][Solutions-50]|[Code][Solutions-50-Go]|Medium|[7.31 ns/op/12 test cases][Solutions-50-Test]|3 ms|
+|49|[Group Anagrams][Solutions-49]|[Code][Solutions-49-Go]|Medium|[313 ns/op/3 test cases][Solutions-49-Test]|582 ms|
+|48|[Rotate Image][Solutions-48]|[Code][Solutions-48-Go]|Medium|[12.1 ns/op/3 test cases][Solutions-48-Test]|3 ms|
+|47|[Permutations II][Solutions-47]|[Code][Solutions-47-Go]|Medium|[198 ns/op/3 test cases][Solutions-47-Test]|19 ms|
+|46|[Permutations][Solutions-46]|[Code][Solutions-46-Go]|Medium|[484 ns/op/3 test cases][Solutions-46-Test]|9 ms|
+|45|[Jump Game II][Solutions-45]|[Code][Solutions-45-Go]|Hard|[5.14 ns/op/6 test cases][Solutions-45-Test]|19 ms|
+|44|[Wildcard Matching][Solutions-44]|[Code][Solutions-44-Go]|Hard|[10.9 ns/op/9 test cases][Solutions-44-Test]|15 ms|
+|43|[Multiply Strings][Solutions-43]|[Code][Solutions-43-Go]|Medium|[53.4 ns/op/6 test cases][Solutions-43-Test]|3 ms|
+|42|[Trapping Rain Water][Solutions-42]|[Code][Solutions-42-Go]|Hard|[14.4 ns/op/6 test cases][Solutions-42-Test]|6 ms|
+|41|[First Missing Positive][Solutions-41]|[Code][Solutions-41-Go]|Hard|[12.3 ns/op/6 test cases][Solutions-41-Test]|3 ms|
+|40|[Combination Sum II][Solutions-40]|[Code][Solutions-40-Go]|Medium|[203 ns/op/3 test cases][Solutions-40-Test]|3 ms|
+|39|[Combination Sum][Solutions-39]|[Code][Solutions-39-Go]|Medium|[165 ns/op/3 test cases][Solutions-39-Test]|6 ms|
+|38|[Count and Say][Solutions-38]|[Code][Solutions-38-Go]|Easy|[66.8 ns/op/4 test cases][Solutions-38-Test]|0 ms|
+|37|[Sudoku Solver][Solutions-37]|[Code][Solutions-37-Go]|Hard|[35497 ns/op/2 test cases][Solutions-37-Test]|0 ms|
+|36|[Valid Sudoku][Solutions-36]|[Code][Solutions-36-Go]|Medium|[135 ns/op/3 test cases][Solutions-36-Test]|6 ms|
+|35|[Search Insert Position][Solutions-35]|[Code][Solutions-35-Go]|Easy|[7.76 ns/op/8 test cases][Solutions-35-Test]|6 ms|
+|34|[Search for a Range][Solutions-34]|[Code][Solutions-34-Go]|Medium|[53.5 ns/op/8 test cases][Solutions-34-Test]|19 ms|
+|33|[Search in Rotated Sorted Array][Solutions-33]|[Code][Solutions-33-Go]|Medium|[30.0 ns/op/8 test cases][Solutions-33-Test]|3 ms|
+|32|[Longest Valid Parentheses][Solutions-32]|[Code][Solutions-32-Go]|Hard|[78.9 ns/op/8 test cases][Solutions-32-Test]|3 ms|
+|31|[Next Permutation][Solutions-31]|[Code][Solutions-31-Go]|Medium|[2.97 ns/op/4 test cases][Solutions-31-Test]|6 ms|
+|30|[Substring with Concatenation of All Words][Solutions-30]|[Code][Solutions-30-Go]|Hard|[331 ns/op/3 test cases][Solutions-30-Test]|13 ms|
+|29|[Divide Two Integers][Solutions-29]|[Code][Solutions-29-Go]|Medium|[63.2 ns/op/12 test cases][Solutions-29-Test]|6 ms|
+|28|[Implement strStr()][Solutions-28]|[Code][Solutions-28-Go]|Easy|[9.29 ns/op/7 test cases][Solutions-28-Test]|0 ms|
+|27|[Remove Element][Solutions-27]|[Code][Solutions-27-Go]|Easy|[8.75 ns/op/6 test cases][Solutions-27-Test]|3 ms|
+|26|[Remove Duplicates from Sorted Array][Solutions-26]|[Code][Solutions-26-Go]|Easy|[9.51 ns/op/6 test cases][Solutions-26-Test]|102 ms|
+|25|[Reverse Nodes in k-Group][Solutions-25]|[Code][Solutions-25-Go]|Hard|[58.6 ns/op/3 test cases][Solutions-25-Test]|9 ms|
+|24|[Swap Nodes in Pairs][Solutions-24]|[Code][Solutions-24-Go]|Medium|[62.1 ns/op/4 test cases][Solutions-24-Test]|0 ms|
+|23|[Merge k Sorted Lists][Solutions-23]|[Code][Solutions-23-Go]|Hard|[88.7 ns/op/4 test cases][Solutions-23-Test]|19 ms|
+|22|[Generate Parentheses][Solutions-22]|[Code][Solutions-22-Go]|Medium|[340 ns/op/4 test cases][Solutions-22-Test]|13 ms|
+|21|[Merge Two Sorted Lists][Solutions-21]|[Code][Solutions-21-Go]|Easy|[89.0 ns/op/3 test cases][Solutions-21-Test]|3 ms|
+|20|[Valid Parentheses][Solutions-20]|[Code][Solutions-20-Go]|Easy|[28.9 ns/op/6 test cases][Solutions-20-Test]|0 ms|
+|19|[Remove Nth Node From End of List][Solutions-19]|[Code][Solutions-19-Go]|Medium|[97.3 ns/op/6 test cases][Solutions-19-Test]|3 ms|
+|18|[4Sum][Solutions-18]|[Code][Solutions-18-Go]|Medium|[233 ns/op/3 test cases][Solutions-18-Test]|16 ms|
+|17|[Letter Combinations of a Phone Number][Solutions-17]|[Code][Solutions-17-Go]|Medium|[407 ns/op/4 test cases][Solutions-17-Test]|0 ms|
+|16|[3Sum Closest][Solutions-16]|[Code][Solutions-16-Go]|Medium|[379 ns/op/8 test cases][Solutions-16-Test]|9 ms|
+|15|[3Sum][Solutions-15]|[Code][Solutions-15-Go]|Medium|[183 ns/op/4 test cases][Solutions-15-Test]|1525 ms|
+|14|[Longest Common Prefix][Solutions-14]|[Code][Solutions-14-Go]|Easy|[10.6 ns/op/8 test cases][Solutions-14-Test]|3 ms|
+|13|[Roman to Integer][Solutions-13]|[Code][Solutions-13-Go]|Easy|[16.9 ns/op/8 test cases][Solutions-13-Test]|19 ms|
+|12|[Integer to Roman][Solutions-12]|[Code][Solutions-12-Go]|Medium|[26.4 ns/op/8 test cases][Solutions-12-Test]|22 ms|
+|11|[Container With Most Water][Solutions-11]|[Code][Solutions-11-Go]|Medium|[7.84 ns/op/5 test cases][Solutions-11-Test]|25 ms|
+|10|[Regular Expression Matching][Solutions-10]|[Code][Solutions-10-Go]|Hard|[183 ns/op/6 test cases][Solutions-10-Test]|3 ms|
+|9|[Palindrome Number][Solutions-9]|[Code][Solutions-9-Go]|Easy|[6.37 ns/op/7 test cases][Solutions-9-Test]|55 ms|
+|8|[String to Integer (atoi)][Solutions-8]|[Code][Solutions-8-Go]|Medium|[7.31 ns/op/5 test cases][Solutions-8-Test]|3 ms|
+|7|[Reverse Integer][Solutions-7]|[Code][Solutions-7-Go]|Easy|[9.00 ns/op/5 test cases][Solutions-7-Test]|3 ms|
+|6|[ZigZag Conversion][Solutions-6]|[Code][Solutions-6-Go]|Medium|[55.1 ns/op/5 test cases][Solutions-6-Test]|9 ms|
+|5|[Longest Palindromic Substring][Solutions-5]|[Code][Solutions-5-Go]|Medium|[39.1 ns/op/6 test cases][Solutions-5-Test]|9 ms|
+|4|[Median of Two Sorted Arrays][Solutions-4]|[Code][Solutions-4-Go]|Hard|[19.4 ns/op/14 test cases][Solutions-4-Test]|32 ms|
+|3|[Longest Substring Without Repeating Characters][Solutions-3]|[Code][Solutions-3-Go]|Medium|[21.3 ns/op/3 test cases][Solutions-3-Test]|6 ms|
+|2|[Add Two Numbers][Solutions-2]|[Code][Solutions-2-Go]|Medium|[19.4 ns/op/1 test cases][Solutions-2-Test]|29 ms|
+|1|[Two Sum][Solutions-1]|[Code][Solutions-1-Go]|Easy|[79.5 ns/op/3 test cases][Solutions-1-Test]|6 ms|
 
 > All tests should be run on a **same** machine, and through **multiple** benchmark tests.
 
