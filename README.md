@@ -27,6 +27,7 @@
 
 | # | Problem | Solution | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :--------: | :----------: | ----------: | ----------: |
+|[90][Solutions-90]|[Subsets II][Solutions-90-Home]|[Code][Solutions-90-golang]|Medium|[326 ns/op/5 test cases][Solutions-90-Test]|9 ms|
 |89|[Gray Code][Solutions-89]|[Code][Solutions-89-golang]|Medium|[88.6 ns/op/6 test cases][Solutions-89-Test]|9 ms|
 |88|[Merge Sorted Array][Solutions-88]|[Code][Solutions-88-golang]|Easy|[9.00 ns/op/6 test cases][Solutions-88-Test]|3 ms|
 |86|[Partition List][Solutions-86]|[Code][Solutions-86-golang]|Medium|[89.1 ns/op/3 test cases][Solutions-86-Test]|3 ms|
@@ -138,6 +139,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-90]:https://leetcode.com/problems/subsets-ii/
+[Solutions-90-Home]:solutions/subsets_ii/
+[Solutions-90-golang]:solutions/subsets_ii/subsetsii.go
+[Solutions-90-Test]:solutions/subsets_ii/subsetsii_test.go#L55
 [Solutions-89]:https://leetcode.com/problems/gray-code/
 [Solutions-89-golang]:solutions/gray_code/graycode.go
 [Solutions-89-Test]:solutions/gray_code/graycode_test.go#L17
