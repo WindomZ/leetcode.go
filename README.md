@@ -7,19 +7,25 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/WindomZ/leetcode.go)](https://goreportcard.com/report/github.com/WindomZ/leetcode.go)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_shield)
 
+## Pursue
+
+- **Faster** and **Better** solutions.
+- **100%** coverage tests.
+- **100%** benchmark tests.
+
+> Secret all in the subtle.
+
+## Catalog
+
 - [Pursue](#pursue)
 - [Solutions](#solutions)
 - [Testing](#testing)
+- [Related](#related)
+  - [Helper](#helper)
 - [Contributing](#contributing)
   - [Challenge](#challenge)
   - [Discuss](#discuss)
   - [Support](#support)
-
-## Pursue
-
-- **Faster** and **better** solutions.
-- **100%** coverage tests.
-- **100%** benchmark tests.
 
 ## Solutions
 
@@ -122,7 +128,8 @@ go test -bench=. -benchmem ./solutions/...
 
 ## Related
 
-- [WindomZ/leetcode-init](https://github.com/WindomZ/leetcode-init) - A tool to creates leetcode code template via cli.
+### Helper
+- [WindomZ/leetcode-init](https://github.com/WindomZ/leetcode-init) - A tool to create leetcode code template via cli.
 
 ## Contributing
 
