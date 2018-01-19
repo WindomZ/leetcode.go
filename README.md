@@ -33,7 +33,7 @@
 
 | # | **Problem** & **Solution** | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :----------: | ----------: | ----------: |
-|[91][Solutions-91]|[Decode Ways][Solutions-91-Home]|[Code][Solutions-91-golang]|Medium|[68.3 ns/op/8 test cases][Solutions-91-Test]|3 ms|
+|[91][Solutions-91]|[Decode Ways][Solutions-91-Home]|Medium|[68.3 ns/op][Solutions-91-Code] / [8 test cases][Solutions-91-Test]|3 ms|
 |[90][Solutions-90]|[Subsets II][Solutions-90-Home]|Medium|[326 ns/op][Solutions-90-Code] / [5 test cases][Solutions-90-Test]|9 ms|
 |[89][Solutions-89]|[Gray Code][Solutions-89-Home]|Medium|[88.6 ns/op][Solutions-89-Code] / [6 test cases][Solutions-89-Test]|9 ms|
 |[88][Solutions-88]|[Merge Sorted Array][Solutions-88-Home]|Easy|[9.00 ns/op][Solutions-88-Code] / [6 test cases][Solutions-88-Test]|3 ms|
@@ -149,7 +149,7 @@ If you like it then you can put a :star:Star on it.
 
 [Solutions-91]:https://leetcode.com/problems/decode-ways/
 [Solutions-91-Home]:solutions/decode_ways/
-[Solutions-91-golang]:solutions/decode_ways/decodeways.go
+[Solutions-91-Code]:solutions/decode_ways/decodeways.go
 [Solutions-91-Test]:solutions/decode_ways/decodeways_test.go#L27
 [Solutions-90]:https://leetcode.com/problems/subsets-ii/
 [Solutions-90-Home]:solutions/subsets_ii/
