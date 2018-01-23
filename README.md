@@ -33,6 +33,7 @@
 
 | # | **Problem** & **Solution** | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :----------: | ----------: | ----------: |
+|[93][Solutions-93]|[Restore IP Addresses][Solutions-93-Home]|Medium|[251 ns/op][Solutions-93-Code] / [4 test cases][Solutions-93-Test]|4 ms|
 |[92][Solutions-92]|[Reverse Linked List II][Solutions-92-Home]|Medium|[61.5 ns/op][Solutions-92-Code] / [3 test cases][Solutions-92-Test]|3 ms|
 |[91][Solutions-91]|[Decode Ways][Solutions-91-Home]|Medium|[68.3 ns/op][Solutions-91-Code] / [8 test cases][Solutions-91-Test]|3 ms|
 |[90][Solutions-90]|[Subsets II][Solutions-90-Home]|Medium|[326 ns/op][Solutions-90-Code] / [5 test cases][Solutions-90-Test]|9 ms|
@@ -148,6 +149,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ### Support
 If you like it then you can put a :star:Star on it.
 
+[Solutions-93]:https://leetcode.com/problems/restore-ip-addresses/
+[Solutions-93-Home]:solutions/restore_ip_addresses/
+[Solutions-93-Code]:solutions/restore_ip_addresses/restoreipaddresses.go
+[Solutions-93-Test]:solutions/restore_ip_addresses/restoreipaddresses_test.go#L20
 [Solutions-92]:https://leetcode.com/problems/reverse-linked-list-ii/
 [Solutions-92-Home]:solutions/reverse_linked_list_ii/
 [Solutions-92-Code]:solutions/reverse_linked_list_ii/reverselinkedlistii.go
