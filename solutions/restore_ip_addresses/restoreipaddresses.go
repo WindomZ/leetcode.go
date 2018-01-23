@@ -1,6 +1,6 @@
 package restoreipaddresses
 
-func restoreIpAddresses(s string) []string {
+func restoreIPAddresses(s string) []string {
 	if len(s) <= 3 {
 		return []string{}
 	}
