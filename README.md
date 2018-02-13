@@ -13,8 +13,6 @@
 - **100%** coverage tests.
 - **100%** benchmark tests.
 
-> Secret all in the subtle.
-
 ## Catalog
 
 - [Pursue](#pursue)
@@ -26,6 +24,9 @@
   - [Challenge](#challenge)
   - [Discuss](#discuss)
   - [Support](#support)
+
+## Support
+If you like it then you can put a :star:**Star** on it.
 
 ## Solutions
 
@@ -147,8 +148,8 @@ Welcome to **pull requests(PRs)** of the **better** solutions.
 ### Discuss
 Welcome to report bugs, suggest ideas and discuss on [issues page](https://github.com/WindomZ/leetcode.go/issues).
 
-### Support
-If you like it then you can put a :star:Star on it.
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_large)
 
 [Solutions-94]:https://leetcode.com/problems/binary-tree-inorder-traversal/
 [Solutions-94-Home]:solutions/binary_tree_inorder_traversal/
@@ -490,7 +491,3 @@ If you like it then you can put a :star:Star on it.
 [Solutions-1-Home]:solutions/two_sum/
 [Solutions-1-Code]:solutions/two_sum/twoSum.go
 [Solutions-1]:https://leetcode.com/problems/two-sum/
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_large)
