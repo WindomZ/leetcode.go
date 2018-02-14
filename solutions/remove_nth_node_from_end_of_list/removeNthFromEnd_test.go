@@ -10,7 +10,7 @@ func Test_removeNthFromEnd_0(t *testing.T) {
 	assert.Empty(t, removeNthFromEnd(nil, 0))
 	assert.Empty(t, removeNthFromEnd(nil, 1))
 	assert.Empty(t, removeNthFromEnd(&ListNode{}, 1))
-	assert.NotEmpty(t, removeNthFromEnd(&ListNode{}, 0))
+	assert.Empty(t, removeNthFromEnd(&ListNode{}, 0))
 }
 
 func Test_removeNthFromEnd_1(t *testing.T) {
