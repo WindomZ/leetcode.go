@@ -34,6 +34,7 @@ If you like it then you can put a :star:**Star** on it.
 
 | # | **Problem** & **Solution** | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :----------: | ----------: | ----------: |
+|[96][Solutions-96]|[Unique Binary Search Trees][Solutions-96-Home]|Medium|[39.1 ns/op][Solutions-96-Code] / [6 test cases][Solutions-96-Test]|0 ms|
 |[95][Solutions-95]|[Unique Binary Search Trees II][Solutions-95-Home]|Medium|[259 ns/op][Solutions-95-Code] / [3 test cases][Solutions-95-Test]|48 ms|
 |[94][Solutions-94]|[Binary Tree Inorder Traversal][Solutions-94-Home]|Medium|[119 ns/op][Solutions-94-Code] / [3 test cases][Solutions-94-Test]|0 ms|
 |[93][Solutions-93]|[Restore IP Addresses][Solutions-93-Home]|Medium|[251 ns/op][Solutions-93-Code] / [4 test cases][Solutions-93-Test]|4 ms|
@@ -152,6 +153,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_large)
 
+[Solutions-96]:https://leetcode.com/problems/unique-binary-search-trees/
+[Solutions-96-Home]:solutions/unique_binary_search_trees/
+[Solutions-96-Code]:solutions/unique_binary_search_trees/uniquebinarysearchtrees.go
+[Solutions-96-Test]:solutions/unique_binary_search_trees/uniquebinarysearchtrees_test.go#L18
 [Solutions-95]:https://leetcode.com/problems/unique-binary-search-trees-ii/
 [Solutions-95-Home]:solutions/unique_binary_search_trees_ii/
 [Solutions-95-Code]:solutions/unique_binary_search_trees_ii/uniquebinarysearchtreesii.go
