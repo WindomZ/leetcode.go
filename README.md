@@ -34,6 +34,7 @@ If you like it then you can put a :star:**Star** on it.
 
 | # | **Problem** & **Solution** | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :----------: | ----------: | ----------: |
+|[99][Solutions-99]|[Recover Binary Search Tree][Solutions-99-Home]|Hard|[94.8 ns/op][Solutions-99-Code] / [3 test cases][Solutions-99-Test]|32 ms|
 |[98][Solutions-98]|[Validate Binary Search Tree][Solutions-98-Home]|Medium|[21.0 ns/op][Solutions-98-Code] / [8 test cases][Solutions-98-Test]|8 ms|
 |[96][Solutions-96]|[Unique Binary Search Trees][Solutions-96-Home]|Medium|[39.1 ns/op][Solutions-96-Code] / [6 test cases][Solutions-96-Test]|0 ms|
 |[95][Solutions-95]|[Unique Binary Search Trees II][Solutions-95-Home]|Medium|[259 ns/op][Solutions-95-Code] / [3 test cases][Solutions-95-Test]|48 ms|
@@ -154,6 +155,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_large)
 
+[Solutions-99]:https://leetcode.com/problems/recover-binary-search-tree/
+[Solutions-99-Home]:solutions/recover_binary_search_tree/
+[Solutions-99-Code]:solutions/recover_binary_search_tree/recoverbinarysearchtree.go
+[Solutions-99-Test]:solutions/recover_binary_search_tree/recoverbinarysearchtree_test.go#L113
 [Solutions-98]:https://leetcode.com/problems/validate-binary-search-tree/
 [Solutions-98-Home]:solutions/validate_binary_search_tree/
 [Solutions-98-Code]:solutions/validate_binary_search_tree/validatebinarysearchtree.go
