@@ -34,6 +34,7 @@ If you like it then you can put a :star:**Star** on it.
 
 | # | **Problem** & **Solution** | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :----------: | ----------: | ----------: |
+|[103][Solutions-103]|[Binary Tree Zigzag Level Order Traversal][Solutions-103-Home]|Medium|[78.6 ns/op][Solutions-103-Code] / [3 test cases][Solutions-103-Test]|0 ms|
 |[102][Solutions-102]|[Binary Tree Level Order Traversal][Solutions-102-Home]|Medium|[76.0 ns/op][Solutions-102-Code] / [3 test cases][Solutions-102-Test]|8 ms|
 |[101][Solutions-101]|[Symmetric Tree][Solutions-101-Home]|Easy|[17.6 ns/op][Solutions-101-Code] / [5 test cases][Solutions-101-Test]|4 ms|
 |[100][Solutions-100]|[Same Tree][Solutions-100-Home]|Easy|[9.12 ns/op][Solutions-100-Code] / [6 test cases][Solutions-100-Test]|0 ms|
@@ -158,6 +159,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_large)
 
+[Solutions-103]:https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+[Solutions-103-Home]:solutions/binary_tree_zigzag_level_order_traversal/
+[Solutions-103-Code]:solutions/binary_tree_zigzag_level_order_traversal/binarytreezigzaglevelordertraversal.go
+[Solutions-103-Test]:solutions/binary_tree_zigzag_level_order_traversal/binarytreezigzaglevelordertraversal_test.go#L62
 [Solutions-102]:https://leetcode.com/problems/binary-tree-level-order-traversal/
 [Solutions-102-Home]:solutions/binary_tree_level_order_traversal/
 [Solutions-102-Code]:solutions/binary_tree_level_order_traversal/binarytreelevelordertraversal.go
