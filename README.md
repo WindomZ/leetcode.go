@@ -34,6 +34,7 @@ If you like it then you can put a :star:**Star** on it.
 
 | # | **Problem** & **Solution** | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :----------: | ----------: | ----------: |
+|[106][Solutions-106]|[Construct Binary Tree from Inorder and Postorder Traversal][Solutions-106-Home]|Medium|[60.0 ns/op][Solutions-106-Code] / [3 test cases][Solutions-106-Test]|32 ms|
 |[105][Solutions-105]|[Construct Binary Tree from Preorder and Inorder Traversal][Solutions-105-Home]|Medium|[60.0 ns/op][Solutions-105-Code] / [3 test cases][Solutions-105-Test]|36 ms|
 |[104][Solutions-104]|[Maximum Depth of Binary Tree][Solutions-104-Home]|Easy|[18.7 ns/op][Solutions-104-Code] / [5 test cases][Solutions-104-Test]|8 ms|
 |[103][Solutions-103]|[Binary Tree Zigzag Level Order Traversal][Solutions-103-Home]|Medium|[78.6 ns/op][Solutions-103-Code] / [3 test cases][Solutions-103-Test]|0 ms|
@@ -161,6 +162,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_large)
 
+[Solutions-106]:https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+[Solutions-106-Home]:solutions/construct_binary_tree_from_inorder_and_postorder_traversal/
+[Solutions-106-Code]:solutions/construct_binary_tree_from_inorder_and_postorder_traversal/constructbinarytreefrominorderandpostordertraversal.go
+[Solutions-106-Test]:solutions/construct_binary_tree_from_inorder_and_postorder_traversal/constructbinarytreefrominorderandpostordertraversal_test.go#L31
 [Solutions-105]:https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 [Solutions-105-Home]:solutions/construct_binary_tree_from_preorder_and_inorder_traversal/
 [Solutions-105-Code]:solutions/construct_binary_tree_from_preorder_and_inorder_traversal/constructbinarytreefrompreorderandinordertraversal.go
