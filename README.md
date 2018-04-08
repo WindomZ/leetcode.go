@@ -34,6 +34,7 @@ If you like it then you can put a :star:**Star** on it.
 
 | # | **Problem** & **Solution** | Difficulty | Single Repetition Duration | LeetCode Run Time |
 | ---: | :----- | :----------: | ----------: | ----------: |
+|[108][Solutions-108]|[Convert Sorted Array to Binary Search Tree][Solutions-108-Home]|Easy|[138 ns/op][Solutions-108-Code] / [5 test cases][Solutions-108-Test]|204 ms|
 |[107][Solutions-107]|[Binary Tree Level Order Traversal II][Solutions-107-Home]|Easy|[102 ns/op][Solutions-107-Code] / [3 test cases][Solutions-107-Test]|8 ms|
 |[106][Solutions-106]|[Construct Binary Tree from Inorder and Postorder Traversal][Solutions-106-Home]|Medium|[60.0 ns/op][Solutions-106-Code] / [3 test cases][Solutions-106-Test]|32 ms|
 |[105][Solutions-105]|[Construct Binary Tree from Preorder and Inorder Traversal][Solutions-105-Home]|Medium|[60.0 ns/op][Solutions-105-Code] / [3 test cases][Solutions-105-Test]|36 ms|
@@ -163,6 +164,10 @@ Welcome to report bugs, suggest ideas and discuss on [issues page](https://githu
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWindomZ%2Fleetcode.go?ref=badge_large)
 
+[Solutions-108]:https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+[Solutions-108-Home]:solutions/convert_sorted_array_to_binary_search_tree/
+[Solutions-108-Code]:solutions/convert_sorted_array_to_binary_search_tree/convertsortedarraytobinarysearchtree.go
+[Solutions-108-Test]:solutions/convert_sorted_array_to_binary_search_tree/convertsortedarraytobinarysearchtree_test.go#L59
 [Solutions-107]:https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 [Solutions-107-Home]:solutions/binary_tree_level_order_traversal_ii/
 [Solutions-107-Code]:solutions/binary_tree_level_order_traversal_ii/binarytreelevelordertraversalii.go
